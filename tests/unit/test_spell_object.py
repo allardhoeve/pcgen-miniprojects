@@ -5,8 +5,11 @@ from objectparse import SpellObject
 class TestSpellObject(TestCase):
 
     def setUp(self):
-        self.testline = "Acid Splash\tSCHOOL:Evocation"
-        self.fixture = SpellObject(self.testline)
+        with open("../testdata/pfcr_spells.lst") as f:
+            content = f.read()
+            self.testlines = content.split('\n')
+        # Try Acid Splash
+        self.fixture = SpellObject(self.testlines[9])
 
     def test_spell_object_is_spell_object(self):
         self.assertIsInstance(self.fixture, SpellObject)
@@ -15,7 +18,13 @@ class TestSpellObject(TestCase):
         self.assertEquals(self.fixture.name, 'Acid Splash')
 
     def test_spell_object_has_correct_school_attribute(self):
-        self.assertEquals(self.fixture.school, 'Evocation')
+        self.assertEquals(self.fixture.school, 'Conjuration')
+
+    def test_spell_object_has_correct_descriptor_attribute(self):
+        self.assertEquals(self.fixture.descriptor, 'Acid')
+
+    def test_spell_object_has_correct_refdoc_attribute(self):
+        self.assertEquals(self.fixture.refdoc, None)
 
     def test_parse_keyword_returns_correct_tuple(self):
         tuple = self.fixture.parseKeyword("SCHOOL:Evocation")
@@ -25,6 +34,7 @@ class TestSpellObject(TestCase):
         fixture = SpellObject()
         fixture.processKeyValue(("SCHOOL", "Evocation"))
         self.assertEquals(fixture.school, "Evocation")
+
 
 
 
