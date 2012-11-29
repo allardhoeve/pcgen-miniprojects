@@ -1,0 +1,4 @@
+
+
+class LstObject(object):
+    pass
