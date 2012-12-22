@@ -2,6 +2,7 @@
 import objectparse
 from objectparse import SpellObject
 from unittest import TestCase
+import os
 
 
 class TestObjectParse(TestCase):
@@ -9,8 +10,6 @@ class TestObjectParse(TestCase):
     def setUp(self):
         cwd = os.path.dirname(os.path.abspath(__file__))
         self.test_spells = cwd + "/../../testdata/pfcr_spells.lst"
-        import sys
-        print >>sys.stderr, self.test_spells
 
     def test_parse_spells_returns_spell_objects(self):
         ret = objectparse.parse_spells(self.test_spells)

@@ -1,5 +1,6 @@
 
 from spell import SpellObject
+import re
 
 
 def parse_spells(filename):
@@ -30,3 +31,23 @@ def parse_spells(filename):
         spellobjs.append(spell)
 
     return spellobjs
+
+
+def read_lst_file(filename):
+    """
+    Reads and filters an LST file
+
+    :arg filename string
+
+    :rtype: A list of LST entries in text
+    """
+    with open(filename) as f:
+        content = f.read()
+
+    entries = content.split('\n')
+    entries = filter(lambda x: not x.startswith("#"), entries)
+    entries = filter(lambda x: not x.startswith("SOURCELONG"), entries)
+    entries = filter(lambda x: not re.search(r'^\s', x), entries)
+    entries = filter(lambda x: len(x) > 0, entries)
+
+    return entries

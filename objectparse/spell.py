@@ -4,11 +4,46 @@ import re
 
 class SpellObject(LstObject):
 
-    desc = None
+    _keywords = ['bonus',
+                 'casttime',
+                 'choose',
+                 'classes',
+                 'comps',
+                 'domains',
+                 'desc',
+                 'descriptor',
+                 'duration',
+                 'item',
+                 'name',
+                 'range',
+                 'refdoc',
+                 'saveinfo',
+                 'school',
+                 'sourcepage',
+                 'spellres',
+                 'subschool',
+                 'targetarea',
+                 'tempdesc',
+                 'type',
+                 'variants']
 
     def __init__(self, line = None):
+
+        self._initialize_keywords()
+        self._initialize_attributes()
+
         if not line is None:
             self.parseLine(line)
+
+        super(LstObject, self).__init__()
+
+    def _initialize_keywords(self):
+        #self.keywords = super(SpellObject, self)._keywords
+        self.keywords = list(set(super(SpellObject, self).keywords + self._keywords))
+
+    def _initialize_attributes(self):
+        for keyword in self.keywords:
+            setattr(self, keyword, None)
 
     def parseLine(self, line):
         fields = re.split('\t+', line)
@@ -26,33 +61,8 @@ class SpellObject(LstObject):
         keyword = tuple[0].lower()
         value = tuple[1]
 
-        if keyword in ['casttime',
-                       'comps',
-                       'duration',
-                       'name',
-                       'range',
-                       'refdoc',
-                       'saveinfo',
-                       'school',
-                       'sourcepage',
-                       'spellres',
-                       'subschool',
-                       'targetarea',
-                       'type']:
-            setattr(self, keyword.lower(), value)
-
-        elif keyword == 'desc':
-            if self.desc:
-                self.desc = self.desc + value
-            else:
-                self.desc = value
-
-        elif keyword == 'descriptor':
-            self.descriptor = value
-
-        elif keyword == 'classes':
-            self.classes = value
-
+        if keyword in self.keywords:
+            setattr(self, keyword, value)
         else:
-            raise AttributeError("SpellLst object has no attribute %s" % keyword)
+            raise AttributeError("SpellLst object has no attribute '%s'" % keyword)
 
