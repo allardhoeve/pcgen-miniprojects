@@ -5,7 +5,7 @@ from objectparse import SpellObject
 class TestSpellObject(TestCase):
 
     def setUp(self):
-        with open("../testdata/pfcr_spells.lst") as f:
+        with open("testdata/pfcr_spells.lst") as f:
             content = f.read()
             self.testlines = content.split('\n')
         # Try Acid Splash
@@ -23,6 +23,9 @@ class TestSpellObject(TestCase):
     def test_spell_object_has_correct_descriptor_attribute(self):
         self.assertEquals(self.fixture.descriptor, 'Acid')
 
+    def test_spell_object_has_correct_spellres_attribute(self):
+        self.assertEquals(self.fixture.spellres, 'No')
+
     def test_spell_object_has_correct_refdoc_attribute(self):
         self.assertEquals(self.fixture.refdoc, None)
 
@@ -35,6 +38,8 @@ class TestSpellObject(TestCase):
         fixture.processKeyValue(("SCHOOL", "Evocation"))
         self.assertEquals(fixture.school, "Evocation")
 
-
+    def test_henk(self):
+        henk = dir(self.fixture)
+        self.assertEquals(henk, "kameel")
 
 

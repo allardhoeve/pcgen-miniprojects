@@ -5,3 +5,7 @@ include
 *.pyc
 *.pyo
 *.swp
+.DS_Store
+.idea/
+.ropeproject/
+man/

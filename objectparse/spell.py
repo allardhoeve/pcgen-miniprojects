@@ -4,9 +4,7 @@ import re
 
 class SpellObject(LstObject):
 
-    name = None
-    school = None
-    refdoc = None
+    desc = None
 
     def __init__(self, line = None):
         if not line is None:
@@ -25,15 +23,36 @@ class SpellObject(LstObject):
         return (key, value)
 
     def processKeyValue(self, tuple):
-        keyword = tuple[0]
+        keyword = tuple[0].lower()
         value = tuple[1]
 
-        if keyword == "SCHOOL":
-            self.school = value
-        if keyword == "DESCRIPTOR":
+        if keyword in ['casttime',
+                       'comps',
+                       'duration',
+                       'name',
+                       'range',
+                       'refdoc',
+                       'saveinfo',
+                       'school',
+                       'sourcepage',
+                       'spellres',
+                       'subschool',
+                       'targetarea',
+                       'type']:
+            setattr(self, keyword.lower(), value)
+
+        elif keyword == 'desc':
+            if self.desc:
+                self.desc = self.desc + value
+            else:
+                self.desc = value
+
+        elif keyword == 'descriptor':
             self.descriptor = value
-        if keyword == "REFDOC":
-            self.refdoc = valuet
 
+        elif keyword == 'classes':
+            self.classes = value
 
+        else:
+            raise AttributeError("SpellLst object has no attribute %s" % keyword)
 
