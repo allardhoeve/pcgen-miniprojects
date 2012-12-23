@@ -48,6 +48,8 @@ def read_lst_file(filename):
     entries = filter(lambda x: not x.startswith("#"), entries)
     entries = filter(lambda x: not x.startswith("SOURCELONG"), entries)
     entries = filter(lambda x: not re.search(r'^\s', x), entries)
+    entries = filter(lambda x: not re.search(r'^[^\t]*\.MOD', x), entries)
     entries = filter(lambda x: len(x) > 0, entries)
+
 
     return entries

@@ -7,7 +7,7 @@ import re
 class TestReadLstFile(objectparse.test.TestCase):
 
     def setUp(self):
-        self.fixture = "# CVS $Revision$ $Author$ -- Sat Oct 13 13:49:23 2012 -- reformated by prettylst.pl v1.39 (build 15052)\nSOURCELONG:Core Rulebook\n \n\t\n# Original Entry by: Eddy Anthony\n# Incorporated 11/22/2011 errata (Stefan Radermacher)\n\n###Block: A\n# Spell Name\nAcid Arrow\nAcid Fog\nAcid Splash\n"
+        self.fixture = "# CVS $Revision$ $Author$ -- Sat Oct 13 13:49:23 2012 -- reformated by prettylst.pl v1.39 (build 15052)\nSOURCELONG:Core Rulebook\n \n\t\n# Original Entry by: Eddy Anthony\n# Incorporated 11/22/2011 errata (Stefan Radermacher)\n\n###Block: A\n# Spell Name\nAcid Arrow\nAcid Fog\nAcid Splash\nAcid Splash.MOD\n"
         self.mock_open = self.setUpPatch("__builtin__.open", mock.mock_open(read_data=self.fixture))
 
     def test_read_lst_file_opens_designated_file(self):
@@ -21,6 +21,11 @@ class TestReadLstFile(objectparse.test.TestCase):
     def test_read_lst_file_returns_a_list_of_lines_in_file(self):
         ret = objectparse.read_lst_file("Testnaam")
         ret[0]
+
+    def test_read_lst_file_filters_mods(self):
+        ret = objectparse.read_lst_file("Testnaam")
+        for line in ret:
+            self.assertFalse(re.search(r'^[^\t]*\.MOD', line), "line is a MOD line: %s" % line)
 
     def test_read_lst_file_filters_lines_starting_with_hash(self):
         ret = objectparse.read_lst_file("Testnaam")
