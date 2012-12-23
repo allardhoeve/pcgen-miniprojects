@@ -9,3 +9,4 @@ include
 .idea/
 .ropeproject/
 man/
+pep8.log
