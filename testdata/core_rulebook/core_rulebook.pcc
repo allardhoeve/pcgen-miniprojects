@@ -37,9 +37,6 @@ COPYRIGHT:PCGen dataset conversion for "Pathfinder RPG Core Rulebook" Copyright 
 #Do Not Remove Comment
 #EXTRAFILE:OGL.txt
 
-# Data Files
-PCC:@/homebrew/conversion_support/conversion_support.pcc
-
 ABILITYCATEGORY:pfcr_abilitycategories.lst
 ABILITY:pfcr_abilities_afflictions.lst
 ABILITY:pfcr_abilities_class_common.lst
@@ -109,9 +106,6 @@ TEMPLATE:pfcr_templates.lst
 TEMPLATE:pfcr_templates_conditional.lst
 TEMPLATE:pfcr_templates_wildshape.lst
 
-
-# Load Essential Bestiary Data with Core
-PCC:bestiary_core/bestiary_core.pcc
 
 #Hide internal feat types
 HIDETYPE:FEAT|SpecialQuality|SpecialAttack|Extraordinary|SpellLike|Supernatural|AttackOption|Aura|Immunity|ModifyAC|Resistance|Weakness
