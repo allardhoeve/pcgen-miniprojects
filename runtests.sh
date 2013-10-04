@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export PYTHONDONTWRITEBYTECODE=1
+
 if [ -z "$VIRTUAL_ENV" ]; then
 	if [ -e "../bin/activate" ]; then
 		echo "Activating your environment for you"

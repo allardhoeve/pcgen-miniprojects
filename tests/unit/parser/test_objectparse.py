@@ -1,15 +1,13 @@
 from unittest import TestCase
-import os
 
 from pcgen.parser import SpellObject
-from pcgen import parser
+from pcgen import parser, settings
 
 
 class TestObjectParse(TestCase):
 
     def setUp(self):
-        cwd = os.path.dirname(os.path.abspath(__file__))
-        self.test_spells = cwd + "/../../testdata/pfcr_spells.lst"
+        self.test_spells = settings.DATADIR.child("core_rulebook").child("pfcr_spells.lst")
 
     def test_parse_spells_returns_spell_objects(self):
         ret = parser.parse_spells(self.test_spells)

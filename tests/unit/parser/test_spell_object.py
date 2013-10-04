@@ -1,4 +1,5 @@
 import mock
+from pcgen import settings
 from pcgen.parser import read_lst_file, SpellObject
 
 from pcgen.testcase import TestCase
@@ -7,11 +8,12 @@ from pcgen.testcase import TestCase
 class TestSpellObject(TestCase):
 
     def setUp(self):
-        self.testlines = read_lst_file("testdata/pfcr_spells.lst")
+        self.test_spells = settings.DATADIR.child("core_rulebook").child("pfcr_spells.lst")
+        self.test_lines = read_lst_file(self.test_spells)
 
     def _get_line_and_check(self, ln, name):
-        testline = self.testlines[ln]
-        self.assertTrue(testline.startswith("%s\t" % name), "Line %d is not %s: %s" % (ln + 1, name, self.testlines[ln]))
+        testline = self.test_lines[ln]
+        self.assertTrue(testline.startswith("%s\t" % name), "Line %d is not %s: %s" % (ln + 1, name, self.test_lines[ln]))
         return testline
 
     def test_parse_keyword_returns_correct_tuple(self):
@@ -41,7 +43,7 @@ class TestSpellObject(TestCase):
                                          mock.call(("spellres", "No"))])
 
     def test_no_line_in_testdata_gives_an_error_parsing(self):
-        objects = map(SpellObject, self.testlines)
+        objects = map(SpellObject, self.test_lines)
 
     def test_alarm_object_has_correct_type_list(self):
         testline = self._get_line_and_check(5, "Alarm")
