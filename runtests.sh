@@ -14,6 +14,6 @@ if [ "$1" = "--jenkins" ]; then
 	./pep8.sh
 else
 	watch -c -- "
-		nosetests --with-color $*;
+		nosetests --color $*;
 		./pep8.sh"
 fi

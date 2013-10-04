@@ -1,14 +1,13 @@
-
-import objectparse
-import objectparse.test
-from objectparse import SpellObject
 import mock
+from pcgen.parser import read_lst_file, SpellObject
+
+from pcgen.testcase import TestCase
 
 
-class TestSpellObject(objectparse.test.TestCase):
+class TestSpellObject(TestCase):
 
     def setUp(self):
-        self.testlines = objectparse.read_lst_file("testdata/pfcr_spells.lst")
+        self.testlines = read_lst_file("testdata/pfcr_spells.lst")
 
     def _get_line_and_check(self, ln, name):
         testline = self.testlines[ln]
