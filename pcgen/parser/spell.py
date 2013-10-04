@@ -15,6 +15,7 @@ class SpellObject(LstObject):
                       'duration',
                       'item',
                       'name',
+                      'outputname',
                       'range',
                       'refdoc',
                       'saveinfo',
@@ -38,6 +39,8 @@ class SpellObject(LstObject):
             self.processListKeyValue(tuple, ", ")
         elif keyword in ["classes"]:
             self.processClassKeyValue(tuple)
+        elif keyword.startswith("pre"):
+            return
         else:
             super(SpellObject, self).processKeyValue(tuple)
 
@@ -48,7 +51,11 @@ class SpellObject(LstObject):
         groups = value.split("|")
 
         for group in groups:
-            (names, level) = group.split("=")
+            (names, level) = group.split("=", 1)
+
+            leveltokens = level.split("[")  # preconditions on the level exist
+            level = leveltokens[0]
+
             for name in names.split(","):
                 classes[name] = int(level)
 

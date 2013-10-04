@@ -50,8 +50,8 @@ class LstObject(object):
 
     def processDescKeyValue(self, tuple):
         (keyword, value) = tuple
-        (text, args) = value.split("|")
-        self.desc = text
+        tokens = value.split("|")
+        self.desc = tokens[0]
 
     def processListKeyValue(self, tuple, sep="."):
         (keyword, value) = tuple

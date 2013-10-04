@@ -91,6 +91,52 @@ class TestSpellObject(TestCase):
         self.assertEqual(acid_splash.filename, 'core_rulebook/pfcr_spell.lst')
         self.assertEqual(acid_splash.sourcelong, 'Core Rulebook')
 
+    def test_spell_is_parsed_if_desc_has_variables(self):
+        testline = "Acid Splash\t\tDESC:Henk Slaaf %1|TL"
+        spell = SpellObject(testline)
+        self.assertEqual(spell.desc, "Henk Slaaf %1")
+
+    def test_spell_is_parsed_if_desc_has_no_variables(self):
+        testline = "Align Weapon\t\tDESC:Weapon becomes chaotic."
+        spell = SpellObject(testline)
+        self.assertEqual(spell.desc, "Weapon becomes chaotic.")
+
+    def test_process_class_key_parses_simple_class(self):
+        classes = "Bard=3"
+        spell = SpellObject()
+        spell.processClassKeyValue(("classes", classes))
+        self.assertEqual(spell.classes, {'Bard': 3})
+
+    def test_process_class_key_parses_multiple_classes(self):
+        classes = "Bard=3|Cleric,Wizard=4"
+        spell = SpellObject()
+        spell.processClassKeyValue(("classes", classes))
+        self.assertEqual(spell.classes,
+            {
+                'Bard': 3,
+                'Wizard': 4,
+                'Cleric': 4
+            })
+
+    def test_process_class_key_parses_complex_class(self):
+        classes = "Bard=3[PRESKILL:1,Perform (String Instruments)=7,Perform (Wind Instruments)=7]|Cleric,Wizard=4"
+        spell = SpellObject()
+        spell.processClassKeyValue(("classes", classes))
+
+        self.assertEqual(spell.classes,
+            {
+                'Bard': 3,
+                'Wizard': 4,
+                'Cleric': 4
+            })
+
+    def test_spell_skips_preability_and_other_pretags(self):
+        line = "Bottled Ooze\t\tPREABILITY:1,CATEGORY=Special Ability,Discovery ~ Bottled Ooze"
+        spell = SpellObject(line)
+
+        with self.assertRaises(AttributeError):
+            spell.preability
+
     def print_class_keywords(self, object):
         import sys
         print >>sys.stderr, "\n\n%s\n" % object.name.upper()

@@ -18,9 +18,9 @@ def parse_spells(filename):
 
     for line in valid_lines:
         try:
-            spell = SpellObject(line)
+            spell = SpellObject(line, source)
         except Exception as e:
-            continue
+            raise RuntimeError("Error parsing line: '%s'\n\nLine is:\n\n%s" % (e, line))
 
         spellobjs.append(spell)
 
@@ -41,7 +41,11 @@ def read_lst_file(filename):
     entries = content.split('\n')
 
     sources = filter(lambda x: x.startswith("SOURCELONG"), entries)
-    sourcelong = sources[0].split("\t", 1)[0].split(":", 1)[1]
+    sourcelong = None
+
+    if sources:
+        sourcelongtoken = sources[0].split("\t", 1)[0]
+        sourcelong = sourcelongtoken.split(":", 1)[1]
 
     # parse sources
     sourcedef = {
