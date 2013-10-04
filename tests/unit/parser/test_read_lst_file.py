@@ -46,3 +46,8 @@ class TestReadLstFile(TestCase):
         (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(re.search(r'^\s', line), "line starts with white-space: '%s'" % line)
+
+    def test_read_lst_file_returns_source_definition(self):
+        (ret, source) = read_lst_file("core/testnaam.lst")
+        self.assertEqual(source["filename"], "core/testnaam.lst")
+        self.assertEqual(source["sourcelong"], "Core Rulebook")

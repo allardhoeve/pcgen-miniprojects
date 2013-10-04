@@ -40,7 +40,14 @@ def read_lst_file(filename):
 
     entries = content.split('\n')
 
-    sourcedef = filter(lambda x: x.startswith("SOURCELONG"), entries)
+    sources = filter(lambda x: x.startswith("SOURCELONG"), entries)
+    sourcelong = sources[0].split("\t", 1)[0].split(":", 1)[1]
+
+    # parse sources
+    sourcedef = {
+        'filename': filename,
+        'sourcelong': sourcelong
+    }
 
     # other entries
     entries = filter(lambda x: not x.startswith("#"), entries)
