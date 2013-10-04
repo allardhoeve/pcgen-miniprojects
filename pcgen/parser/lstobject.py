@@ -7,12 +7,16 @@ class LstObject(object):
     general_keywords = ["desc"]
     keywords = []
 
-    def __init__(self, line=None):
+    def __init__(self, line=None, source=None):
         self._initialize_keywords()
         self._initialize_attributes()
 
         if not line is None:
             self.parseLine(line)
+
+        if source:
+            self.sourcelong = source['sourcelong']
+            self.filename = source['filename']
 
     def _initialize_keywords(self):
         self.keywords = self.general_keywords + self.class_keywords

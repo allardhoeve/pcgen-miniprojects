@@ -83,7 +83,13 @@ class TestSpellObject(TestCase):
         self.assertEquals(acid_splash.comps, ["V", "S"])
         self.assertEquals(acid_splash.classes, {"Sorcerer": 0, "Wizard": 0})
 
-        # self.print_class_keywords(acid_splash)
+    def test_spell_takes_optional_source_definition_and_sets_attributes(self):
+        sourcedef = {'filename': 'core_rulebook/pfcr_spell.lst', 'sourcelong': 'Core Rulebook'}
+        testline = self._get_line_and_check(2, "Acid Splash")
+        acid_splash = SpellObject(testline, sourcedef)
+
+        self.assertEqual(acid_splash.filename, 'core_rulebook/pfcr_spell.lst')
+        self.assertEqual(acid_splash.sourcelong, 'Core Rulebook')
 
     def print_class_keywords(self, object):
         import sys
