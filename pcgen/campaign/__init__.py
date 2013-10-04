@@ -1,5 +1,6 @@
 from unipath import Path
 from pcgen import settings
+from pcgen.parser import parse_spells
 
 
 class Campaign(object):
@@ -8,8 +9,11 @@ class Campaign(object):
     root = None
     pcc = None
 
-    def find_spell_files(self, pcc):
+    def find_spell_listfiles(self, pcc=None):
         spell_files = []
+
+        if not pcc:
+            pcc = self.pcc
 
         with open(pcc) as pccfh:
             pccdata = pccfh.read()
@@ -33,7 +37,7 @@ class Campaign(object):
                         data = data[2:]
 
                     pccpath = Path(pcc.parent, data)
-                    pccspells = self.find_spell_files(pccpath)
+                    pccspells = self.find_spell_listfiles(pccpath)
                     spell_files = spell_files + pccspells
 
         return spell_files
