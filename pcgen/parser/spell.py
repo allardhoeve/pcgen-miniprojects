@@ -53,3 +53,6 @@ class SpellObject(LstObject):
                 classes[name] = int(level)
 
         self.classes = classes
+
+    def __repr__(self):
+        return "<Spell [%s]>" % self.name
