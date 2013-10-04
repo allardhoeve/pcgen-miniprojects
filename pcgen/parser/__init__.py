@@ -12,17 +12,11 @@ def parse_spells(filename):
     :rtype: A list of SpellObjects
     """
 
-    try:
-        with open(filename) as f:
-            lstfile = f.read()
-
-    except Exception as e:
-        print("Could not open file '%s': %s!\n" % (filename, e))
-        raise
+    valid_lines = read_lst_file(filename)
 
     spellobjs = []
 
-    for line in lstfile.split('\n'):
+    for line in valid_lines:
         try:
             spell = SpellObject(line)
         except Exception as e:
@@ -50,6 +44,5 @@ def read_lst_file(filename):
     entries = filter(lambda x: not re.search(r'^\s', x), entries)
     entries = filter(lambda x: not re.search(r'^[^\t]*\.MOD', x), entries)
     entries = filter(lambda x: len(x) > 0, entries)
-
 
     return entries
