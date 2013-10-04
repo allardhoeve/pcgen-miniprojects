@@ -1,6 +1,6 @@
 from unipath import Path
 from pcgen import settings
-from pcgen.parser import parse_spells
+from pcgen.parser import parse_spells, read_lst_file
 
 
 class Campaign(object):
@@ -16,14 +16,10 @@ class Campaign(object):
             pcc = self.pcc
 
         with open(pcc) as pccfh:
-            pccdata = pccfh.read()
+            (entries, source) = read_lst_file(pcc)
 
-            for line in pccdata.split("\n"):
+            for line in entries:
                 elements = line.split(":", 1)
-
-                if len(elements) != 2:  # skip line if there was no colon
-                    continue
-
                 type = elements[0]
                 data = elements[1]
 
@@ -31,8 +27,6 @@ class Campaign(object):
                     spell_files.append(pcc.parent.child(data))
 
                 if type == "PCC":
-                    # recurse through te new PCC
-                    # remove "@/" from string
                     if data.startswith("@/"):
                         data = data[2:]
 

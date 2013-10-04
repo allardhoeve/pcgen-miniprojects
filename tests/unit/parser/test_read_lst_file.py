@@ -19,30 +19,30 @@ class TestReadLstFile(TestCase):
         self.assertRaises(IOError, read_lst_file, "testnaam")
 
     def test_read_lst_file_returns_a_list_of_lines_in_file(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         ret[0]
 
     def test_read_lst_file_filters_mods(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(re.search(r'^[^\t]*\.MOD', line), "line is a MOD line: %s" % line)
 
     def test_read_lst_file_filters_lines_starting_with_hash(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(line.startswith("#"), "line starts with hash: %s" % line)
 
     def test_read_lst_file_filters_source_lines(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(line.startswith("SOURCELONG:"), "line starts with source token: '%s'" % line)
 
     def test_read_lst_file_filters_empty_lines(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertTrue(len(line) > 0, "line has zero length")
 
     def test_read_lst_file_filters_lines_starting_with_whitespace(self):
-        ret = read_lst_file("Testnaam")
+        (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(re.search(r'^\s', line), "line starts with white-space: '%s'" % line)

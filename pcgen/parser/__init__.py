@@ -12,7 +12,7 @@ def parse_spells(filename):
     :rtype: A list of SpellObjects
     """
 
-    valid_lines = read_lst_file(filename)
+    (valid_lines, source) = read_lst_file(filename)
 
     spellobjs = []
 
@@ -39,10 +39,14 @@ def read_lst_file(filename):
         content = f.read()
 
     entries = content.split('\n')
+
+    sourcedef = filter(lambda x: x.startswith("SOURCELONG"), entries)
+
+    # other entries
     entries = filter(lambda x: not x.startswith("#"), entries)
     entries = filter(lambda x: not x.startswith("SOURCELONG"), entries)
     entries = filter(lambda x: not re.search(r'^\s', x), entries)
     entries = filter(lambda x: not re.search(r'^[^\t]*\.MOD', x), entries)
     entries = filter(lambda x: len(x) > 0, entries)
 
-    return entries
+    return entries, sourcedef

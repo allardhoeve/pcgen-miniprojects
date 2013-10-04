@@ -9,7 +9,7 @@ class TestSpellObject(TestCase):
 
     def setUp(self):
         self.test_spells = settings.DATADIR.child("core_rulebook").child("pfcr_spells.lst")
-        self.test_lines = read_lst_file(self.test_spells)
+        (self.test_lines, self.source) = read_lst_file(self.test_spells)
 
     def _get_line_and_check(self, ln, name):
         testline = self.test_lines[ln]
