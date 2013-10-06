@@ -137,6 +137,11 @@ class TestSpellObject(TestCase):
         with self.assertRaises(AttributeError):
             spell.preability
 
+    def test_spell_takes_sourceweb_as_a_tag(self):
+        line = "Acid Dart\t\tSOURCEWEB:http://example.com/example"
+        spell = SpellObject(line)
+        self.assertEqual(spell.sourceweb, "http://example.com/example")
+
     def print_class_keywords(self, object):
         import sys
         print >>sys.stderr, "\n\n%s\n" % object.name.upper()

@@ -8,3 +8,8 @@ try:
     from .settings_local import *
 except ImportError:
     pass
+
+if not DATADIR:
+    raise ImproperlyConfigured("No DATADIR defined and PCGEN_DATADIR not set in environment")
+
+DATADIR = Path(DATADIR)

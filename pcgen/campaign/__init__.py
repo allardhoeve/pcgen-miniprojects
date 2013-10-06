@@ -42,5 +42,5 @@ class PathfinderCampaign(Campaign):
     def __init__(self):
 
         self.name = "pathfinder"
-        self.root = settings.DATADIR
+        self.root = Path(settings.DATADIR, "pathfinder/paizo/pathfinder")
         self.pcc = self.root.child("pathfinder_rpg_complete.pcc")

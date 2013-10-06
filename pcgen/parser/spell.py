@@ -26,6 +26,7 @@ class SpellObject(LstObject):
                       'targetarea',
                       'tempdesc',
                       'type',
+                      'sourceweb',
                       'variants']
 
     def processKeyValue(self, tuple):

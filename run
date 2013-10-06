@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 
 from pcgen import find_all_pathfinder_spells
+from pcgen.qa import QASpellSourceWeb
 
 spells = find_all_pathfinder_spells()
 
-print "%d spells" % len(spells)
+print("Found %d spells" % len(spells))
+
+qs = QASpellSourceWeb()
+result = qs.test(spells)
+
+for (spell, error) in result:
+    print(" - Spell '%s' from '%s': %s" % (spell.outputname or spell.name, spell.sourcelong, error))

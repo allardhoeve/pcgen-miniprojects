@@ -15,7 +15,7 @@ if [ "$1" = "--jenkins" ]; then
 	nosetests --with-xunit;
 	./pep8.sh
 else
-	watch -n 1 -c -- "
-		nosetests --color $*;
+	watch -n 0,1 -c -- "
+		nosetests --processes=2 $*;
 		./pep8.sh"
 fi

@@ -6,6 +6,8 @@ class LstObject(object):
 
     general_keywords = ["desc"]
     keywords = []
+    sourcelong = None
+    filename = None
 
     def __init__(self, line=None, source=None):
         self._initialize_keywords()

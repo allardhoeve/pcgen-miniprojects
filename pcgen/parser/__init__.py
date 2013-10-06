@@ -40,7 +40,7 @@ def read_lst_file(filename):
 
     entries = content.split('\n')
 
-    sources = filter(lambda x: x.startswith("SOURCELONG"), entries)
+    sources = filter(lambda x: x.startswith("SOURCELONG") or x.startswith("#SOURCELONG"), entries)
     sourcelong = None
 
     if sources:
