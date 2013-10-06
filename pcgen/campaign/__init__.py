@@ -21,16 +21,18 @@ class Campaign(object):
             for line in entries:
                 elements = line.split(":", 1)
                 type = elements[0]
-                data = elements[1]
+                data = elements[1].rstrip()
 
                 if type == "SPELL":
                     spell_files.append(pcc.parent.child(data))
 
                 if type == "PCC":
+                    # relative paths start with @/
                     if data.startswith("@/"):
-                        data = data[2:]
+                        pccpath = Path(settings.DATADIR, data[2:])
+                    else:
+                        pccpath = Path(pcc.parent, data)
 
-                    pccpath = Path(pcc.parent, data)
                     pccspells = self.find_spell_listfiles(pccpath)
                     spell_files = spell_files + pccspells
 
@@ -41,6 +43,8 @@ class PathfinderCampaign(Campaign):
 
     def __init__(self):
 
+        import sys
+        print >>sys.stderr, settings.DATADIR
         self.name = "pathfinder"
         self.root = Path(settings.DATADIR, "pathfinder/paizo/pathfinder")
         self.pcc = self.root.child("pathfinder_rpg_complete.pcc")
