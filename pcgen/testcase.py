@@ -11,7 +11,7 @@ class TestCase(unittest.TestCase):
     patchers and configures teardown of the patches as well.
     """
 
-    def setUpPatch(self, topatch, themock=None):
+    def set_up_patch(self, topatch, themock=None):
         if themock is None:
             themock = mock.Mock()
 

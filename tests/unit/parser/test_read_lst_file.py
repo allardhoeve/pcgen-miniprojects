@@ -21,7 +21,7 @@ Acid Splash
 Acid Splash.MOD
 Planar Ally.COPY=Planar Ally (Agathions Only)
 """
-        self.mock_open = self.setUpPatch("__builtin__.open", mock.mock_open(read_data=self.fixture))
+        self.mock_open = self.set_up_patch("__builtin__.open", mock.mock_open(read_data=self.fixture))
 
     def test_read_lst_file_opens_designated_file(self):
         read_lst_file("testnaam")
