@@ -1,4 +1,5 @@
 import mock
+from unipath import Path
 from pcgen import settings
 from pcgen.parser import read_lst_file, SpellObject
 
@@ -8,7 +9,7 @@ from pcgen.testcase import TestCase
 class TestSpellObject(TestCase):
 
     def setUp(self):
-        self.test_spells = settings.DATADIR.child("core_rulebook").child("pfcr_spells.lst")
+        self.test_spells = Path(settings.DATADIR, "pathfinder/paizo/pathfinder/core_rulebook/pfcr_spells.lst")
         (self.test_lines, self.source) = read_lst_file(self.test_spells)
 
     def _get_line_and_check(self, ln, name):
@@ -141,6 +142,10 @@ class TestSpellObject(TestCase):
         line = "Acid Dart\t\tSOURCEWEB:http://example.com/example"
         spell = SpellObject(line)
         self.assertEqual(spell.sourceweb, "http://example.com/example")
+
+    def test_spell_skips_tempbonus_and_other_to_skip_keywords(self):
+        line = "Acid Dart\t\tTEMPBONUS:Henk"
+        SpellObject(line)
 
     def print_class_keywords(self, object):
         import sys

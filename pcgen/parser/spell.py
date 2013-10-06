@@ -29,6 +29,8 @@ class SpellObject(LstObject):
                       'sourceweb',
                       'variants']
 
+    class_keywords_skip = ['tempbonus']
+
     def processKeyValue(self, tuple):
         (keyword, value) = tuple
 
@@ -40,6 +42,8 @@ class SpellObject(LstObject):
             self.processListKeyValue(tuple, ", ")
         elif keyword in ["classes"]:
             self.processClassKeyValue(tuple)
+        elif keyword in self.class_keywords_skip:
+            return
         elif keyword.startswith("pre"):
             return
         else:
