@@ -24,7 +24,7 @@ class Campaign(object):
                 data = elements[1].rstrip()
 
                 if type == "SPELL":
-                    spell_files.append(pcc.parent.child(data))
+                    spell_files.append((pcc.parent.child(data), source))
 
                 if type == "PCC":
                     # relative paths start with @/

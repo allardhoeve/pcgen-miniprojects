@@ -3,7 +3,7 @@ import re
 from pcgen.parser.spell import SpellObject
 
 
-def parse_spells(filename):
+def parse_spells(filename, source=None):
     """
     Parse spells in a spells filename
 
@@ -12,7 +12,11 @@ def parse_spells(filename):
     :rtype: A list of SpellObjects
     """
 
-    (valid_lines, source) = read_lst_file(filename)
+    (valid_lines, lstsource) = read_lst_file(filename)
+
+    # not all lst files define a source, take it from pcc if missing
+    if not lstsource['sourcelong']:
+        lstsource['sourcelong'] = source['sourcelong']
 
     spellobjs = []
 
@@ -49,7 +53,7 @@ def read_lst_file(filename):
 
     # parse sources
     sourcedef = {
-        'filename': filename,
+        'sourcefile': filename,
         'sourcelong': sourcelong
     }
 

@@ -10,7 +10,7 @@ class LstObject(object):
         "outputname",
         'sourceweb',
         'sourcelong',
-        'filename'
+        'sourcefile'
     ]
 
     keywords = []
@@ -24,7 +24,7 @@ class LstObject(object):
 
         if source:
             self.sourcelong = source['sourcelong']
-            self.filename = source['filename']
+            self.sourcefile = source['sourcefile']
 
     def _initialize_keywords(self):
         self.keywords = self.general_keywords + self.class_keywords

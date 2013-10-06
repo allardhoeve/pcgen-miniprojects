@@ -1,4 +1,507 @@
-Found 926 spells
+Found total of 1560 spells in Pathfinder
+Found total of 1559 spells in Pathfinder with errors
+
+
+Advanced Player's Guide
+=======================
+
+ 1. Blindness/Deafness.COPY=Blindness/Deafness (Only Cause Blindness): Missing SOURCEWEB
+ 1. Corruption Resistance: Missing SOURCEWEB
+ 1. Defile Armor: Missing SOURCEWEB
+ 1. Resounding Blow: Missing SOURCEWEB
+ 1. Absorbing Touch: Missing SOURCEWEB
+ 1. Acid Pit: Missing SOURCEWEB
+ 1. Accelerate Poison: Missing SOURCEWEB
+ 1. Alchemical Allocation: Missing SOURCEWEB
+ 1. Allfood: Missing SOURCEWEB
+ 1. Alter Winds: Missing SOURCEWEB
+ 1. Amplify Elixir: Missing SOURCEWEB
+ 1. Ant Haul: Missing SOURCEWEB
+ 1. Aqueous Orb: Missing SOURCEWEB
+ 1. Arcane Concordance: Missing SOURCEWEB
+ 1. Arrow Eruption: Missing SOURCEWEB
+ 1. Aspect of the Falcon: Missing SOURCEWEB
+ 1. Aspect of the Bear: Missing SOURCEWEB
+ 1. Aspect of the Stag: Missing SOURCEWEB
+ 1. Aspect of the Wolf: Missing SOURCEWEB
+ 1. Aura of Greater Courage: Missing SOURCEWEB
+ 1. Ball Lightning: Missing SOURCEWEB
+ 1. Banish Seeming: Missing SOURCEWEB
+ 1. Bard's Escape: Missing SOURCEWEB
+ 1. Blaze of Glory: Missing SOURCEWEB
+ 1. Bestow Grace: Missing SOURCEWEB
+ 1. Beguiling Gift: Missing SOURCEWEB
+ 1. Blessing of Courage and Life: Missing SOURCEWEB
+ 1. Blessing of Fervor: Missing SOURCEWEB
+ 1. Blessing of the Salamander: Missing SOURCEWEB
+ 1. Blood Biography: Missing SOURCEWEB
+ 1. Bloodhound: Missing SOURCEWEB
+ 1. Bloody Claws: Missing SOURCEWEB
+ 1. Bomber's Eye: Missing SOURCEWEB
+ 1. Borrow Skill: Missing SOURCEWEB
+ 1. Bow Spirit: Missing SOURCEWEB
+ 1. Brand: Missing SOURCEWEB
+ 1. Brand (Greater): Missing SOURCEWEB
+ 1. Break: Missing SOURCEWEB
+ 1. Brilliant Inspiration: Missing SOURCEWEB
+ 1. Bristle: Missing SOURCEWEB
+ 1. Burning Gaze: Missing SOURCEWEB
+ 1. Burst Bonds: Missing SOURCEWEB
+ 1. Cacophonous Call: Missing SOURCEWEB
+ 1. Call Animal: Missing SOURCEWEB
+ 1. Calcific Touch: Missing SOURCEWEB
+ 1. Campfire Wall: Missing SOURCEWEB
+ 1. Cast Out: Missing SOURCEWEB
+ 1. Castigate: Missing SOURCEWEB
+ 1. Castigate (Mass): Missing SOURCEWEB
+ 1. Chameleon Stride: Missing SOURCEWEB
+ 1. Clashing Rocks: Missing SOURCEWEB
+ 1. Challenge Evil: Missing SOURCEWEB
+ 1. Cleanse: Missing SOURCEWEB
+ 1. Cloak of Dreams: Missing SOURCEWEB
+ 1. Confess: Missing SOURCEWEB
+ 1. Cloak of Shade: Missing SOURCEWEB
+ 1. Contagious Flame: Missing SOURCEWEB
+ 1. Cloak of Winds: Missing SOURCEWEB
+ 1. Coordinated Effort: Missing SOURCEWEB
+ 1. Coward's Lament: Missing SOURCEWEB
+ 1. Crafter's Curse: Missing SOURCEWEB
+ 1. Crafter's Fortune: Missing SOURCEWEB
+ 1. Create Pit: Missing SOURCEWEB
+ 1. Create Treasure Map: Missing SOURCEWEB
+ 1. Cup of Dust: Missing SOURCEWEB
+ 1. Deadly Finale: Missing SOURCEWEB
+ 1. Deflection: Missing SOURCEWEB
+ 1. Dancing Lantern: Missing SOURCEWEB
+ 1. Delayed Consumption: Missing SOURCEWEB
+ 1. Deafening Song Bolt: Missing SOURCEWEB
+ 1. Denounce: Missing SOURCEWEB
+ 1. Detect Aberration: Missing SOURCEWEB
+ 1. Detonate: Missing SOURCEWEB
+ 1. Devolution: Missing SOURCEWEB
+ 1. Discordant Blast: Missing SOURCEWEB
+ 1. Divine Transfer: Missing SOURCEWEB
+ 1. Draconic Reservoir: Missing SOURCEWEB
+ 1. Dragon's Breath: Missing SOURCEWEB
+ 1. Dust of Twilight: Missing SOURCEWEB
+ 1. Eagle Eye: Missing SOURCEWEB
+ 1. Elemental Touch: Missing SOURCEWEB
+ 1. Elemental Aura: Missing SOURCEWEB
+ 1. Elemental Speech: Missing SOURCEWEB
+ 1. Elude Time: Missing SOURCEWEB
+ 1. Enemy Hammer: Missing SOURCEWEB
+ 1. Euphoric Tranquility: Missing SOURCEWEB
+ 1. Enter Image: Missing SOURCEWEB
+ 1. Evolution Surge: Missing SOURCEWEB
+ 1. Evolution Surge (Greater): Missing SOURCEWEB
+ 1. Evolution Surge (Lesser): Missing SOURCEWEB
+ 1. Expeditious Excavation: Missing SOURCEWEB
+ 1. Expend: Missing SOURCEWEB
+ 1. Feather Step: Missing SOURCEWEB
+ 1. Feast of Ashes: Missing SOURCEWEB
+ 1. Feather Step (Mass): Missing SOURCEWEB
+ 1. Fiery Body: Missing SOURCEWEB
+ 1. Fester: Missing SOURCEWEB
+ 1. Fester (Mass): Missing SOURCEWEB
+ 1. Fire Breath: Missing SOURCEWEB
+ 1. Fire of Entanglement: Missing SOURCEWEB
+ 1. Fire of Judgment: Missing SOURCEWEB
+ 1. Fire of Vengeance: Missing SOURCEWEB
+ 1. Firebrand: Missing SOURCEWEB
+ 1. Fire Snake: Missing SOURCEWEB
+ 1. Firefall: Missing SOURCEWEB
+ 1. Flames of the Faithful: Missing SOURCEWEB
+ 1. Fluid Form: Missing SOURCEWEB
+ 1. Flare Burst: Missing SOURCEWEB
+ 1. Foe to Friend: Missing SOURCEWEB
+ 1. Fly (Mass): Missing SOURCEWEB
+ 1. Follow Aura: Missing SOURCEWEB
+ 1. Fool's Forbiddance: Missing SOURCEWEB
+ 1. Forced Repentance: Missing SOURCEWEB
+ 1. Gallant Inspiration: Missing SOURCEWEB
+ 1. Getaway: Missing SOURCEWEB
+ 1. Frozen Note: Missing SOURCEWEB
+ 1. Glide: Missing SOURCEWEB
+ 1. Geyser: Missing SOURCEWEB
+ 1. Ghostbane Dirge: Missing SOURCEWEB
+ 1. Ghostbane Dirge (Mass): Missing SOURCEWEB
+ 1. Grace: Missing SOURCEWEB
+ 1. Grove of Respite: Missing SOURCEWEB
+ 1. Gravity Bow: Missing SOURCEWEB
+ 1. Guiding Star: Missing SOURCEWEB
+ 1. Hero's Defiance: Missing SOURCEWEB
+ 1. Heroic Finale: Missing SOURCEWEB
+ 1. Hidden Speech: Missing SOURCEWEB
+ 1. Hide Campsite: Missing SOURCEWEB
+ 1. Holy Whisper: Missing SOURCEWEB
+ 1. Hungry Pit: Missing SOURCEWEB
+ 1. Honeyed Tongue: Missing SOURCEWEB
+ 1. Hunter's Eye: Missing SOURCEWEB
+ 1. Hunter's Howl: Missing SOURCEWEB
+ 1. Hydraulic Push: Missing SOURCEWEB
+ 1. Hydraulic Torrent: Missing SOURCEWEB
+ 1. Ill Omen: Missing SOURCEWEB
+ 1. Instant Armor: Missing SOURCEWEB
+ 1. Innocence: Missing SOURCEWEB
+ 1. Instant Enemy: Missing SOURCEWEB
+ 1. Invigorate: Missing SOURCEWEB
+ 1. Invigorate (Mass): Missing SOURCEWEB
+ 1. Jester's Jaunt: Missing SOURCEWEB
+ 1. Keen Senses: Missing SOURCEWEB
+ 1. King's Castle: Missing SOURCEWEB
+ 1. Knight's Calling: Missing SOURCEWEB
+ 1. Lead Blades: Missing SOURCEWEB
+ 1. Life Bubble: Missing SOURCEWEB
+ 1. Light Lance: Missing SOURCEWEB
+ 1. Lily Pad Stride: Missing SOURCEWEB
+ 1. Lockjaw: Missing SOURCEWEB
+ 1. Marks Of Forbiddance: Missing SOURCEWEB
+ 1. Mask Dweomer: Missing SOURCEWEB
+ 1. Memory Lapse: Missing SOURCEWEB
+ 1. Moonstruck: Missing SOURCEWEB
+ 1. Natural Rhythm: Missing SOURCEWEB
+ 1. Nap Stack: Missing SOURCEWEB
+ 1. Nature's Exile: Missing SOURCEWEB
+ 1. Oath of Peace: Missing SOURCEWEB
+ 1. Negate Aroma: Missing SOURCEWEB
+ 1. Pain Strike: Missing SOURCEWEB
+ 1. Pain Strike (Mass): Missing SOURCEWEB
+ 1. Paladin's Sacrifice: Missing SOURCEWEB
+ 1. Phantasmal Web: Missing SOURCEWEB
+ 1. Perceive Cues: Missing SOURCEWEB
+ 1. Phantasmal Revenge: Missing SOURCEWEB
+ 1. Pied Piping: Missing SOURCEWEB
+ 1. Pillar of Life: Missing SOURCEWEB
+ 1. Planar Adaptation: Missing SOURCEWEB
+ 1. Planar Adaptation (Mass): Missing SOURCEWEB
+ 1. Pox Pustules: Missing SOURCEWEB
+ 1. Protective Spirit: Missing SOURCEWEB
+ 1. Purging Finale: Missing SOURCEWEB
+ 1. Purified Calling: Missing SOURCEWEB
+ 1. Putrefy Food and Drink: Missing SOURCEWEB
+ 1. Rally Point: Missing SOURCEWEB
+ 1. Rampart: Missing SOURCEWEB
+ 1. Rebuke: Missing SOURCEWEB
+ 1. Rejuvenate Eidolon: Missing SOURCEWEB
+ 1. Rejuvenate Eidolon (Lesser): Missing SOURCEWEB
+ 1. Rejuvenate Eidolon (Greater): Missing SOURCEWEB
+ 1. Residual Tracking: Missing SOURCEWEB
+ 1. Rest Eternal: Missing SOURCEWEB
+ 1. Restful Sleep: Missing SOURCEWEB
+ 1. Resurgent Transformation: Missing SOURCEWEB
+ 1. Retribution: Missing SOURCEWEB
+ 1. Reviving Finale: Missing SOURCEWEB
+ 1. Righteous Vigor: Missing SOURCEWEB
+ 1. River of Wind: Missing SOURCEWEB
+ 1. Sacred Bond: Missing SOURCEWEB
+ 1. Sacrificial Oath: Missing SOURCEWEB
+ 1. Saddle Surge: Missing SOURCEWEB
+ 1. Sanctify Armor: Missing SOURCEWEB
+ 1. Saving Finale: Missing SOURCEWEB
+ 1. Scent Trail: Missing SOURCEWEB
+ 1. Sculpt Corpse: Missing SOURCEWEB
+ 1. Screech: Missing SOURCEWEB
+ 1. Seamantle: Missing SOURCEWEB
+ 1. Seek Thoughts: Missing SOURCEWEB
+ 1. Shadow Projection: Missing SOURCEWEB
+ 1. Share Senses: Missing SOURCEWEB
+ 1. Share Language: Missing SOURCEWEB
+ 1. Shifting Sand: Missing SOURCEWEB
+ 1. Shared Wrath: Missing SOURCEWEB
+ 1. Sift: Missing SOURCEWEB
+ 1. Slipstream: Missing SOURCEWEB
+ 1. Sirocco: Missing SOURCEWEB
+ 1. Sleepwalk: Missing SOURCEWEB
+ 1. Snake Staff: Missing SOURCEWEB
+ 1. Spark: Missing SOURCEWEB
+ 1. Solid Note: Missing SOURCEWEB
+ 1. Spiked Pit: Missing SOURCEWEB
+ 1. Spiritual Ally: Missing SOURCEWEB
+ 1. Spite: Missing SOURCEWEB
+ 1. Stay the Hand: Missing SOURCEWEB
+ 1. Stone Call: Missing SOURCEWEB
+ 1. Stone Fist: Missing SOURCEWEB
+ 1. Stormbolts: Missing SOURCEWEB
+ 1. Strong Jaw: Missing SOURCEWEB
+ 1. Stunning Finale: Missing SOURCEWEB
+ 1. Stumble Gap: Missing SOURCEWEB
+ 1. Suffocation: Missing SOURCEWEB
+ 1. Summon Eidolon: Missing SOURCEWEB
+ 1. Suffocation (Mass): Missing SOURCEWEB
+ 1. Thorn Body: Missing SOURCEWEB
+ 1. Swarm Skin: Missing SOURCEWEB
+ 1. Threefold Aspect: Missing SOURCEWEB
+ 1. Thundering Drums: Missing SOURCEWEB
+ 1. Timely Inspiration: Missing SOURCEWEB
+ 1. Tireless Pursuers: Missing SOURCEWEB
+ 1. Tireless Pursuit: Missing SOURCEWEB
+ 1. Touch of Gracelessness: Missing SOURCEWEB
+ 1. Touch of the Sea: Missing SOURCEWEB
+ 1. Transmute Potion to Poison: Missing SOURCEWEB
+ 1. Transmogrify: Missing SOURCEWEB
+ 1. Treasure Stitching: Missing SOURCEWEB
+ 1. True Form: Missing SOURCEWEB
+ 1. Tsunami: Missing SOURCEWEB
+ 1. Twilight Knife: Missing SOURCEWEB
+ 1. Twin Form: Missing SOURCEWEB
+ 1. Unwilling Shield: Missing SOURCEWEB
+ 1. Unfetter: Missing SOURCEWEB
+ 1. Universal Formula: Missing SOURCEWEB
+ 1. Veil of Positive Energy: Missing SOURCEWEB
+ 1. Unwitting Ally: Missing SOURCEWEB
+ 1. Vanish: Missing SOURCEWEB
+ 1. Venomous Bolt: Missing SOURCEWEB
+ 1. Versatile Weapon: Missing SOURCEWEB
+ 1. Vortex: Missing SOURCEWEB
+ 1. Vomit Swarm: Missing SOURCEWEB
+ 1. Wall of Lava: Missing SOURCEWEB
+ 1. Wake of Light: Missing SOURCEWEB
+ 1. Wall of Suppression: Missing SOURCEWEB
+ 1. Wandering Star Motes: Missing SOURCEWEB
+ 1. Ward the Faithful: Missing SOURCEWEB
+ 1. Weapon of Awe: Missing SOURCEWEB
+ 1. Winds of Vengeance: Missing SOURCEWEB
+ 1. World Wave: Missing SOURCEWEB
+ 1. Wrath: Missing SOURCEWEB
+ 1. Wrathful Mantle: Missing SOURCEWEB
+ 1. Oracle's Burden: Missing SOURCEWEB
+ 1. Borrow Fortune: Missing SOURCEWEB
+ 1. Divine Vessel: Missing SOURCEWEB
+ 1. Planar Ally.COPY=Planar Ally (Agathions Only): Missing SOURCEWEB
+ 1. Planar Ally.COPY=Planar Ally (Azata Only): Missing SOURCEWEB
+ 1. Planar Ally.COPY=Planar Ally (Archon Only): Missing SOURCEWEB
+ 1. Planar Binding.COPY=Planar Binding (Daemons Only): Missing SOURCEWEB
+ 1. Beast Shape I.COPY=Beast Shape I (Animals Only): Missing SOURCEWEB
+ 1. Planar Binding.COPY=Planar Binding (Inevitables Only): Missing SOURCEWEB
+ 1. Planar Binding.COPY=Planar Binding (Proteans Only): Missing SOURCEWEB
+ 1. Elemental Aura.COPY=Elemental Aura (Cold Only): Missing SOURCEWEB
+ 1. Meteor Swarm.COPY=Meteor Swarm (Dealing Cold Damage): Missing SOURCEWEB
+ 1. Summon Monster III.COPY=Summon Monster III (Reptiles Only): Missing SOURCEWEB
+ 1. Summon Monster VII.COPY=Summon Monster VII (Reptiles Only): Missing SOURCEWEB
+ 1. Call Lightning Storm.COPY=Call Lightning Storm (Starsoul): Missing SOURCEWEB
+ 1. Heroic Fortune: Missing SOURCEWEB
+ 1. Heroic Fortune (Mass): Missing SOURCEWEB
+ 1. Malediction: Missing SOURCEWEB
+ 1. Severed Fate: Missing SOURCEWEB
+ 1. Unravel Destiny: Missing SOURCEWEB
+ 1. Summon Monster V.COPY=Summon Monster V (Summons 1d3 Shadows): Missing SOURCEWEB
+ 1. Planar Binding.COPY=Planar Binding (Devils Only): Missing SOURCEWEB
+ 1. Planar Binding.COPY=Planar Binding (Demons Only): Missing SOURCEWEB
+ 1. Wall of Thorms: Missing SOURCEWEB
+
+
+Advanced Race Guide
+====================
+
+ 1. Groundswell: Missing SOURCEWEB
+ 1. Whispering Lore: Missing SOURCEWEB
+ 1. Ironbeard: Missing SOURCEWEB
+ 1. Toilsome Chant: Missing SOURCEWEB
+ 1. Blend: Missing SOURCEWEB
+ 1. Ward of the Season: Missing SOURCEWEB
+ 1. Death From Below: Missing SOURCEWEB
+ 1. Jitterbugs: Missing SOURCEWEB
+ 1. Major Phantom Object: Missing SOURCEWEB
+ 1. Minor Phantom Object: Missing SOURCEWEB
+ 1. Minor Dream: Missing SOURCEWEB
+ 1. Recharge Innate Magic: Missing SOURCEWEB
+ 1. Sow Thought: Missing SOURCEWEB
+ 1. Forgetful Slumber: Missing SOURCEWEB
+ 1. Paragon Surge: Missing SOURCEWEB
+ 1. Resilient Reservoir: Missing SOURCEWEB
+ 1. Urban Grace: Missing SOURCEWEB
+ 1. Battle Trance: Missing SOURCEWEB
+ 1. Ghost Wolf: Missing SOURCEWEB
+ 1. Half-Blood Extraction: Missing SOURCEWEB
+ 1. Linebreaker: Missing SOURCEWEB
+ 1. Savage Maw: Missing SOURCEWEB
+ 1. Blessing of Luck and Resolve: Missing SOURCEWEB
+ 1. Escaping Ward: Missing SOURCEWEB
+ 1. Blessing of Luck and Resolve (Mass): Missing SOURCEWEB
+ 1. Fearsome Duplicate: Missing SOURCEWEB
+ 1. Village Veil: Missing SOURCEWEB
+ 1. Black Mark: Missing SOURCEWEB
+ 1. Bestow Insight: Missing SOURCEWEB
+ 1. Old Salt's Curse: Missing SOURCEWEB
+ 1. Sacred Space: Missing SOURCEWEB
+ 1. Truespeak: Missing SOURCEWEB
+ 1. Veil of Heaven: Missing SOURCEWEB
+ 1. Nine Lives: Missing SOURCEWEB
+ 1. Blinding Ray: Missing SOURCEWEB
+ 1. Steal Breath: Missing SOURCEWEB
+ 1. Life Channel: Missing SOURCEWEB
+ 1. Spawn Ward: Missing SOURCEWEB
+ 1. Ancestral Regression: Missing SOURCEWEB
+ 1. Web Bolt: Missing SOURCEWEB
+ 1. Web Cloud: Missing SOURCEWEB
+ 1. Gloomblind Bolts: Missing SOURCEWEB
+ 1. Shadowy Haven: Missing SOURCEWEB
+ 1. Fire Trail: Missing SOURCEWEB
+ 1. Mudball: Missing SOURCEWEB
+ 1. Vomit Twin: Missing SOURCEWEB
+ 1. Agonizing Rebuke: Missing SOURCEWEB
+ 1. Chains of Fire: Missing SOURCEWEB
+ 1. Death Candle: Missing SOURCEWEB
+ 1. Firestream: Missing SOURCEWEB
+ 1. Scorching Ash Form: Missing SOURCEWEB
+ 1. Fury of the Sun: Missing SOURCEWEB
+ 1. Blood Blaze: Missing SOURCEWEB
+ 1. Touch of Combustion: Missing SOURCEWEB
+ 1. Healing Warmth: Missing SOURCEWEB
+ 1. Improve Trap: Missing SOURCEWEB
+ 1. Enemy's Heart: Missing SOURCEWEB
+ 1. Blood Scent: Missing SOURCEWEB
+ 1. Sentry Skull: Missing SOURCEWEB
+ 1. Binding Earth: Missing SOURCEWEB
+ 1. Binding Earth (Mass): Missing SOURCEWEB
+ 1. Mighty Fist of the Earth: Missing SOURCEWEB
+ 1. Raging Rubble: Missing SOURCEWEB
+ 1. Stone Shield: Missing SOURCEWEB
+ 1. Alchemical Tinkering: Missing SOURCEWEB
+ 1. Delay Disease: Missing SOURCEWEB
+ 1. Sickening Strikes: Missing SOURCEWEB
+ 1. Absorbing Inhalation: Missing SOURCEWEB
+ 1. Cloud Shape: Missing SOURCEWEB
+ 1. Gusting Sphere: Missing SOURCEWEB
+ 1. Miasmatic Form: Missing SOURCEWEB
+ 1. Path of the Winds: Missing SOURCEWEB
+ 1. Windy Escape: Missing SOURCEWEB
+ 1. Wind Blades: Missing SOURCEWEB
+ 1. Winter Feathers: Missing SOURCEWEB
+ 1. Theft Ward: Missing SOURCEWEB
+ 1. Hellmouth Lash: Missing SOURCEWEB
+ 1. Damnation Stride: Missing SOURCEWEB
+ 1. Marid's Mastery: Missing SOURCEWEB
+ 1. Nereid's Grace: Missing SOURCEWEB
+ 1. Nixie's Lure: Missing SOURCEWEB
+ 1. Sow Thought ~ Changeling: Missing SOURCEWEB
+ 1. Undine's Curse: Missing SOURCEWEB
+ 1. Fins to Feet: Missing SOURCEWEB
+ 1. Aboleth's Lung: Missing SOURCEWEB
+ 1. Karmic Blessing: Missing SOURCEWEB
+ 1. Strong Wings: Missing SOURCEWEB
+ 1. Imbue With Elemental Might: Missing SOURCEWEB
+ 1. Earth Glide: Missing SOURCEWEB
+ 1. Prehensile Pilfer: Missing SOURCEWEB
+ 1. Squeeze: Missing SOURCEWEB
+ 1. Shadow Anchor: Missing SOURCEWEB
+
+
+Bestiary
+========
+
+ 1. Commune (six questions): Missing SOURCEWEB
+ 1. Confusion (single target only): Missing SOURCEWEB
+ 1. Create Wine: Missing SOURCEWEB
+ 1. Enlarge Person (self only): Missing SOURCEWEB
+ 1. Ethereal Jaunt (self plus objects): Missing SOURCEWEB
+ 1. Ethereal Jaunt ~ Cauchemar Nightmare: Missing SOURCEWEB
+ 1. Fear (single target): Missing SOURCEWEB
+ 1. Invisibility (self only): Missing SOURCEWEB
+ 1. Invisibility (Greater/self only): Missing SOURCEWEB
+ 1. Plane Shift (willing targets only): Missing SOURCEWEB
+ 1. Plane Shift (self only): Missing SOURCEWEB
+ 1. Plane Shift ~ Nightmare: Missing SOURCEWEB
+ 1. Purify Food and Drink (liquids only): Missing SOURCEWEB
+ 1. Pyroclastic Storm: Missing SOURCEWEB
+ 1. Quickened Fireball: Missing SOURCEWEB
+ 1. Quickened Invisibility (self only): Missing SOURCEWEB
+ 1. Quickened Suggestion: Missing SOURCEWEB
+ 1. Quickened Telekinesis: Missing SOURCEWEB
+ 1. Quickened Wall of Fire: Missing SOURCEWEB
+ 1. Reduce Person (self only): Missing SOURCEWEB
+ 1. Scorching Ray (2 rays only): Missing SOURCEWEB
+ 1. Summon Monster I (Dretch): Missing SOURCEWEB
+ 1. Summon Monster III (Babau): Missing SOURCEWEB
+ 1. Summon Monster III (Shadow Demon): Missing SOURCEWEB
+ 1. Summon Monster III (Succubus): Missing SOURCEWEB
+ 1. Summon Monster III (Vrock): Missing SOURCEWEB
+ 1. Summon Monster III (Bearded Devil): Missing SOURCEWEB
+ 1. Summon Monster III (Erinyes): Missing SOURCEWEB
+ 1. Summon Monster IV (Glabrezu): Missing SOURCEWEB
+ 1. Summon Monster IV (Hezrou): Missing SOURCEWEB
+ 1. Summon Monster IV (Nabasu): Missing SOURCEWEB
+ 1. Summon Monster IV (Barbed Devil): Missing SOURCEWEB
+ 1. Summon Monster IV (Bone Devil): Missing SOURCEWEB
+ 1. Summon Monster IV (Ice Devil): Missing SOURCEWEB
+ 1. Summon Monster V (Marilith): Missing SOURCEWEB
+ 1. Summon Monster V (Nalfeshnee): Missing SOURCEWEB
+ 1. Summon Monster VI (Horned Devil): Missing SOURCEWEB
+ 1. Summon Monster IX (Pit Fiend): Missing SOURCEWEB
+ 1. Summon Monster IX (Celestials Only): Missing SOURCEWEB
+ 1. Summon Monster IX (Fiends Only): Missing SOURCEWEB
+ 1. Summon Monster VIII (Balor): Missing SOURCEWEB
+ 1. Teleport (Greater/Within its forest territory): Missing SOURCEWEB
+ 1. Teleport (Greater/self plus objects): Missing SOURCEWEB
+ 1. Veil (self only): Missing SOURCEWEB
+ 1. Wish (granted to a mortal humanoid only): Missing SOURCEWEB
+ 1. Wood Shape (1 lb only): Missing SOURCEWEB
+ 1. Agent of Fate ~ Mothman Spell: Missing SOURCEWEB
+ 1. Blur (self only): Missing SOURCEWEB
+ 1. Charm Monster (elementals only): Missing SOURCEWEB
+ 1. Dimension Door (self only): Missing SOURCEWEB
+ 1. Dimension Door (self plus objects): Missing SOURCEWEB
+ 1. Dimension Door (self plus 5 lbs.): Missing SOURCEWEB
+ 1. Disguise Self (humanoid only): Missing SOURCEWEB
+ 1. Elemental Body III (air/water): Missing SOURCEWEB
+ 1. Empowered Chaos Hammer: Missing SOURCEWEB
+ 1. Empowered Magic Missile: Missing SOURCEWEB
+ 1. Empowered Order's Wrath: Missing SOURCEWEB
+ 1. Fabricate (Leng Spider): Missing SOURCEWEB
+ 1. Fabricate (1 cu ft): Missing SOURCEWEB
+ 1. Fire Shield (warm): Missing SOURCEWEB
+ 1. Magic Circle against Evil (self only): Missing SOURCEWEB
+ 1. Major Image (visual and auditory only): Missing SOURCEWEB
+ 1. Meld into Stone (self only): Missing SOURCEWEB
+ 1. Plane Shift (self/shadow only): Missing SOURCEWEB
+ 1. Plane Shift (self plus skiff): Missing SOURCEWEB
+ 1. Quickened Confusion: Missing SOURCEWEB
+ 1. Quickened Cone of Cold: Missing SOURCEWEB
+ 1. Quickened Darkness: Missing SOURCEWEB
+ 1. Quickened Dimension Door: Missing SOURCEWEB
+ 1. Quickened Dimension Door (self only): Missing SOURCEWEB
+ 1. Quickened Disintegrate: Missing SOURCEWEB
+ 1. Quickened Enervation: Missing SOURCEWEB
+ 1. Quickened Heal: Missing SOURCEWEB
+ 1. Quickened Lightning Bolt: Missing SOURCEWEB
+ 1. Quickened Magic Missile: Missing SOURCEWEB
+ 1. Quickened Summon Swarm: Missing SOURCEWEB
+ 1. Quickened Unholy Blight: Missing SOURCEWEB
+ 1. Reshape Reality ~ Keketar Spell: Missing SOURCEWEB
+ 1. Shadow Walk (self only): Missing SOURCEWEB
+ 1. Speak with Animals (fish only): Missing SOURCEWEB
+ 1. Suggestion (Nereid): Missing SOURCEWEB
+ 1. Summon Monster III (Hydrodaemon): Missing SOURCEWEB
+ 1. Summon Monster III (Leukodaemon): Missing SOURCEWEB
+ 1. Summon Monster III (Accuser Devil): Missing SOURCEWEB
+ 1. Summon Monster IV (Derghodaemon): Missing SOURCEWEB
+ 1. Summon Monster IV (Piscodaemon): Missing SOURCEWEB
+ 1. Summon Monster IV (Thanadaemon): Missing SOURCEWEB
+ 1. Summon Monster IV (Kalavakus): Missing SOURCEWEB
+ 1. Summon Monster IV (Omox): Missing SOURCEWEB
+ 1. Summon Monster IV (Witchfire): Missing SOURCEWEB
+ 1. Summon Monster V (Purrodaemon): Missing SOURCEWEB
+ 1. Summon Monster V (Shemhazian): Missing SOURCEWEB
+ 1. Summon Monster V (Handmaiden Devil): Missing SOURCEWEB
+ 1. Summon Monster V (Large water elemental): Missing SOURCEWEB
+ 1. Summon Monster V (Xacarba): Missing SOURCEWEB
+ 1. Summon Monster VI (Astradaemon): Missing SOURCEWEB
+ 1. Summon Monster VI (Vrolikai): Missing SOURCEWEB
+ 1. Summon Monster VI (Belier Devil): Missing SOURCEWEB
+ 1. Summon Monster VI (Nereid): Missing SOURCEWEB
+ 1. Summon Monster VI (Nightwing): Missing SOURCEWEB
+ 1. Summon Monster VII (Nightwalker): Missing SOURCEWEB
+ 1. Summon Monster VIII (water elementals): Missing SOURCEWEB
+ 1. Summon Monster VIII (Nightcrawler): Missing SOURCEWEB
+ 1. Summon Monster VIII (Scylla): Missing SOURCEWEB
+ 1. Summon Monster IX (Immolation Devil): Missing SOURCEWEB
+ 1. Summon Monster IX (Nightwave): Missing SOURCEWEB
+ 1. Summon (Olethrodaemon): Missing SOURCEWEB
+ 1. Summon Nature's Ally II (Triton): Missing SOURCEWEB
+ 1. Summon Nature's Ally V (earth/fire elementals): Missing SOURCEWEB
+ 1. Teleport (Greater/self plus entrapped): Missing SOURCEWEB
+ 1. Teleport (Greater/self plus skiff): Missing SOURCEWEB
+ 1. Tree Shape (Colossal tree): Missing SOURCEWEB
 
 
 Core Rulebook
@@ -6,8 +509,8 @@ Core Rulebook
 
  1. Align Weapon (Chaos Only): Missing SOURCEWEB
  1. Align Weapon (Evil Only): Missing SOURCEWEB
- 1. Align Weapon (Good Only): Missing SOURCEWEB
  1. Align Weapon (Law Only): Missing SOURCEWEB
+ 1. Align Weapon (Good Only): Missing SOURCEWEB
  1. Beast Shape III (Animals Only): Missing SOURCEWEB
  1. Blindness/Deafness (Blindness Only): Missing SOURCEWEB
  1. Elemental Body IV (Air Only): Missing SOURCEWEB
@@ -33,7 +536,6 @@ Core Rulebook
  1. Scorching Ray (Cold): Missing SOURCEWEB
  1. Scorching Ray (Electricity): Missing SOURCEWEB
  1. Summon Monster VIII (Elementals Only): Missing SOURCEWEB
- 1. Acid Arrow: Missing SOURCEWEB
  1. Acid Fog: Missing SOURCEWEB
  1. Acid Splash: Missing SOURCEWEB
  1. Aid: Missing SOURCEWEB
@@ -163,8 +665,8 @@ Core Rulebook
  1. Deeper Darkness: Missing SOURCEWEB
  1. Delay Poison: Missing SOURCEWEB
  1. Delayed Blast Fireball: Missing SOURCEWEB
- 1. Desecrate: Missing SOURCEWEB
  1. Demand: Missing SOURCEWEB
+ 1. Desecrate: Missing SOURCEWEB
  1. Detect Animals or Plants: Missing SOURCEWEB
  1. Destruction: Missing SOURCEWEB
  1. Detect Chaos: Missing SOURCEWEB
@@ -261,9 +763,9 @@ Core Rulebook
  1. Fox's Cunning: Missing SOURCEWEB
  1. Fox's Cunning (Mass): Missing SOURCEWEB
  1. Freedom: Missing SOURCEWEB
- 1. Freezing Sphere: Missing SOURCEWEB
- 1. Freedom of Movement: Missing SOURCEWEB
  1. Gaseous Form: Missing SOURCEWEB
+ 1. Freedom of Movement: Missing SOURCEWEB
+ 1. Freezing Sphere: Missing SOURCEWEB
  1. Geas/Quest: Missing SOURCEWEB
  1. Gate: Missing SOURCEWEB
  1. Gentle Repose: Missing SOURCEWEB
@@ -290,8 +792,8 @@ Core Rulebook
  1. Hallucinatory Terrain: Missing SOURCEWEB
  1. Haste: Missing SOURCEWEB
  1. Harm: Missing SOURCEWEB
- 1. Heal: Missing SOURCEWEB
  1. Halt Undead: Missing SOURCEWEB
+ 1. Heal: Missing SOURCEWEB
  1. Heal (Mass): Missing SOURCEWEB
  1. Heal Mount: Missing SOURCEWEB
  1. Heat Metal: Missing SOURCEWEB
@@ -321,8 +823,8 @@ Core Rulebook
  1. Illusory Script: Missing SOURCEWEB
  1. Imbue with Spell Ability: Missing SOURCEWEB
  1. Implosion: Missing SOURCEWEB
- 1. Incendiary Cloud: Missing SOURCEWEB
  1. Imprisonment: Missing SOURCEWEB
+ 1. Incendiary Cloud: Missing SOURCEWEB
  1. Inflict Critical Wounds: Missing SOURCEWEB
  1. Inflict Critical Wounds (Mass): Missing SOURCEWEB
  1. Inflict Light Wounds: Missing SOURCEWEB
@@ -413,8 +915,8 @@ Core Rulebook
  1. Owl's Wisdom: Missing SOURCEWEB
  1. Passwall: Missing SOURCEWEB
  1. Owl's Wisdom (Mass): Missing SOURCEWEB
- 1. Permanency: Missing SOURCEWEB
  1. Pass without Trace: Missing SOURCEWEB
+ 1. Permanency: Missing SOURCEWEB
  1. Permanent Image: Missing SOURCEWEB
  1. Persistent Image: Missing SOURCEWEB
  1. Phantasmal Killer: Missing SOURCEWEB
@@ -538,12 +1040,12 @@ Core Rulebook
  1. Soften Earth and Stone: Missing SOURCEWEB
  1. Snare: Missing SOURCEWEB
  1. Solid Fog: Missing SOURCEWEB
- 1. Soul Bind: Missing SOURCEWEB
  1. Song of Discord: Missing SOURCEWEB
+ 1. Soul Bind: Missing SOURCEWEB
  1. Sound Burst: Missing SOURCEWEB
  1. Speak with Animals: Missing SOURCEWEB
- 1. Speak with Dead: Missing SOURCEWEB
  1. Speak with Plants: Missing SOURCEWEB
+ 1. Speak with Dead: Missing SOURCEWEB
  1. Spectral Hand: Missing SOURCEWEB
  1. Spell Immunity (Greater): Missing SOURCEWEB
  1. Spell Immunity: Missing SOURCEWEB
@@ -663,6 +1165,158 @@ Core Rulebook
  1. Magic Vestment (Shield use): Missing SOURCEWEB
 
 
+Ultimate Combat
+===============
+
+ 1. Absorb Toxicity: Missing SOURCEWEB
+ 1. Abundant Ammunition: Missing SOURCEWEB
+ 1. Adjuring Step: Missing SOURCEWEB
+ 1. Adoration: Missing SOURCEWEB
+ 1. Air Walk (Communal): Missing SOURCEWEB
+ 1. Air Bubble: Missing SOURCEWEB
+ 1. Animal Aspect: Missing SOURCEWEB
+ 1. Animal Aspect (Greater): Missing SOURCEWEB
+ 1. Ablative Barrier: Missing SOURCEWEB
+ 1. Ant Haul (Communal): Missing SOURCEWEB
+ 1. Arcane Cannon: Missing SOURCEWEB
+ 1. Bestow Weapon Proficiency: Missing SOURCEWEB
+ 1. Blistering Invective: Missing SOURCEWEB
+ 1. Bowstaff: Missing SOURCEWEB
+ 1. Brow Gasher: Missing SOURCEWEB
+ 1. Bullet Shield: Missing SOURCEWEB
+ 1. Burst of Speed: Missing SOURCEWEB
+ 1. Caging Bomb Admixture: Missing SOURCEWEB
+ 1. Certain Grip: Missing SOURCEWEB
+ 1. Chain of Perdition: Missing SOURCEWEB
+ 1. Companion Mind Link: Missing SOURCEWEB
+ 1. Compel Hostility: Missing SOURCEWEB
+ 1. Damp Powder: Missing SOURCEWEB
+ 1. Darkvision (Communal): Missing SOURCEWEB
+ 1. Daybreak Arrow: Missing SOURCEWEB
+ 1. Deadly Juggernaut: Missing SOURCEWEB
+ 1. Deadeye's Lore: Missing SOURCEWEB
+ 1. Debilitating Portent: Missing SOURCEWEB
+ 1. Delay Poison (Communal): Missing SOURCEWEB
+ 1. Destabilize Powder: Missing SOURCEWEB
+ 1. Discovery Torch: Missing SOURCEWEB
+ 1. Divine Arrow: Missing SOURCEWEB
+ 1. Dust Form: Missing SOURCEWEB
+ 1. Effortless Armor: Missing SOURCEWEB
+ 1. Endure Elements (Communal): Missing SOURCEWEB
+ 1. Energy Siege Shot: Missing SOURCEWEB
+ 1. Energy Siege Shot (Greater): Missing SOURCEWEB
+ 1. Fabricate Bullets: Missing SOURCEWEB
+ 1. Fiery Shuriken: Missing SOURCEWEB
+ 1. Find Quarry: Missing SOURCEWEB
+ 1. Flash Fire: Missing SOURCEWEB
+ 1. Forest Friend: Missing SOURCEWEB
+ 1. Haunted Fey Aspect: Missing SOURCEWEB
+ 1. Frightful Aspect: Missing SOURCEWEB
+ 1. Frost Fall: Missing SOURCEWEB
+ 1. Healing Thief: Missing SOURCEWEB
+ 1. Hostile Juxtaposition: Missing SOURCEWEB
+ 1. Heroic Invocation: Missing SOURCEWEB
+ 1. Hostile Juxtaposition (Greater): Missing SOURCEWEB
+ 1. Hostile Levitation: Missing SOURCEWEB
+ 1. Illusion of Calm: Missing SOURCEWEB
+ 1. Instrument of Agony: Missing SOURCEWEB
+ 1. Jolting Portent: Missing SOURCEWEB
+ 1. Jury-Rig: Missing SOURCEWEB
+ 1. Judgment Light: Missing SOURCEWEB
+ 1. Kinetic Reverberation: Missing SOURCEWEB
+ 1. Languid Bomb Admixture: Missing SOURCEWEB
+ 1. Liberating Command: Missing SOURCEWEB
+ 1. Life Conduit: Missing SOURCEWEB
+ 1. Life Conduit (Greater): Missing SOURCEWEB
+ 1. Life Conduit (Improved): Missing SOURCEWEB
+ 1. Lightning Lash Bomb Admixture: Missing SOURCEWEB
+ 1. Litany of Defense: Missing SOURCEWEB
+ 1. Litany of Eloquence: Missing SOURCEWEB
+ 1. Litany of Entanglement: Missing SOURCEWEB
+ 1. Litany of Escape: Missing SOURCEWEB
+ 1. Litany of Madness: Missing SOURCEWEB
+ 1. Litany of Righteousness: Missing SOURCEWEB
+ 1. Litany of Sight: Missing SOURCEWEB
+ 1. Litany of Warding: Missing SOURCEWEB
+ 1. Litany of Sloth: Missing SOURCEWEB
+ 1. Litany of Thunder: Missing SOURCEWEB
+ 1. Litany of Vengeance: Missing SOURCEWEB
+ 1. Litany of Weakness: Missing SOURCEWEB
+ 1. Lock Gaze: Missing SOURCEWEB
+ 1. Locate Weakness: Missing SOURCEWEB
+ 1. Longshot: Missing SOURCEWEB
+ 1. Magic Siege Engine: Missing SOURCEWEB
+ 1. Magic Siege Engine (Greater): Missing SOURCEWEB
+ 1. Mask Dweomer (Communal): Missing SOURCEWEB
+ 1. Mind Blank (Communal): Missing SOURCEWEB
+ 1. Moment of Greatness: Missing SOURCEWEB
+ 1. Mirror Strike: Missing SOURCEWEB
+ 1. Mount (Communal): Missing SOURCEWEB
+ 1. Mutagenic Touch: Missing SOURCEWEB
+ 1. Named Bullet: Missing SOURCEWEB
+ 1. Named Bullet (Greater): Missing SOURCEWEB
+ 1. Negative Reaction: Missing SOURCEWEB
+ 1. Nondetection (Communal): Missing SOURCEWEB
+ 1. Obsidian Flow: Missing SOURCEWEB
+ 1. Peacebond: Missing SOURCEWEB
+ 1. Pellet Blast: Missing SOURCEWEB
+ 1. Phantom Chariot: Missing SOURCEWEB
+ 1. Phantom Driver: Missing SOURCEWEB
+ 1. Phantom Steed (Communal): Missing SOURCEWEB
+ 1. Pilfering Hand: Missing SOURCEWEB
+ 1. Protection from Arrows (Communal): Missing SOURCEWEB
+ 1. Protection from Chaos (Communal): Missing SOURCEWEB
+ 1. Protection from Energy (Communal): Missing SOURCEWEB
+ 1. Protection from Evil (Communal): Missing SOURCEWEB
+ 1. Protection from Good (Communal): Missing SOURCEWEB
+ 1. Protection from Law (Communal): Missing SOURCEWEB
+ 1. Pup Shape: Missing SOURCEWEB
+ 1. Qualm: Missing SOURCEWEB
+ 1. Recoil Fire: Missing SOURCEWEB
+ 1. Reinforce Armaments: Missing SOURCEWEB
+ 1. Reloading Hands: Missing SOURCEWEB
+ 1. Reinforce Armaments (Communal): Missing SOURCEWEB
+ 1. Resinous Skin: Missing SOURCEWEB
+ 1. Resist Energy (Communal): Missing SOURCEWEB
+ 1. Returning Weapon: Missing SOURCEWEB
+ 1. Returning Weapon (Communal): Missing SOURCEWEB
+ 1. Ricochet Shot: Missing SOURCEWEB
+ 1. See Alignment: Missing SOURCEWEB
+ 1. Shadow Bomb Admixture: Missing SOURCEWEB
+ 1. Shock Shield: Missing SOURCEWEB
+ 1. Share Language (Communal): Missing SOURCEWEB
+ 1. Shocking Image: Missing SOURCEWEB
+ 1. Siege of Trees: Missing SOURCEWEB
+ 1. Siege of Trees (Greater): Missing SOURCEWEB
+ 1. Spell Immunity (Communal): Missing SOURCEWEB
+ 1. Spell Immunity (Greater/Communal): Missing SOURCEWEB
+ 1. Spider Climb (Communal): Missing SOURCEWEB
+ 1. Spontaneous Immolation: Missing SOURCEWEB
+ 1. Stabilize Powder: Missing SOURCEWEB
+ 1. Stoneskin (Communal): Missing SOURCEWEB
+ 1. Summoner Conduit: Missing SOURCEWEB
+ 1. Sun Metal: Missing SOURCEWEB
+ 1. Symbol of Striking: Missing SOURCEWEB
+ 1. Tactical Acumen: Missing SOURCEWEB
+ 1. Tar Pool: Missing SOURCEWEB
+ 1. Targeted Bomb Admixture: Missing SOURCEWEB
+ 1. Telekinetic Assembly: Missing SOURCEWEB
+ 1. Telekinetic Charge: Missing SOURCEWEB
+ 1. Terrain Bond: Missing SOURCEWEB
+ 1. Tongues (Communal): Missing SOURCEWEB
+ 1. Thunder Fire: Missing SOURCEWEB
+ 1. Touch Injection: Missing SOURCEWEB
+ 1. Twisted Space: Missing SOURCEWEB
+ 1. Unerring Weapon: Missing SOURCEWEB
+ 1. Viper Bomb Admixture: Missing SOURCEWEB
+ 1. Walk through Space: Missing SOURCEWEB
+ 1. Warding Weapon: Missing SOURCEWEB
+ 1. Water Walk (Communal): Missing SOURCEWEB
+ 1. Weaken Powder: Missing SOURCEWEB
+ 1. Wilderness Soldiers: Missing SOURCEWEB
+ 1. Wreath of Blades: Missing SOURCEWEB
+
+
 Ultimate Magic
 ==============
 
@@ -772,8 +1426,8 @@ Ultimate Magic
  1. Imbue with Aura: Missing SOURCEWEB
  1. Icicle Dagger: Missing SOURCEWEB
  1. Icy Prison (Mass): Missing SOURCEWEB
- 1. Interrogation: Missing SOURCEWEB
  1. Interplanetary Teleport: Missing SOURCEWEB
+ 1. Interrogation: Missing SOURCEWEB
  1. Interrogation (Greater): Missing SOURCEWEB
  1. Joyful Rapture: Missing SOURCEWEB
  1. Ki Arrow: Missing SOURCEWEB

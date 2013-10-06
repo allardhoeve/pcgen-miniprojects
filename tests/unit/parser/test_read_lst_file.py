@@ -49,5 +49,5 @@ class TestReadLstFile(TestCase):
 
     def test_read_lst_file_returns_source_definition(self):
         (ret, source) = read_lst_file("core/testnaam.lst")
-        self.assertEqual(source["filename"], "core/testnaam.lst")
+        self.assertEqual(source["sourcefile"], "core/testnaam.lst")
         self.assertEqual(source["sourcelong"], "Core Rulebook")

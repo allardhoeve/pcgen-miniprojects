@@ -5,10 +5,12 @@ from pcgen.qa import QASpellSourceWeb
 
 spells = find_all_pathfinder_spells()
 
-print("Found %d spells" % len(spells))
+print("Found total of %d spells in Pathfinder" % len(spells))
 
 qs = QASpellSourceWeb()
 result = qs.test(spells)
+
+print("Found total of %d spells in Pathfinder with errors" % len(result))
 
 by_source = {}
 
@@ -18,13 +20,13 @@ for (spell, error) in result:
 
     by_source[spell.sourcelong][spell] = error
 
-for source in by_source.iterkeys():
+for source in sorted(by_source.iterkeys()):
     print
     print
     print source
-    print "=" * len(source)
+    print "=" * len(source or "None")
     print
 
-    for spell in by_source[source]:
+    for spell in sorted(by_source[source].iterkeys()):
         name = spell.key or spell.name
-        print " - %s has %s" % (name, by_source[source][spell])
+        print " 1. %s: %s" % (name, by_source[source][spell])
