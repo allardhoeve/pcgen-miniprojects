@@ -10,5 +10,21 @@ print("Found %d spells" % len(spells))
 qs = QASpellSourceWeb()
 result = qs.test(spells)
 
+by_source = {}
+
 for (spell, error) in result:
-    print(" - Spell '%s' from '%s': %s" % (spell.outputname or spell.name, spell.sourcelong, error))
+    if spell.sourcelong not in by_source:
+        by_source[spell.sourcelong] = {}
+
+    by_source[spell.sourcelong][spell] = error
+
+for source in by_source.iterkeys():
+    print
+    print
+    print source
+    print "=" * len(source)
+    print
+
+    for spell in by_source[source]:
+        name = spell.key or spell.name
+        print " - %s has %s" % (name, by_source[source][spell])

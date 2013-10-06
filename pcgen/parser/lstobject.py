@@ -4,10 +4,16 @@ import re
 
 class LstObject(object):
 
-    general_keywords = ["desc"]
+    general_keywords = [
+        "desc",
+        "key",
+        "outputname",
+        'sourceweb',
+        'sourcelong',
+        'filename'
+    ]
+
     keywords = []
-    sourcelong = None
-    filename = None
 
     def __init__(self, line=None, source=None):
         self._initialize_keywords()

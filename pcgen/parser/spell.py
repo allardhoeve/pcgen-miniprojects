@@ -9,13 +9,12 @@ class SpellObject(LstObject):
                       'choose',
                       'classes',
                       'comps',
+                      'cost',
                       'domains',
-                      'desc',
                       'descriptor',
                       'duration',
                       'item',
                       'name',
-                      'outputname',
                       'range',
                       'refdoc',
                       'saveinfo',
@@ -26,7 +25,6 @@ class SpellObject(LstObject):
                       'targetarea',
                       'tempdesc',
                       'type',
-                      'sourceweb',
                       'variants']
 
     class_keywords_skip = ['tempbonus']
