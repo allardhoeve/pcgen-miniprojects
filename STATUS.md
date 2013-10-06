@@ -1,937 +1,937 @@
 Found 926 spells
 
 
-Ultimate Magic
-==============
-
- - Temporary Resurrection has Missing SOURCEWEB
- - Primal Scream has Missing SOURCEWEB
- - Malicious Spite has Missing SOURCEWEB
- - Monstrous Physique II has Missing SOURCEWEB
- - Bottled Ooze (4) has Missing SOURCEWEB
- - Force Hook Charge has Missing SOURCEWEB
- - Acute Senses has Missing SOURCEWEB
- - Joyful Rapture has Missing SOURCEWEB
- - Animal Shapes (Birds Only) has Missing SOURCEWEB
- - Age Resistance has Missing SOURCEWEB
- - Age Resistance (Greater) has Missing SOURCEWEB
- - Howling Agony has Missing SOURCEWEB
- - Sanctify Corpse has Missing SOURCEWEB
- - Age Resistance (Lesser) has Missing SOURCEWEB
- - Mad Monkeys has Missing SOURCEWEB
- - Prediction of Failure has Missing SOURCEWEB
- - Symbol of Slowing has Missing SOURCEWEB
- - Major Creation (Metal Items Only) has Missing SOURCEWEB
- - Malfunction has Missing SOURCEWEB
- - Fumbletongue has Missing SOURCEWEB
- - Masterpiece (Lullaby of Ember the Ancient) has Missing SOURCEWEB
- - Eruptive Pustules has Missing SOURCEWEB
- - Ghostly Disguise has Missing SOURCEWEB
- - Fungal Infestation has Missing SOURCEWEB
- - Miserable Pity has Missing SOURCEWEB
- - Agonize has Missing SOURCEWEB
- - Summon Elder Worm has Missing SOURCEWEB
- - Bottled Ooze (1) has Missing SOURCEWEB
- - Acidic Spray has Missing SOURCEWEB
- - Haunting Choir has Missing SOURCEWEB
- - Animate Dead (Lesser) has Missing SOURCEWEB
- - Countless Eyes has Missing SOURCEWEB
- - Symbol of Sealing has Missing SOURCEWEB
- - Allegro has Missing SOURCEWEB
- - Symbol of Healing has Missing SOURCEWEB
- - Ice Body has Missing SOURCEWEB
- - Anthropomorphic Animal has Missing SOURCEWEB
- - Skinsend has Missing SOURCEWEB
- - Sonic Thrust has Missing SOURCEWEB
- - Holy Shield has Missing SOURCEWEB
- - Force Punch has Missing SOURCEWEB
- - Animal Shapes (Amphibians Only) has Missing SOURCEWEB
- - Summon Minor Ally has Missing SOURCEWEB
- - Persuasive Goad has Missing SOURCEWEB
- - Anticipate Peril has Missing SOURCEWEB
- - Statue (Metal Statue Instead of Iron) has Missing SOURCEWEB
- - Restore Eidolon has Missing SOURCEWEB
- - Arcana Theft has Missing SOURCEWEB
- - Horn of Pursuit has Missing SOURCEWEB
- - Distracting Cacophony has Missing SOURCEWEB
- - Symbol of Revelation has Missing SOURCEWEB
- - Arboreal Hammer has Missing SOURCEWEB
- - Archon's Aura has Missing SOURCEWEB
- - Forced Quiet has Missing SOURCEWEB
- - Arrow of Law has Missing SOURCEWEB
- - Unholy Sword has Missing SOURCEWEB
- - Ice Crystal Teleport has Missing SOURCEWEB
- - Ki Leech has Missing SOURCEWEB
- - Surmount Affliction has Missing SOURCEWEB
- - Undead Anatomy I has Missing SOURCEWEB
- - Icy Prison has Missing SOURCEWEB
- - Cold Ice Strike has Missing SOURCEWEB
- - Statue (looking like a stalagmite or stalactite) has Missing SOURCEWEB
- - Ash Storm has Missing SOURCEWEB
- - Masterpiece (Dumbshow of Gorroc) has Missing SOURCEWEB
- - Astral Projection (Lesser) has Missing SOURCEWEB
- - Frigid Touch has Missing SOURCEWEB
- - Imbue with Aura has Missing SOURCEWEB
- - Resist Energy (Cold Only) has Missing SOURCEWEB
- - Icicle Dagger has Missing SOURCEWEB
- - Haunting Mists has Missing SOURCEWEB
- - Icy Prison (Mass) has Missing SOURCEWEB
- - Shard of Chaos has Missing SOURCEWEB
- - Bottled Ooze (3) has Missing SOURCEWEB
- - Oppressive Boredom has Missing SOURCEWEB
- - Undead Anatomy III has Missing SOURCEWEB
- - Badger's Ferocity has Missing SOURCEWEB
- - Frostbite has Missing SOURCEWEB
- - Atavism has Missing SOURCEWEB
- - Witness has Missing SOURCEWEB
- - Interrogation (Greater) has Missing SOURCEWEB
- - Touch of Slime has Missing SOURCEWEB
- - Piercing Shriek has Missing SOURCEWEB
- - Atavism (Mass) has Missing SOURCEWEB
- - Virtuoso Performance has Missing SOURCEWEB
- - Aura of Doom has Missing SOURCEWEB
- - Compassionate Ally has Missing SOURCEWEB
- - Symbol of Vulnerability has Missing SOURCEWEB
- - Battlemind Link has Missing SOURCEWEB
- - Unholy Ice has Missing SOURCEWEB
- - Orb of the Void has Missing SOURCEWEB
- - Tar Ball has Missing SOURCEWEB
- - Restore Corpse has Missing SOURCEWEB
- - Blade of Bright Victory has Missing SOURCEWEB
- - Shadowbard has Missing SOURCEWEB
- - Waves of Ecstasy has Missing SOURCEWEB
- - Summon Froghemoth has Missing SOURCEWEB
- - Bestow Grace of the Champion has Missing SOURCEWEB
- - Monstrous Physique III has Missing SOURCEWEB
- - Terrible Remorse has Missing SOURCEWEB
- - Smug Narcissism has Missing SOURCEWEB
- - Soothe Construct has Missing SOURCEWEB
- - Ki Shout has Missing SOURCEWEB
- - Masterpiece (Minuet of the Midnight Ivy) has Missing SOURCEWEB
- - Bottled Ooze (2) has Missing SOURCEWEB
- - Toxic Gift has Missing SOURCEWEB
- - Blade of Dark Triumph has Missing SOURCEWEB
- - Create Demiplane has Missing SOURCEWEB
- - Plague Carrier has Missing SOURCEWEB
- - Masterpiece (Depths of the Mountain) has Missing SOURCEWEB
- - Rain of Frogs has Missing SOURCEWEB
- - Bottled Ooze (5) has Missing SOURCEWEB
- - Know the Enemy has Missing SOURCEWEB
- - Plague Storm has Missing SOURCEWEB
- - Dance of a Thousand Cuts has Missing SOURCEWEB
- - Leashed Shackles has Missing SOURCEWEB
- - Transmute Rock to Mud (loose sand instead of mud) has Missing SOURCEWEB
- - Blessing of the Mole has Missing SOURCEWEB
- - Masterpiece (Quickening Pulse) has Missing SOURCEWEB
- - Lend Judgment (Greater) has Missing SOURCEWEB
- - Unadulterated Loathing has Missing SOURCEWEB
- - Remove Sickness has Missing SOURCEWEB
- - Monstrous Physique IV has Missing SOURCEWEB
- - Lightning Arc has Missing SOURCEWEB
- - Raise Animal Companion has Missing SOURCEWEB
- - Unbreakable Construct has Missing SOURCEWEB
- - Spit Venom has Missing SOURCEWEB
- - Loathsome Veil has Missing SOURCEWEB
- - Blood Crow Strike has Missing SOURCEWEB
- - Serenity has Missing SOURCEWEB
- - Create Demiplane (Lesser) has Missing SOURCEWEB
- - Volcanic Storm has Missing SOURCEWEB
- - Blood Mist has Missing SOURCEWEB
- - Vengeful Outrage has Missing SOURCEWEB
- - Symbol of Mirroring has Missing SOURCEWEB
- - Cursed Earth has Missing SOURCEWEB
- - Masterpiece (Triple Time) has Missing SOURCEWEB
- - Cushioning Bands has Missing SOURCEWEB
- - Masterpiece (Stone Face) has Missing SOURCEWEB
- - Dance of a Hundred Cuts has Missing SOURCEWEB
- - Blood Transcription has Missing SOURCEWEB
- - Summon Nature's Ally V (Dire Ape or Girallon only) has Missing SOURCEWEB
- - Animal Shapes (Canines Only) has Missing SOURCEWEB
- - Masterpiece (Legato Piece on the Infernal Bargain) has Missing SOURCEWEB
- - Unnatural Lust has Missing SOURCEWEB
- - Plane Shift (Plane of Air Only) has Missing SOURCEWEB
- - Protective Penumbra has Missing SOURCEWEB
- - Restore Eidolon (Lesser) has Missing SOURCEWEB
- - Boiling Blood has Missing SOURCEWEB
- - Bungle has Missing SOURCEWEB
- - Darkvision (Greater) has Missing SOURCEWEB
- - Overwhelming Grief has Missing SOURCEWEB
- - Ray of Sickening has Missing SOURCEWEB
- - Wall of Sound has Missing SOURCEWEB
- - Word of Resolve has Missing SOURCEWEB
- - Burrow has Missing SOURCEWEB
- - Burst of Nettles has Missing SOURCEWEB
- - Murderous Command has Missing SOURCEWEB
- - Cackling Skull has Missing SOURCEWEB
- - Spear of Purity has Missing SOURCEWEB
- - Call Construct has Missing SOURCEWEB
- - Rapid Repair has Missing SOURCEWEB
- - Animal Shapes (Apes and Monkeys Only) has Missing SOURCEWEB
- - Chord of Shards has Missing SOURCEWEB
- - Vermin Shape II has Missing SOURCEWEB
- - Cape of Wasps has Missing SOURCEWEB
- - Masterpiece (Toccata and Fugue of the Danse Macabre) has Missing SOURCEWEB
- - Play Instrument has Missing SOURCEWEB
- - Delay Pain has Missing SOURCEWEB
- - Ride the Lightning has Missing SOURCEWEB
- - Delusional Pride has Missing SOURCEWEB
- - Masterpiece (Winds of the Five Heavens) has Missing SOURCEWEB
- - Vitriolic Mist has Missing SOURCEWEB
- - Caustic Eruption has Missing SOURCEWEB
- - Lunar Veil has Missing SOURCEWEB
- - Reprobation has Missing SOURCEWEB
- - Daze (Mass) has Missing SOURCEWEB
- - Diagnose Disease has Missing SOURCEWEB
- - Snapdragon Fireworks has Missing SOURCEWEB
- - Disfiguring Touch has Missing SOURCEWEB
- - Lend Judgment has Missing SOURCEWEB
- - Animal Shapes (Aquatic Creatures Only) has Missing SOURCEWEB
- - Disguise Other has Missing SOURCEWEB
- - Symbol of Strife has Missing SOURCEWEB
- - Circle of Clarity has Missing SOURCEWEB
- - Resonating Word has Missing SOURCEWEB
- - Symbol of Scrying has Missing SOURCEWEB
- - Distressing Tone has Missing SOURCEWEB
- - Marionette Possession has Missing SOURCEWEB
- - Hex Ward has Missing SOURCEWEB
- - Eagle Aerie has Missing SOURCEWEB
- - Unprepared Combatant has Missing SOURCEWEB
- - Youthful Appearance has Missing SOURCEWEB
- - Divine Pursuit has Missing SOURCEWEB
- - Polar Midnight has Missing SOURCEWEB
- - Conjure Black Pudding has Missing SOURCEWEB
- - Silk to Steel has Missing SOURCEWEB
- - Masterpiece (Requiem of the Fallen Priest-King) has Missing SOURCEWEB
- - Dread Bolt has Missing SOURCEWEB
- - Vestment of the Champion has Missing SOURCEWEB
- - Interrogation has Missing SOURCEWEB
- - Bottled Ooze (6) has Missing SOURCEWEB
- - Undead Anatomy IV has Missing SOURCEWEB
- - Contagion (Greater) has Missing SOURCEWEB
- - Decompose Corpse has Missing SOURCEWEB
- - Sands of Time has Missing SOURCEWEB
- - Ear-Piercing Scream has Missing SOURCEWEB
- - Curse of Disgust has Missing SOURCEWEB
- - Vocal Alteration has Missing SOURCEWEB
- - Plane Shift (Plane of Fire Only) has Missing SOURCEWEB
- - Scouring Winds has Missing SOURCEWEB
- - Holy Ice has Missing SOURCEWEB
- - Interplanetary Teleport has Missing SOURCEWEB
- - Echolocation has Missing SOURCEWEB
- - Eldritch Fever has Missing SOURCEWEB
- - Unshakable Chill has Missing SOURCEWEB
- - Defensive Shock has Missing SOURCEWEB
- - Control Construct has Missing SOURCEWEB
- - Ki Arrow has Missing SOURCEWEB
- - Undead Anatomy II has Missing SOURCEWEB
- - Reckless Infatuation has Missing SOURCEWEB
- - Polypurpose Panacea has Missing SOURCEWEB
- - Corrosive Consumption has Missing SOURCEWEB
- - Plane Shift (Plane of Earth Only) has Missing SOURCEWEB
- - Vision of Hell has Missing SOURCEWEB
- - Wartrain Mount has Missing SOURCEWEB
- - Control Summoned Creature has Missing SOURCEWEB
- - Strangling Hair has Missing SOURCEWEB
- - Corrosive Touch has Missing SOURCEWEB
- - Steal Voice has Missing SOURCEWEB
- - Excruciating Deformation has Missing SOURCEWEB
- - Summon Minor Monster has Missing SOURCEWEB
- - Create Demiplane (Greater) has Missing SOURCEWEB
- - Shadow Step has Missing SOURCEWEB
- - Ride the Waves has Missing SOURCEWEB
- - Oracle's Vessel has Missing SOURCEWEB
- - Exquisite Accompaniment has Missing SOURCEWEB
- - Transmute Blood To Acid has Missing SOURCEWEB
- - Masterpiece (House of Imaginary Walls) has Missing SOURCEWEB
- - Web Shelter has Missing SOURCEWEB
- - Envious Urge has Missing SOURCEWEB
- - Animal Shapes (Reptiles and Snakes Only) has Missing SOURCEWEB
- - Shadow Weapon has Missing SOURCEWEB
- - Mad Hallucination has Missing SOURCEWEB
- - False Life (Greater) has Missing SOURCEWEB
- - Utter Contempt has Missing SOURCEWEB
- - Wooden Phalanx has Missing SOURCEWEB
- - Simulacrum (Lesser) has Missing SOURCEWEB
- - Familiar Melding has Missing SOURCEWEB
- - Masterpiece (Cat-Step) has Missing SOURCEWEB
- - Share Memory has Missing SOURCEWEB
- - Minor Creation (Wood Items Only) has Missing SOURCEWEB
- - Overwhelming Presence has Missing SOURCEWEB
- - Fleshworm Infestation has Missing SOURCEWEB
- - Masterpiece (Dance of 23 Steps) has Missing SOURCEWEB
- - Fickle Winds has Missing SOURCEWEB
- - Masterwork Transformation has Missing SOURCEWEB
- - Vermin Shape I has Missing SOURCEWEB
- - Pernicious Poison has Missing SOURCEWEB
- - Curse (Major) has Missing SOURCEWEB
- - Masterpiece (At the Heart of It All) has Missing SOURCEWEB
- - Forbid Action (Greater) has Missing SOURCEWEB
- - Possess Object has Missing SOURCEWEB
- - Forbid Action has Missing SOURCEWEB
- - Plane Shift (Plane of Water Only) has Missing SOURCEWEB
- - Epidemic has Missing SOURCEWEB
- - Sculpt Simulacrum has Missing SOURCEWEB
- - Curse of Magic Negation has Missing SOURCEWEB
- - Monstrous Physique I has Missing SOURCEWEB
-
-
 Core Rulebook
 =============
 
- - Fear has Missing SOURCEWEB
- - Charm Animal has Missing SOURCEWEB
- - Feeblemind has Missing SOURCEWEB
- - Read Magic has Missing SOURCEWEB
- - Feather Fall has Missing SOURCEWEB
- - Locate Object has Missing SOURCEWEB
- - Charm Monster (Mass) has Missing SOURCEWEB
- - Sanctuary has Missing SOURCEWEB
- - Permanency has Missing SOURCEWEB
- - Repel Metal or Stone has Missing SOURCEWEB
- - Find the Path has Missing SOURCEWEB
- - Invisibility (Mass) has Missing SOURCEWEB
- - Chill Metal has Missing SOURCEWEB
- - Symbol of Fear has Missing SOURCEWEB
- - Circle of Death has Missing SOURCEWEB
- - Chill Touch has Missing SOURCEWEB
- - Clairaudience/Clairvoyance has Missing SOURCEWEB
- - Endure Elements has Missing SOURCEWEB
- - Spell Resistance has Missing SOURCEWEB
- - Clenched Fist has Missing SOURCEWEB
- - Sleep has Missing SOURCEWEB
- - Fire Seeds has Missing SOURCEWEB
- - Cloak of Chaos has Missing SOURCEWEB
- - Invisibility Purge has Missing SOURCEWEB
- - Fire Trap has Missing SOURCEWEB
- - Flame Blade has Missing SOURCEWEB
- - Charm Monster has Missing SOURCEWEB
- - Fireball has Missing SOURCEWEB
- - Magic Mouth has Missing SOURCEWEB
- - Command has Missing SOURCEWEB
- - Deathwatch has Missing SOURCEWEB
- - Magic Circle against Evil has Missing SOURCEWEB
- - Command (Greater) has Missing SOURCEWEB
- - Flame Strike has Missing SOURCEWEB
- - Flaming Sphere has Missing SOURCEWEB
- - Flare has Missing SOURCEWEB
- - Command Undead has Missing SOURCEWEB
- - Commune has Missing SOURCEWEB
- - Antilife Shell has Missing SOURCEWEB
- - Undeath to Death has Missing SOURCEWEB
- - Commune with Nature has Missing SOURCEWEB
- - Misdirection has Missing SOURCEWEB
- - Floating Disk has Missing SOURCEWEB
- - Secret Chest has Missing SOURCEWEB
- - Fly has Missing SOURCEWEB
- - Comprehend Languages has Missing SOURCEWEB
- - Mirror Image has Missing SOURCEWEB
- - Forbiddance has Missing SOURCEWEB
- - Pass without Trace has Missing SOURCEWEB
- - Fog Cloud has Missing SOURCEWEB
- - Foresight has Missing SOURCEWEB
- - Speak with Plants has Missing SOURCEWEB
- - Forcecage has Missing SOURCEWEB
- - Mirage Arcana has Missing SOURCEWEB
- - Forceful Hand has Missing SOURCEWEB
- - Confusion (Lesser) has Missing SOURCEWEB
- - Cure Serious Wounds (Mass) has Missing SOURCEWEB
- - Contact Other Plane has Missing SOURCEWEB
- - Contagion has Missing SOURCEWEB
- - Charm Person has Missing SOURCEWEB
- - Form of the Dragon I has Missing SOURCEWEB
- - Shadow Conjuration (Greater) has Missing SOURCEWEB
- - Touch of Idiocy has Missing SOURCEWEB
- - Continual Flame has Missing SOURCEWEB
- - Control Plants has Missing SOURCEWEB
- - Find Traps has Missing SOURCEWEB
- - Control Undead has Missing SOURCEWEB
- - Suggestion (Mass) has Missing SOURCEWEB
- - Control Weather has Missing SOURCEWEB
- - Form of the Dragon III has Missing SOURCEWEB
- - Touch of Fatigue has Missing SOURCEWEB
- - Control Winds has Missing SOURCEWEB
- - Fox's Cunning has Missing SOURCEWEB
- - Fire Shield has Missing SOURCEWEB
- - Create Food and Water has Missing SOURCEWEB
- - Refuge has Missing SOURCEWEB
- - Freedom has Missing SOURCEWEB
- - Curse Water has Missing SOURCEWEB
- - Undetectable Alignment has Missing SOURCEWEB
- - Create Greater Undead has Missing SOURCEWEB
- - Finger of Death has Missing SOURCEWEB
- - Freedom of Movement has Missing SOURCEWEB
- - Create Undead has Missing SOURCEWEB
- - Teleportation Circle has Missing SOURCEWEB
- - Scare has Missing SOURCEWEB
- - Symbol of Weakness has Missing SOURCEWEB
- - Inflict Critical Wounds (Mass) has Missing SOURCEWEB
- - Dimensional Anchor has Missing SOURCEWEB
- - Mage Armor has Missing SOURCEWEB
- - Sympathy has Missing SOURCEWEB
- - Spider Climb has Missing SOURCEWEB
- - Invisibility Sphere has Missing SOURCEWEB
- - Crushing Despair has Missing SOURCEWEB
- - Symbol of Pain has Missing SOURCEWEB
- - Creeping Doom has Missing SOURCEWEB
- - Regenerate has Missing SOURCEWEB
- - Detect Evil has Missing SOURCEWEB
- - Inflict Light Wounds (Mass) has Missing SOURCEWEB
- - Diminish Plants has Missing SOURCEWEB
- - Sympathetic Vibration has Missing SOURCEWEB
- - Inflict Moderate Wounds has Missing SOURCEWEB
- - Detect Law has Missing SOURCEWEB
- - Inflict Moderate Wounds (Mass) has Missing SOURCEWEB
- - Inflict Serious Wounds has Missing SOURCEWEB
- - Cure Critical Wounds (Mass) has Missing SOURCEWEB
- - Mnemonic Enhancer has Missing SOURCEWEB
- - Inflict Serious Wounds (Mass) has Missing SOURCEWEB
- - Insanity has Missing SOURCEWEB
- - Insect Plague has Missing SOURCEWEB
- - Cure Light Wounds has Missing SOURCEWEB
- - Solid Fog has Missing SOURCEWEB
- - Interposing Hand has Missing SOURCEWEB
- - Cure Light Wounds (Mass) has Missing SOURCEWEB
- - Darkness has Missing SOURCEWEB
- - Invisibility has Missing SOURCEWEB
- - Detect Snares and Pits has Missing SOURCEWEB
- - Spellstaff has Missing SOURCEWEB
- - Minor Image has Missing SOURCEWEB
- - Reincarnate has Missing SOURCEWEB
- - Dictum has Missing SOURCEWEB
- - Detect Undead has Missing SOURCEWEB
- - Disintegrate has Missing SOURCEWEB
- - Cure Moderate Wounds (Mass) has Missing SOURCEWEB
- - Cure Serious Wounds has Missing SOURCEWEB
- - Dimension Door has Missing SOURCEWEB
- - Secure Shelter has Missing SOURCEWEB
- - Iron Body has Missing SOURCEWEB
- - Soul Bind has Missing SOURCEWEB
- - Modify Memory has Missing SOURCEWEB
- - Symbol of Stunning has Missing SOURCEWEB
- - Dimensional Lock has Missing SOURCEWEB
- - Restoration (Greater) has Missing SOURCEWEB
- - Status has Missing SOURCEWEB
- - Dancing Lights has Missing SOURCEWEB
- - Darkvision has Missing SOURCEWEB
- - Clone has Missing SOURCEWEB
- - Discern Lies has Missing SOURCEWEB
- - Spectral Hand has Missing SOURCEWEB
- - Irresistible Dance has Missing SOURCEWEB
- - Align Weapon (Evil Only) has Missing SOURCEWEB
- - Ironwood has Missing SOURCEWEB
- - Transmute Mud to Rock has Missing SOURCEWEB
- - Daze has Missing SOURCEWEB
- - Discern Location has Missing SOURCEWEB
- - Jump has Missing SOURCEWEB
- - Fire Storm has Missing SOURCEWEB
- - Death Knell has Missing SOURCEWEB
- - Dispel Law has Missing SOURCEWEB
- - Sound Burst has Missing SOURCEWEB
- - Daze Monster has Missing SOURCEWEB
- - Knock has Missing SOURCEWEB
- - Daylight has Missing SOURCEWEB
- - Death Ward has Missing SOURCEWEB
- - Mage's Lucubration has Missing SOURCEWEB
- - Legend Lore has Missing SOURCEWEB
- - Spell Turning has Missing SOURCEWEB
- - Tongues has Missing SOURCEWEB
- - Major Creation has Missing SOURCEWEB
- - Deep Slumber has Missing SOURCEWEB
- - Align Weapon (Good Only) has Missing SOURCEWEB
- - Dispel Magic has Missing SOURCEWEB
- - Deeper Darkness has Missing SOURCEWEB
- - Magic Jar has Missing SOURCEWEB
- - True Resurrection has Missing SOURCEWEB
- - Displacement has Missing SOURCEWEB
- - Color Spray has Missing SOURCEWEB
- - Enlarge Person has Missing SOURCEWEB
- - Disrupt Undead has Missing SOURCEWEB
- - Disrupting Weapon has Missing SOURCEWEB
- - Symbol of Insanity has Missing SOURCEWEB
- - Delay Poison has Missing SOURCEWEB
- - Divine Power has Missing SOURCEWEB
- - Divine Favor has Missing SOURCEWEB
- - Owl's Wisdom (Mass) has Missing SOURCEWEB
- - Cloudkill has Missing SOURCEWEB
- - Desecrate has Missing SOURCEWEB
- - Speak with Dead has Missing SOURCEWEB
- - Dominate Animal has Missing SOURCEWEB
- - Detect Animals or Plants has Missing SOURCEWEB
- - Keen Edge has Missing SOURCEWEB
- - Stinking Cloud has Missing SOURCEWEB
- - Dominate Monster has Missing SOURCEWEB
- - Destruction has Missing SOURCEWEB
- - Summon Monster V has Missing SOURCEWEB
- - Align Weapon (Law Only) has Missing SOURCEWEB
- - Dispel Evil has Missing SOURCEWEB
- - Summon Monster VI has Missing SOURCEWEB
- - Spike Growth has Missing SOURCEWEB
- - Summon Monster VII has Missing SOURCEWEB
- - Summon Monster VIII has Missing SOURCEWEB
- - Beast Shape III (Animals Only) has Missing SOURCEWEB
- - Blindness/Deafness (Blindness Only) has Missing SOURCEWEB
- - Dispel Good has Missing SOURCEWEB
- - Summon Monster IX has Missing SOURCEWEB
- - Flame Arrow has Missing SOURCEWEB
- - Elemental Body IV (Air Only) has Missing SOURCEWEB
- - Antiplant Shell has Missing SOURCEWEB
- - Elemental Body IV (Earth Only) has Missing SOURCEWEB
- - Summon Nature's Ally II has Missing SOURCEWEB
- - Open/Close has Missing SOURCEWEB
- - Summon Nature's Ally III has Missing SOURCEWEB
- - Elemental Body IV (Fire Only) has Missing SOURCEWEB
- - Helping Hand has Missing SOURCEWEB
- - Elemental Body IV (Water Only) has Missing SOURCEWEB
- - Scintillating Pattern has Missing SOURCEWEB
- - Summon Nature's Ally IV has Missing SOURCEWEB
- - Elemental Swarm (Air Spell Only) has Missing SOURCEWEB
- - Elemental Swarm (Earth Spell Only) has Missing SOURCEWEB
- - Time Stop has Missing SOURCEWEB
- - Summon Monster I has Missing SOURCEWEB
- - Statue has Missing SOURCEWEB
- - Elemental Swarm (Fire Spell Only) has Missing SOURCEWEB
- - Transport via Plants has Missing SOURCEWEB
- - Elemental Swarm (Water Spell Only) has Missing SOURCEWEB
- - Summon Nature's Ally IV (Animals Only) has Missing SOURCEWEB
- - Summon Nature's Ally VIII (Animals Only) has Missing SOURCEWEB
- - Summon Nature's Ally VI has Missing SOURCEWEB
- - Summon Monster V (1d3 Shadows) has Missing SOURCEWEB
- - Magic Stone has Missing SOURCEWEB
- - Summon Monster IX (Chaos Spell Only) has Missing SOURCEWEB
- - Command Plants has Missing SOURCEWEB
- - Soften Earth and Stone has Missing SOURCEWEB
- - Summon Monster IX (Evil Spell Only) has Missing SOURCEWEB
- - Summon Monster IX (Good Spell Only) has Missing SOURCEWEB
- - Dispel Magic (Greater) has Missing SOURCEWEB
- - Summon Monster IX (Law Spell Only) has Missing SOURCEWEB
- - Spiritual Weapon has Missing SOURCEWEB
- - Summon Nature's Ally VIII has Missing SOURCEWEB
- - Repel Wood has Missing SOURCEWEB
- - Burning Hands (Acid) has Missing SOURCEWEB
- - Heroism has Missing SOURCEWEB
- - Temporal Stasis has Missing SOURCEWEB
- - Magic Circle against Law has Missing SOURCEWEB
- - Burning Hands (Cold) has Missing SOURCEWEB
- - Summon Nature's Ally IX has Missing SOURCEWEB
- - Stabilize has Missing SOURCEWEB
- - Burning Hands (Electricity) has Missing SOURCEWEB
- - Planar Binding (Devils and Fiendish Creatures Only) has Missing SOURCEWEB
- - Scorching Ray (Acid) has Missing SOURCEWEB
- - Order's Wrath has Missing SOURCEWEB
- - Summon Swarm has Missing SOURCEWEB
- - Scorching Ray (Cold) has Missing SOURCEWEB
- - Disguise Self has Missing SOURCEWEB
- - Transmute Rock to Mud has Missing SOURCEWEB
- - Tiny Hut has Missing SOURCEWEB
- - Scorching Ray (Electricity) has Missing SOURCEWEB
- - Align Weapon (Chaos Only) has Missing SOURCEWEB
- - Bane has Missing SOURCEWEB
- - Summon Monster VIII (Elementals Only) has Missing SOURCEWEB
- - Light has Missing SOURCEWEB
- - Acid Arrow has Missing SOURCEWEB
- - Flesh to Stone has Missing SOURCEWEB
- - Symbol of Death has Missing SOURCEWEB
- - Obscuring Mist has Missing SOURCEWEB
- - Meteor Swarm has Missing SOURCEWEB
- - Acid Fog has Missing SOURCEWEB
- - Acid Splash has Missing SOURCEWEB
- - Aid has Missing SOURCEWEB
- - Banishment has Missing SOURCEWEB
- - Unseen Servant has Missing SOURCEWEB
- - Vampiric Touch has Missing SOURCEWEB
- - Divination has Missing SOURCEWEB
- - Ventriloquism has Missing SOURCEWEB
- - Veil has Missing SOURCEWEB
- - Barkskin has Missing SOURCEWEB
- - Virtue has Missing SOURCEWEB
- - Magic Vestment has Missing SOURCEWEB
- - Vision has Missing SOURCEWEB
- - Delayed Blast Fireball has Missing SOURCEWEB
- - Wail of the Banshee has Missing SOURCEWEB
- - Wall of Force has Missing SOURCEWEB
- - Wall of Fire has Missing SOURCEWEB
- - Wall of Ice has Missing SOURCEWEB
- - Stone Tell has Missing SOURCEWEB
- - Bear's Endurance (Mass) has Missing SOURCEWEB
- - Wall of Iron has Missing SOURCEWEB
- - Unhallow has Missing SOURCEWEB
- - Wall of Stone has Missing SOURCEWEB
- - Wall of Thorns has Missing SOURCEWEB
- - Hold Animal has Missing SOURCEWEB
- - Telekinetic Sphere has Missing SOURCEWEB
- - Warp Wood has Missing SOURCEWEB
- - Water Breathing has Missing SOURCEWEB
- - Water Walk has Missing SOURCEWEB
- - Hold Monster (Mass) has Missing SOURCEWEB
- - Mislead has Missing SOURCEWEB
- - Waves of Exhaustion has Missing SOURCEWEB
- - Waves of Fatigue has Missing SOURCEWEB
- - Beast Shape I has Missing SOURCEWEB
- - Web has Missing SOURCEWEB
- - Cone of Cold has Missing SOURCEWEB
- - Know Direction has Missing SOURCEWEB
- - Weird has Missing SOURCEWEB
- - Whirlwind has Missing SOURCEWEB
- - Locate Creature has Missing SOURCEWEB
- - Whispering Wind has Missing SOURCEWEB
- - Confusion has Missing SOURCEWEB
- - Wind Walk has Missing SOURCEWEB
- - Wind Wall has Missing SOURCEWEB
- - Demand has Missing SOURCEWEB
- - Wish has Missing SOURCEWEB
- - Mage's Private Sanctum has Missing SOURCEWEB
- - Stone Shape has Missing SOURCEWEB
- - Nondetection has Missing SOURCEWEB
- - Word of Recall has Missing SOURCEWEB
- - Wood Shape has Missing SOURCEWEB
- - Lullaby has Missing SOURCEWEB
- - Word of Chaos has Missing SOURCEWEB
- - Consecrate has Missing SOURCEWEB
- - Zone of Silence has Missing SOURCEWEB
- - Zone of Truth has Missing SOURCEWEB
- - Hold Monster has Missing SOURCEWEB
- - Teleport has Missing SOURCEWEB
- - Summon Nature's Ally I has Missing SOURCEWEB
- - Unholy Aura has Missing SOURCEWEB
- - Desecrate (Standard) has Missing SOURCEWEB
- - Desecrate (With Altar) has Missing SOURCEWEB
- - Arcane Sight (Greater) has Missing SOURCEWEB
- - Spell Immunity (Greater) has Missing SOURCEWEB
- - Instant Summons has Missing SOURCEWEB
- - Mount has Missing SOURCEWEB
- - Desecrate (Summoned Undead) has Missing SOURCEWEB
- - Longstrider has Missing SOURCEWEB
- - Desecrate (Summoned Undead with Altar) has Missing SOURCEWEB
- - Snare has Missing SOURCEWEB
- - Magic Vestment (Shield use) has Missing SOURCEWEB
- - Cure Moderate Wounds has Missing SOURCEWEB
- - Permanent Image has Missing SOURCEWEB
- - Persistent Image has Missing SOURCEWEB
- - Phantasmal Killer has Missing SOURCEWEB
- - Phantom Steed has Missing SOURCEWEB
- - See Invisibility has Missing SOURCEWEB
- - Phase Door has Missing SOURCEWEB
- - Phantom Trap has Missing SOURCEWEB
- - Planar Ally (Greater) has Missing SOURCEWEB
- - Planar Ally has Missing SOURCEWEB
- - Unholy Blight has Missing SOURCEWEB
- - Contingency has Missing SOURCEWEB
- - Planar Ally (Lesser) has Missing SOURCEWEB
- - Glitterdust has Missing SOURCEWEB
- - Screen has Missing SOURCEWEB
- - Planar Binding has Missing SOURCEWEB
- - Protection from Chaos has Missing SOURCEWEB
- - Planar Binding (Greater) has Missing SOURCEWEB
- - Levitate has Missing SOURCEWEB
- - Planar Binding (Lesser) has Missing SOURCEWEB
- - Spell Immunity has Missing SOURCEWEB
- - Plane Shift has Missing SOURCEWEB
- - Minor Creation has Missing SOURCEWEB
- - Plant Growth has Missing SOURCEWEB
- - Plant Shape I has Missing SOURCEWEB
- - Plant Shape II has Missing SOURCEWEB
- - Plant Shape III has Missing SOURCEWEB
- - Polar Ray has Missing SOURCEWEB
- - Poison has Missing SOURCEWEB
- - Stone to Flesh has Missing SOURCEWEB
- - Polymorph has Missing SOURCEWEB
- - Magic Weapon (Greater) has Missing SOURCEWEB
- - Polymorph (Greater) has Missing SOURCEWEB
- - Sepia Snake Sigil has Missing SOURCEWEB
- - Magic Fang (Greater) has Missing SOURCEWEB
- - Form of the Dragon II has Missing SOURCEWEB
- - Nightmare has Missing SOURCEWEB
- - Polymorph Any Object has Missing SOURCEWEB
- - Shades has Missing SOURCEWEB
- - Power Word Blind has Missing SOURCEWEB
- - Power Word Kill has Missing SOURCEWEB
- - Storm of Vengeance has Missing SOURCEWEB
- - Dispel Chaos has Missing SOURCEWEB
- - Scorching Ray has Missing SOURCEWEB
- - Summon Monster III has Missing SOURCEWEB
- - Detect Chaos has Missing SOURCEWEB
- - Power Word Stun has Missing SOURCEWEB
- - Magic Missile has Missing SOURCEWEB
- - Sequester has Missing SOURCEWEB
- - Prayer has Missing SOURCEWEB
- - Prestidigitation has Missing SOURCEWEB
- - Spike Stones has Missing SOURCEWEB
- - Prismatic Sphere has Missing SOURCEWEB
- - Prismatic Spray has Missing SOURCEWEB
- - Glyph of Warding (Greater) has Missing SOURCEWEB
- - Moment of Prescience has Missing SOURCEWEB
- - Prismatic Wall has Missing SOURCEWEB
- - Mind Fog has Missing SOURCEWEB
- - Protection from Energy has Missing SOURCEWEB
- - Major Image has Missing SOURCEWEB
- - Prying Eyes has Missing SOURCEWEB
- - Suggestion has Missing SOURCEWEB
- - Prying Eyes (Greater) has Missing SOURCEWEB
- - Produce Flame has Missing SOURCEWEB
- - Programmed Image has Missing SOURCEWEB
- - Control Water has Missing SOURCEWEB
- - Repel Vermin has Missing SOURCEWEB
- - Dominate Person has Missing SOURCEWEB
- - Doom has Missing SOURCEWEB
- - Magic Weapon has Missing SOURCEWEB
- - Dream has Missing SOURCEWEB
- - Protection from Evil has Missing SOURCEWEB
- - Magic Fang has Missing SOURCEWEB
- - Eagle's Splendor has Missing SOURCEWEB
- - Align Weapon has Missing SOURCEWEB
- - Summon Instrument has Missing SOURCEWEB
- - Alter Self has Missing SOURCEWEB
- - Eagle's Splendor (Mass) has Missing SOURCEWEB
- - Elemental Body I has Missing SOURCEWEB
- - Earthquake has Missing SOURCEWEB
- - Analyze Dweomer has Missing SOURCEWEB
- - Trap the Soul has Missing SOURCEWEB
- - Elemental Body II has Missing SOURCEWEB
- - Telepathic Bond has Missing SOURCEWEB
- - Shadow Walk has Missing SOURCEWEB
- - Animal Messenger has Missing SOURCEWEB
- - Lightning Bolt has Missing SOURCEWEB
- - Elemental Body IV has Missing SOURCEWEB
- - Repulsion has Missing SOURCEWEB
- - Fox's Cunning (Mass) has Missing SOURCEWEB
- - Elemental Body III has Missing SOURCEWEB
- - Overland Flight has Missing SOURCEWEB
- - Message has Missing SOURCEWEB
- - Animate Dead has Missing SOURCEWEB
- - Elemental Swarm has Missing SOURCEWEB
- - Animal Trance has Missing SOURCEWEB
- - Resist Energy has Missing SOURCEWEB
- - Animate Plants has Missing SOURCEWEB
- - Animate Objects has Missing SOURCEWEB
- - Energy Drain has Missing SOURCEWEB
- - Animate Rope has Missing SOURCEWEB
- - Shapechange has Missing SOURCEWEB
- - Antimagic Field has Missing SOURCEWEB
- - Enervation has Missing SOURCEWEB
- - Restoration (Lesser) has Missing SOURCEWEB
- - Holy Word has Missing SOURCEWEB
- - Antipathy has Missing SOURCEWEB
- - Resurrection has Missing SOURCEWEB
- - Protection from Good has Missing SOURCEWEB
- - Arcane Lock has Missing SOURCEWEB
- - Enlarge Person (Mass) has Missing SOURCEWEB
- - Magic Aura has Missing SOURCEWEB
- - Summon Monster II has Missing SOURCEWEB
- - Arcane Eye has Missing SOURCEWEB
- - Arcane Mark has Missing SOURCEWEB
- - Horrid Wilting has Missing SOURCEWEB
- - Entangle has Missing SOURCEWEB
- - Enthrall has Missing SOURCEWEB
- - Arcane Sight has Missing SOURCEWEB
- - Entropic Shield has Missing SOURCEWEB
- - Tree Shape has Missing SOURCEWEB
- - Erase has Missing SOURCEWEB
- - Astral Projection has Missing SOURCEWEB
- - Scrying (Greater) has Missing SOURCEWEB
- - Detect Good has Missing SOURCEWEB
- - Ethereal Jaunt has Missing SOURCEWEB
- - Shield has Missing SOURCEWEB
- - Reverse Gravity has Missing SOURCEWEB
- - Augury has Missing SOURCEWEB
- - Limited Wish has Missing SOURCEWEB
- - Atonement has Missing SOURCEWEB
- - Resilient Sphere has Missing SOURCEWEB
- - Freezing Sphere has Missing SOURCEWEB
- - Owl's Wisdom has Missing SOURCEWEB
- - Remove Disease has Missing SOURCEWEB
- - Baleful Polymorph has Missing SOURCEWEB
- - Awaken has Missing SOURCEWEB
- - Etherealness has Missing SOURCEWEB
- - Shatter has Missing SOURCEWEB
- - Expeditious Retreat has Missing SOURCEWEB
- - Explosive Runes has Missing SOURCEWEB
- - Eyebite has Missing SOURCEWEB
- - Sculpt Sound has Missing SOURCEWEB
- - Faerie Fire has Missing SOURCEWEB
- - Bear's Endurance has Missing SOURCEWEB
- - Fabricate has Missing SOURCEWEB
- - Secret Page has Missing SOURCEWEB
- - Summon Monster IV has Missing SOURCEWEB
- - False Life has Missing SOURCEWEB
- - Beast Shape II has Missing SOURCEWEB
- - False Vision has Missing SOURCEWEB
- - Shield of Law has Missing SOURCEWEB
- - Project Image has Missing SOURCEWEB
- - Magic Circle against Chaos has Missing SOURCEWEB
- - Obscure Object has Missing SOURCEWEB
- - Seeming has Missing SOURCEWEB
- - Mage Hand has Missing SOURCEWEB
- - Beast Shape III has Missing SOURCEWEB
- - Hypnotic Pattern has Missing SOURCEWEB
- - Protection from Arrows has Missing SOURCEWEB
- - Sending has Missing SOURCEWEB
- - Shield of Faith has Missing SOURCEWEB
- - Beast Shape IV has Missing SOURCEWEB
- - Bestow Curse has Missing SOURCEWEB
- - Create Water has Missing SOURCEWEB
- - Dismissal has Missing SOURCEWEB
- - Binding has Missing SOURCEWEB
- - Hypnotism has Missing SOURCEWEB
- - Transformation has Missing SOURCEWEB
- - Shadow Conjuration has Missing SOURCEWEB
- - Scrying has Missing SOURCEWEB
- - Black Tentacles has Missing SOURCEWEB
- - Pyrotechnics has Missing SOURCEWEB
- - Liveoak has Missing SOURCEWEB
- - Blade Barrier has Missing SOURCEWEB
- - Resistance has Missing SOURCEWEB
- - Air Walk has Missing SOURCEWEB
- - Shadow Evocation (Greater) has Missing SOURCEWEB
- - Bleed has Missing SOURCEWEB
- - Move Earth has Missing SOURCEWEB
- - Blasphemy has Missing SOURCEWEB
- - Mending has Missing SOURCEWEB
- - Shambler has Missing SOURCEWEB
- - Miracle has Missing SOURCEWEB
- - Purify Food and Drink has Missing SOURCEWEB
- - Protection from Law has Missing SOURCEWEB
- - Make Whole has Missing SOURCEWEB
- - Protection from Spells has Missing SOURCEWEB
- - Remove Fear has Missing SOURCEWEB
- - Bless has Missing SOURCEWEB
- - Bless Water has Missing SOURCEWEB
- - Bless Weapon has Missing SOURCEWEB
- - Shield Other has Missing SOURCEWEB
- - Blink has Missing SOURCEWEB
- - Blindness/Deafness has Missing SOURCEWEB
- - Alarm has Missing SOURCEWEB
- - Blur has Missing SOURCEWEB
- - Blight has Missing SOURCEWEB
- - Shrink Item has Missing SOURCEWEB
- - Shocking Grasp has Missing SOURCEWEB
- - Quench has Missing SOURCEWEB
- - Inflict Light Wounds has Missing SOURCEWEB
- - Breath of Life has Missing SOURCEWEB
- - Mage's Disjunction has Missing SOURCEWEB
- - Break Enchantment has Missing SOURCEWEB
- - Telekinesis has Missing SOURCEWEB
- - Raise Dead has Missing SOURCEWEB
- - Bull's Strength has Missing SOURCEWEB
- - Summon Nature's Ally V has Missing SOURCEWEB
- - Burning Hands has Missing SOURCEWEB
- - Maze has Missing SOURCEWEB
- - Bull's Strength (Mass) has Missing SOURCEWEB
- - Tree Stride has Missing SOURCEWEB
- - Ray of Enfeeblement has Missing SOURCEWEB
- - Ray of Exhaustion has Missing SOURCEWEB
- - Simulacrum has Missing SOURCEWEB
- - Teleport (Greater) has Missing SOURCEWEB
- - Righteous Might has Missing SOURCEWEB
- - Call Lightning has Missing SOURCEWEB
- - Call Lightning Storm has Missing SOURCEWEB
- - Crushing Hand has Missing SOURCEWEB
- - Slay Living has Missing SOURCEWEB
- - Passwall has Missing SOURCEWEB
- - Reduce Animal has Missing SOURCEWEB
- - Hallow has Missing SOURCEWEB
- - Neutralize Poison has Missing SOURCEWEB
- - Sleet Storm has Missing SOURCEWEB
- - Sunbeam has Missing SOURCEWEB
- - Slow has Missing SOURCEWEB
- - Reduce Person has Missing SOURCEWEB
- - Calm Animals has Missing SOURCEWEB
- - Reduce Person (Mass) has Missing SOURCEWEB
- - Calm Emotions has Missing SOURCEWEB
- - Cat's Grace has Missing SOURCEWEB
- - Shillelagh has Missing SOURCEWEB
- - Cat's Grace (Mass) has Missing SOURCEWEB
- - Cause Fear has Missing SOURCEWEB
- - Meld into Stone has Missing SOURCEWEB
- - Chain Lightning has Missing SOURCEWEB
- - Changestaff has Missing SOURCEWEB
- - Remove Blindness/Deafness has Missing SOURCEWEB
- - Song of Discord has Missing SOURCEWEB
- - Remove Paralysis has Missing SOURCEWEB
- - Shout has Missing SOURCEWEB
- - Remove Curse has Missing SOURCEWEB
- - Animal Growth has Missing SOURCEWEB
- - Speak with Animals has Missing SOURCEWEB
- - Chaos Hammer has Missing SOURCEWEB
- - Heat Metal has Missing SOURCEWEB
- - Shout (Greater) has Missing SOURCEWEB
- - Gaseous Form has Missing SOURCEWEB
- - Cure Critical Wounds has Missing SOURCEWEB
- - Heroes' Feast has Missing SOURCEWEB
- - True Seeing has Missing SOURCEWEB
- - Geas/Quest has Missing SOURCEWEB
- - Transmute Metal to Wood has Missing SOURCEWEB
- - Gate has Missing SOURCEWEB
- - Gentle Repose has Missing SOURCEWEB
- - Rage has Missing SOURCEWEB
- - Rusting Grasp has Missing SOURCEWEB
- - Symbol of Persuasion has Missing SOURCEWEB
- - Heroism (Greater) has Missing SOURCEWEB
- - Restoration has Missing SOURCEWEB
- - Detect Magic has Missing SOURCEWEB
- - Hide from Animals has Missing SOURCEWEB
- - Hide from Undead has Missing SOURCEWEB
- - Sunburst has Missing SOURCEWEB
- - Hideous Laughter has Missing SOURCEWEB
- - Geas (Lesser) has Missing SOURCEWEB
- - Magic Circle against Good has Missing SOURCEWEB
- - Ghost Sound has Missing SOURCEWEB
- - Mage's Magnificent Mansion has Missing SOURCEWEB
- - Ghoul Touch has Missing SOURCEWEB
- - Giant Vermin has Missing SOURCEWEB
- - Giant Form I has Missing SOURCEWEB
- - Giant Form II has Missing SOURCEWEB
- - Rainbow Pattern has Missing SOURCEWEB
- - Glibness has Missing SOURCEWEB
- - Detect Poison has Missing SOURCEWEB
- - Hold Person has Missing SOURCEWEB
- - Holy Aura has Missing SOURCEWEB
- - Hold Person (Mass) has Missing SOURCEWEB
- - Globe of Invulnerability has Missing SOURCEWEB
- - Hold Portal has Missing SOURCEWEB
- - Mage's Faithful Hound has Missing SOURCEWEB
- - Incendiary Cloud has Missing SOURCEWEB
- - Holy Smite has Missing SOURCEWEB
- - Globe of Invulnerability (Lesser) has Missing SOURCEWEB
- - Summon Nature's Ally VII has Missing SOURCEWEB
- - Glyph of Warding has Missing SOURCEWEB
- - Detect Scrying has Missing SOURCEWEB
- - Holy Sword has Missing SOURCEWEB
- - True Strike has Missing SOURCEWEB
- - Stoneskin has Missing SOURCEWEB
- - Imprisonment has Missing SOURCEWEB
- - Searing Light has Missing SOURCEWEB
- - Goodberry has Missing SOURCEWEB
- - Teleport Object has Missing SOURCEWEB
- - Silence has Missing SOURCEWEB
- - Rope Trick has Missing SOURCEWEB
- - Good Hope has Missing SOURCEWEB
- - Symbol of Sleep has Missing SOURCEWEB
- - Grasping Hand has Missing SOURCEWEB
- - Animal Shapes has Missing SOURCEWEB
- - Grease has Missing SOURCEWEB
- - Mind Blank has Missing SOURCEWEB
- - Guards and Wards has Missing SOURCEWEB
- - Gust of Wind has Missing SOURCEWEB
- - Silent Image has Missing SOURCEWEB
- - Guidance has Missing SOURCEWEB
- - Mark of Justice has Missing SOURCEWEB
- - Ice Storm has Missing SOURCEWEB
- - Mage's Sword has Missing SOURCEWEB
- - Identify has Missing SOURCEWEB
- - Illusory Wall has Missing SOURCEWEB
- - Illusory Script has Missing SOURCEWEB
- - Imbue with Spell Ability has Missing SOURCEWEB
- - Shadow Evocation has Missing SOURCEWEB
- - Detect Secret Doors has Missing SOURCEWEB
- - Hallucinatory Terrain has Missing SOURCEWEB
- - Haste has Missing SOURCEWEB
- - Inflict Critical Wounds has Missing SOURCEWEB
- - Implosion has Missing SOURCEWEB
- - Harm has Missing SOURCEWEB
- - Detect Thoughts has Missing SOURCEWEB
- - Heal has Missing SOURCEWEB
- - Halt Undead has Missing SOURCEWEB
- - Heal (Mass) has Missing SOURCEWEB
- - Ray of Frost has Missing SOURCEWEB
- - Heal Mount has Missing SOURCEWEB
- - Invisibility (Greater) has Missing SOURCEWEB
+ 1. Align Weapon (Chaos Only): Missing SOURCEWEB
+ 1. Align Weapon (Evil Only): Missing SOURCEWEB
+ 1. Align Weapon (Good Only): Missing SOURCEWEB
+ 1. Align Weapon (Law Only): Missing SOURCEWEB
+ 1. Beast Shape III (Animals Only): Missing SOURCEWEB
+ 1. Blindness/Deafness (Blindness Only): Missing SOURCEWEB
+ 1. Elemental Body IV (Air Only): Missing SOURCEWEB
+ 1. Elemental Body IV (Earth Only): Missing SOURCEWEB
+ 1. Elemental Body IV (Fire Only): Missing SOURCEWEB
+ 1. Elemental Body IV (Water Only): Missing SOURCEWEB
+ 1. Elemental Swarm (Air Spell Only): Missing SOURCEWEB
+ 1. Elemental Swarm (Earth Spell Only): Missing SOURCEWEB
+ 1. Elemental Swarm (Fire Spell Only): Missing SOURCEWEB
+ 1. Elemental Swarm (Water Spell Only): Missing SOURCEWEB
+ 1. Summon Nature's Ally IV (Animals Only): Missing SOURCEWEB
+ 1. Summon Nature's Ally VIII (Animals Only): Missing SOURCEWEB
+ 1. Summon Monster V (1d3 Shadows): Missing SOURCEWEB
+ 1. Summon Monster IX (Chaos Spell Only): Missing SOURCEWEB
+ 1. Summon Monster IX (Evil Spell Only): Missing SOURCEWEB
+ 1. Summon Monster IX (Good Spell Only): Missing SOURCEWEB
+ 1. Summon Monster IX (Law Spell Only): Missing SOURCEWEB
+ 1. Burning Hands (Acid): Missing SOURCEWEB
+ 1. Burning Hands (Cold): Missing SOURCEWEB
+ 1. Burning Hands (Electricity): Missing SOURCEWEB
+ 1. Planar Binding (Devils and Fiendish Creatures Only): Missing SOURCEWEB
+ 1. Scorching Ray (Acid): Missing SOURCEWEB
+ 1. Scorching Ray (Cold): Missing SOURCEWEB
+ 1. Scorching Ray (Electricity): Missing SOURCEWEB
+ 1. Summon Monster VIII (Elementals Only): Missing SOURCEWEB
+ 1. Acid Arrow: Missing SOURCEWEB
+ 1. Acid Fog: Missing SOURCEWEB
+ 1. Acid Splash: Missing SOURCEWEB
+ 1. Aid: Missing SOURCEWEB
+ 1. Air Walk: Missing SOURCEWEB
+ 1. Alarm: Missing SOURCEWEB
+ 1. Align Weapon: Missing SOURCEWEB
+ 1. Alter Self: Missing SOURCEWEB
+ 1. Animal Growth: Missing SOURCEWEB
+ 1. Analyze Dweomer: Missing SOURCEWEB
+ 1. Animal Messenger: Missing SOURCEWEB
+ 1. Animal Shapes: Missing SOURCEWEB
+ 1. Animate Dead: Missing SOURCEWEB
+ 1. Animal Trance: Missing SOURCEWEB
+ 1. Animate Plants: Missing SOURCEWEB
+ 1. Animate Objects: Missing SOURCEWEB
+ 1. Antilife Shell: Missing SOURCEWEB
+ 1. Animate Rope: Missing SOURCEWEB
+ 1. Antimagic Field: Missing SOURCEWEB
+ 1. Antipathy: Missing SOURCEWEB
+ 1. Arcane Lock: Missing SOURCEWEB
+ 1. Antiplant Shell: Missing SOURCEWEB
+ 1. Arcane Eye: Missing SOURCEWEB
+ 1. Arcane Mark: Missing SOURCEWEB
+ 1. Arcane Sight: Missing SOURCEWEB
+ 1. Arcane Sight (Greater): Missing SOURCEWEB
+ 1. Astral Projection: Missing SOURCEWEB
+ 1. Augury: Missing SOURCEWEB
+ 1. Atonement: Missing SOURCEWEB
+ 1. Baleful Polymorph: Missing SOURCEWEB
+ 1. Awaken: Missing SOURCEWEB
+ 1. Bane: Missing SOURCEWEB
+ 1. Banishment: Missing SOURCEWEB
+ 1. Barkskin: Missing SOURCEWEB
+ 1. Bear's Endurance (Mass): Missing SOURCEWEB
+ 1. Bear's Endurance: Missing SOURCEWEB
+ 1. Beast Shape I: Missing SOURCEWEB
+ 1. Beast Shape II: Missing SOURCEWEB
+ 1. Beast Shape III: Missing SOURCEWEB
+ 1. Beast Shape IV: Missing SOURCEWEB
+ 1. Bestow Curse: Missing SOURCEWEB
+ 1. Binding: Missing SOURCEWEB
+ 1. Black Tentacles: Missing SOURCEWEB
+ 1. Blade Barrier: Missing SOURCEWEB
+ 1. Bleed: Missing SOURCEWEB
+ 1. Blasphemy: Missing SOURCEWEB
+ 1. Bless: Missing SOURCEWEB
+ 1. Bless Water: Missing SOURCEWEB
+ 1. Bless Weapon: Missing SOURCEWEB
+ 1. Blink: Missing SOURCEWEB
+ 1. Blindness/Deafness: Missing SOURCEWEB
+ 1. Blur: Missing SOURCEWEB
+ 1. Blight: Missing SOURCEWEB
+ 1. Breath of Life: Missing SOURCEWEB
+ 1. Break Enchantment: Missing SOURCEWEB
+ 1. Bull's Strength: Missing SOURCEWEB
+ 1. Burning Hands: Missing SOURCEWEB
+ 1. Bull's Strength (Mass): Missing SOURCEWEB
+ 1. Call Lightning: Missing SOURCEWEB
+ 1. Call Lightning Storm: Missing SOURCEWEB
+ 1. Calm Animals: Missing SOURCEWEB
+ 1. Calm Emotions: Missing SOURCEWEB
+ 1. Cat's Grace: Missing SOURCEWEB
+ 1. Cat's Grace (Mass): Missing SOURCEWEB
+ 1. Cause Fear: Missing SOURCEWEB
+ 1. Chain Lightning: Missing SOURCEWEB
+ 1. Changestaff: Missing SOURCEWEB
+ 1. Chaos Hammer: Missing SOURCEWEB
+ 1. Charm Animal: Missing SOURCEWEB
+ 1. Charm Monster: Missing SOURCEWEB
+ 1. Charm Monster (Mass): Missing SOURCEWEB
+ 1. Charm Person: Missing SOURCEWEB
+ 1. Chill Metal: Missing SOURCEWEB
+ 1. Circle of Death: Missing SOURCEWEB
+ 1. Chill Touch: Missing SOURCEWEB
+ 1. Clairaudience/Clairvoyance: Missing SOURCEWEB
+ 1. Clenched Fist: Missing SOURCEWEB
+ 1. Clone: Missing SOURCEWEB
+ 1. Cloak of Chaos: Missing SOURCEWEB
+ 1. Color Spray: Missing SOURCEWEB
+ 1. Cloudkill: Missing SOURCEWEB
+ 1. Command: Missing SOURCEWEB
+ 1. Command (Greater): Missing SOURCEWEB
+ 1. Command Plants: Missing SOURCEWEB
+ 1. Command Undead: Missing SOURCEWEB
+ 1. Commune: Missing SOURCEWEB
+ 1. Commune with Nature: Missing SOURCEWEB
+ 1. Comprehend Languages: Missing SOURCEWEB
+ 1. Cone of Cold: Missing SOURCEWEB
+ 1. Confusion: Missing SOURCEWEB
+ 1. Consecrate: Missing SOURCEWEB
+ 1. Confusion (Lesser): Missing SOURCEWEB
+ 1. Contact Other Plane: Missing SOURCEWEB
+ 1. Contagion: Missing SOURCEWEB
+ 1. Contingency: Missing SOURCEWEB
+ 1. Continual Flame: Missing SOURCEWEB
+ 1. Control Plants: Missing SOURCEWEB
+ 1. Control Undead: Missing SOURCEWEB
+ 1. Control Weather: Missing SOURCEWEB
+ 1. Control Water: Missing SOURCEWEB
+ 1. Control Winds: Missing SOURCEWEB
+ 1. Create Food and Water: Missing SOURCEWEB
+ 1. Create Greater Undead: Missing SOURCEWEB
+ 1. Create Undead: Missing SOURCEWEB
+ 1. Create Water: Missing SOURCEWEB
+ 1. Crushing Despair: Missing SOURCEWEB
+ 1. Creeping Doom: Missing SOURCEWEB
+ 1. Crushing Hand: Missing SOURCEWEB
+ 1. Cure Critical Wounds: Missing SOURCEWEB
+ 1. Cure Critical Wounds (Mass): Missing SOURCEWEB
+ 1. Cure Light Wounds: Missing SOURCEWEB
+ 1. Cure Light Wounds (Mass): Missing SOURCEWEB
+ 1. Cure Moderate Wounds: Missing SOURCEWEB
+ 1. Cure Moderate Wounds (Mass): Missing SOURCEWEB
+ 1. Cure Serious Wounds: Missing SOURCEWEB
+ 1. Cure Serious Wounds (Mass): Missing SOURCEWEB
+ 1. Curse Water: Missing SOURCEWEB
+ 1. Dancing Lights: Missing SOURCEWEB
+ 1. Darkvision: Missing SOURCEWEB
+ 1. Darkness: Missing SOURCEWEB
+ 1. Daze: Missing SOURCEWEB
+ 1. Daylight: Missing SOURCEWEB
+ 1. Death Knell: Missing SOURCEWEB
+ 1. Daze Monster: Missing SOURCEWEB
+ 1. Deathwatch: Missing SOURCEWEB
+ 1. Death Ward: Missing SOURCEWEB
+ 1. Deep Slumber: Missing SOURCEWEB
+ 1. Deeper Darkness: Missing SOURCEWEB
+ 1. Delay Poison: Missing SOURCEWEB
+ 1. Delayed Blast Fireball: Missing SOURCEWEB
+ 1. Desecrate: Missing SOURCEWEB
+ 1. Demand: Missing SOURCEWEB
+ 1. Detect Animals or Plants: Missing SOURCEWEB
+ 1. Destruction: Missing SOURCEWEB
+ 1. Detect Chaos: Missing SOURCEWEB
+ 1. Detect Evil: Missing SOURCEWEB
+ 1. Detect Good: Missing SOURCEWEB
+ 1. Detect Law: Missing SOURCEWEB
+ 1. Detect Magic: Missing SOURCEWEB
+ 1. Detect Poison: Missing SOURCEWEB
+ 1. Detect Scrying: Missing SOURCEWEB
+ 1. Detect Secret Doors: Missing SOURCEWEB
+ 1. Detect Thoughts: Missing SOURCEWEB
+ 1. Detect Snares and Pits: Missing SOURCEWEB
+ 1. Dictum: Missing SOURCEWEB
+ 1. Detect Undead: Missing SOURCEWEB
+ 1. Dimension Door: Missing SOURCEWEB
+ 1. Dimensional Lock: Missing SOURCEWEB
+ 1. Dimensional Anchor: Missing SOURCEWEB
+ 1. Diminish Plants: Missing SOURCEWEB
+ 1. Discern Lies: Missing SOURCEWEB
+ 1. Disguise Self: Missing SOURCEWEB
+ 1. Disintegrate: Missing SOURCEWEB
+ 1. Discern Location: Missing SOURCEWEB
+ 1. Dispel Chaos: Missing SOURCEWEB
+ 1. Dispel Law: Missing SOURCEWEB
+ 1. Dismissal: Missing SOURCEWEB
+ 1. Dispel Evil: Missing SOURCEWEB
+ 1. Dispel Good: Missing SOURCEWEB
+ 1. Dispel Magic: Missing SOURCEWEB
+ 1. Dispel Magic (Greater): Missing SOURCEWEB
+ 1. Displacement: Missing SOURCEWEB
+ 1. Disrupt Undead: Missing SOURCEWEB
+ 1. Disrupting Weapon: Missing SOURCEWEB
+ 1. Divination: Missing SOURCEWEB
+ 1. Divine Power: Missing SOURCEWEB
+ 1. Divine Favor: Missing SOURCEWEB
+ 1. Dominate Animal: Missing SOURCEWEB
+ 1. Dominate Monster: Missing SOURCEWEB
+ 1. Dominate Person: Missing SOURCEWEB
+ 1. Doom: Missing SOURCEWEB
+ 1. Dream: Missing SOURCEWEB
+ 1. Eagle's Splendor: Missing SOURCEWEB
+ 1. Eagle's Splendor (Mass): Missing SOURCEWEB
+ 1. Elemental Body I: Missing SOURCEWEB
+ 1. Earthquake: Missing SOURCEWEB
+ 1. Elemental Body II: Missing SOURCEWEB
+ 1. Elemental Body IV: Missing SOURCEWEB
+ 1. Elemental Body III: Missing SOURCEWEB
+ 1. Elemental Swarm: Missing SOURCEWEB
+ 1. Endure Elements: Missing SOURCEWEB
+ 1. Energy Drain: Missing SOURCEWEB
+ 1. Enervation: Missing SOURCEWEB
+ 1. Enlarge Person: Missing SOURCEWEB
+ 1. Enlarge Person (Mass): Missing SOURCEWEB
+ 1. Entangle: Missing SOURCEWEB
+ 1. Enthrall: Missing SOURCEWEB
+ 1. Entropic Shield: Missing SOURCEWEB
+ 1. Erase: Missing SOURCEWEB
+ 1. Ethereal Jaunt: Missing SOURCEWEB
+ 1. Etherealness: Missing SOURCEWEB
+ 1. Expeditious Retreat: Missing SOURCEWEB
+ 1. Explosive Runes: Missing SOURCEWEB
+ 1. Eyebite: Missing SOURCEWEB
+ 1. Faerie Fire: Missing SOURCEWEB
+ 1. Fabricate: Missing SOURCEWEB
+ 1. False Life: Missing SOURCEWEB
+ 1. False Vision: Missing SOURCEWEB
+ 1. Fear: Missing SOURCEWEB
+ 1. Feeblemind: Missing SOURCEWEB
+ 1. Feather Fall: Missing SOURCEWEB
+ 1. Find the Path: Missing SOURCEWEB
+ 1. Find Traps: Missing SOURCEWEB
+ 1. Fire Shield: Missing SOURCEWEB
+ 1. Finger of Death: Missing SOURCEWEB
+ 1. Fire Seeds: Missing SOURCEWEB
+ 1. Fire Storm: Missing SOURCEWEB
+ 1. Fire Trap: Missing SOURCEWEB
+ 1. Flame Blade: Missing SOURCEWEB
+ 1. Fireball: Missing SOURCEWEB
+ 1. Flame Arrow: Missing SOURCEWEB
+ 1. Flame Strike: Missing SOURCEWEB
+ 1. Flaming Sphere: Missing SOURCEWEB
+ 1. Flare: Missing SOURCEWEB
+ 1. Flesh to Stone: Missing SOURCEWEB
+ 1. Floating Disk: Missing SOURCEWEB
+ 1. Fly: Missing SOURCEWEB
+ 1. Forbiddance: Missing SOURCEWEB
+ 1. Fog Cloud: Missing SOURCEWEB
+ 1. Foresight: Missing SOURCEWEB
+ 1. Forcecage: Missing SOURCEWEB
+ 1. Forceful Hand: Missing SOURCEWEB
+ 1. Form of the Dragon I: Missing SOURCEWEB
+ 1. Form of the Dragon II: Missing SOURCEWEB
+ 1. Form of the Dragon III: Missing SOURCEWEB
+ 1. Fox's Cunning: Missing SOURCEWEB
+ 1. Fox's Cunning (Mass): Missing SOURCEWEB
+ 1. Freedom: Missing SOURCEWEB
+ 1. Freezing Sphere: Missing SOURCEWEB
+ 1. Freedom of Movement: Missing SOURCEWEB
+ 1. Gaseous Form: Missing SOURCEWEB
+ 1. Geas/Quest: Missing SOURCEWEB
+ 1. Gate: Missing SOURCEWEB
+ 1. Gentle Repose: Missing SOURCEWEB
+ 1. Geas (Lesser): Missing SOURCEWEB
+ 1. Ghost Sound: Missing SOURCEWEB
+ 1. Ghoul Touch: Missing SOURCEWEB
+ 1. Giant Vermin: Missing SOURCEWEB
+ 1. Giant Form I: Missing SOURCEWEB
+ 1. Giant Form II: Missing SOURCEWEB
+ 1. Glibness: Missing SOURCEWEB
+ 1. Glitterdust: Missing SOURCEWEB
+ 1. Globe of Invulnerability: Missing SOURCEWEB
+ 1. Glyph of Warding (Greater): Missing SOURCEWEB
+ 1. Globe of Invulnerability (Lesser): Missing SOURCEWEB
+ 1. Glyph of Warding: Missing SOURCEWEB
+ 1. Goodberry: Missing SOURCEWEB
+ 1. Good Hope: Missing SOURCEWEB
+ 1. Grasping Hand: Missing SOURCEWEB
+ 1. Grease: Missing SOURCEWEB
+ 1. Guards and Wards: Missing SOURCEWEB
+ 1. Gust of Wind: Missing SOURCEWEB
+ 1. Guidance: Missing SOURCEWEB
+ 1. Hallow: Missing SOURCEWEB
+ 1. Hallucinatory Terrain: Missing SOURCEWEB
+ 1. Haste: Missing SOURCEWEB
+ 1. Harm: Missing SOURCEWEB
+ 1. Heal: Missing SOURCEWEB
+ 1. Halt Undead: Missing SOURCEWEB
+ 1. Heal (Mass): Missing SOURCEWEB
+ 1. Heal Mount: Missing SOURCEWEB
+ 1. Heat Metal: Missing SOURCEWEB
+ 1. Helping Hand: Missing SOURCEWEB
+ 1. Heroes' Feast: Missing SOURCEWEB
+ 1. Heroism: Missing SOURCEWEB
+ 1. Heroism (Greater): Missing SOURCEWEB
+ 1. Hide from Animals: Missing SOURCEWEB
+ 1. Hide from Undead: Missing SOURCEWEB
+ 1. Hideous Laughter: Missing SOURCEWEB
+ 1. Hold Animal: Missing SOURCEWEB
+ 1. Hold Monster (Mass): Missing SOURCEWEB
+ 1. Hold Monster: Missing SOURCEWEB
+ 1. Hold Person: Missing SOURCEWEB
+ 1. Holy Aura: Missing SOURCEWEB
+ 1. Hold Person (Mass): Missing SOURCEWEB
+ 1. Hold Portal: Missing SOURCEWEB
+ 1. Holy Smite: Missing SOURCEWEB
+ 1. Holy Sword: Missing SOURCEWEB
+ 1. Holy Word: Missing SOURCEWEB
+ 1. Horrid Wilting: Missing SOURCEWEB
+ 1. Hypnotic Pattern: Missing SOURCEWEB
+ 1. Hypnotism: Missing SOURCEWEB
+ 1. Ice Storm: Missing SOURCEWEB
+ 1. Identify: Missing SOURCEWEB
+ 1. Illusory Wall: Missing SOURCEWEB
+ 1. Illusory Script: Missing SOURCEWEB
+ 1. Imbue with Spell Ability: Missing SOURCEWEB
+ 1. Implosion: Missing SOURCEWEB
+ 1. Incendiary Cloud: Missing SOURCEWEB
+ 1. Imprisonment: Missing SOURCEWEB
+ 1. Inflict Critical Wounds: Missing SOURCEWEB
+ 1. Inflict Critical Wounds (Mass): Missing SOURCEWEB
+ 1. Inflict Light Wounds: Missing SOURCEWEB
+ 1. Inflict Light Wounds (Mass): Missing SOURCEWEB
+ 1. Inflict Moderate Wounds: Missing SOURCEWEB
+ 1. Inflict Moderate Wounds (Mass): Missing SOURCEWEB
+ 1. Inflict Serious Wounds: Missing SOURCEWEB
+ 1. Inflict Serious Wounds (Mass): Missing SOURCEWEB
+ 1. Insanity: Missing SOURCEWEB
+ 1. Insect Plague: Missing SOURCEWEB
+ 1. Instant Summons: Missing SOURCEWEB
+ 1. Interposing Hand: Missing SOURCEWEB
+ 1. Invisibility: Missing SOURCEWEB
+ 1. Invisibility (Greater): Missing SOURCEWEB
+ 1. Invisibility Purge: Missing SOURCEWEB
+ 1. Invisibility (Mass): Missing SOURCEWEB
+ 1. Invisibility Sphere: Missing SOURCEWEB
+ 1. Iron Body: Missing SOURCEWEB
+ 1. Irresistible Dance: Missing SOURCEWEB
+ 1. Ironwood: Missing SOURCEWEB
+ 1. Jump: Missing SOURCEWEB
+ 1. Keen Edge: Missing SOURCEWEB
+ 1. Knock: Missing SOURCEWEB
+ 1. Know Direction: Missing SOURCEWEB
+ 1. Legend Lore: Missing SOURCEWEB
+ 1. Light: Missing SOURCEWEB
+ 1. Levitate: Missing SOURCEWEB
+ 1. Lightning Bolt: Missing SOURCEWEB
+ 1. Limited Wish: Missing SOURCEWEB
+ 1. Liveoak: Missing SOURCEWEB
+ 1. Locate Creature: Missing SOURCEWEB
+ 1. Locate Object: Missing SOURCEWEB
+ 1. Lullaby: Missing SOURCEWEB
+ 1. Longstrider: Missing SOURCEWEB
+ 1. Mage Armor: Missing SOURCEWEB
+ 1. Mage Hand: Missing SOURCEWEB
+ 1. Mage's Disjunction: Missing SOURCEWEB
+ 1. Mage's Faithful Hound: Missing SOURCEWEB
+ 1. Mage's Lucubration: Missing SOURCEWEB
+ 1. Mage's Magnificent Mansion: Missing SOURCEWEB
+ 1. Mage's Private Sanctum: Missing SOURCEWEB
+ 1. Mage's Sword: Missing SOURCEWEB
+ 1. Magic Aura: Missing SOURCEWEB
+ 1. Magic Circle against Chaos: Missing SOURCEWEB
+ 1. Magic Circle against Evil: Missing SOURCEWEB
+ 1. Magic Circle against Good: Missing SOURCEWEB
+ 1. Magic Circle against Law: Missing SOURCEWEB
+ 1. Magic Fang (Greater): Missing SOURCEWEB
+ 1. Magic Fang: Missing SOURCEWEB
+ 1. Magic Jar: Missing SOURCEWEB
+ 1. Magic Mouth: Missing SOURCEWEB
+ 1. Magic Missile: Missing SOURCEWEB
+ 1. Magic Stone: Missing SOURCEWEB
+ 1. Magic Vestment: Missing SOURCEWEB
+ 1. Magic Weapon (Greater): Missing SOURCEWEB
+ 1. Magic Weapon: Missing SOURCEWEB
+ 1. Major Creation: Missing SOURCEWEB
+ 1. Major Image: Missing SOURCEWEB
+ 1. Make Whole: Missing SOURCEWEB
+ 1. Maze: Missing SOURCEWEB
+ 1. Mark of Justice: Missing SOURCEWEB
+ 1. Meld into Stone: Missing SOURCEWEB
+ 1. Mending: Missing SOURCEWEB
+ 1. Meteor Swarm: Missing SOURCEWEB
+ 1. Message: Missing SOURCEWEB
+ 1. Mind Blank: Missing SOURCEWEB
+ 1. Minor Creation: Missing SOURCEWEB
+ 1. Mind Fog: Missing SOURCEWEB
+ 1. Miracle: Missing SOURCEWEB
+ 1. Minor Image: Missing SOURCEWEB
+ 1. Mirage Arcana: Missing SOURCEWEB
+ 1. Mirror Image: Missing SOURCEWEB
+ 1. Misdirection: Missing SOURCEWEB
+ 1. Modify Memory: Missing SOURCEWEB
+ 1. Mislead: Missing SOURCEWEB
+ 1. Mount: Missing SOURCEWEB
+ 1. Mnemonic Enhancer: Missing SOURCEWEB
+ 1. Moment of Prescience: Missing SOURCEWEB
+ 1. Move Earth: Missing SOURCEWEB
+ 1. Neutralize Poison: Missing SOURCEWEB
+ 1. Nightmare: Missing SOURCEWEB
+ 1. Nondetection: Missing SOURCEWEB
+ 1. Obscure Object: Missing SOURCEWEB
+ 1. Open/Close: Missing SOURCEWEB
+ 1. Obscuring Mist: Missing SOURCEWEB
+ 1. Order's Wrath: Missing SOURCEWEB
+ 1. Overland Flight: Missing SOURCEWEB
+ 1. Owl's Wisdom: Missing SOURCEWEB
+ 1. Passwall: Missing SOURCEWEB
+ 1. Owl's Wisdom (Mass): Missing SOURCEWEB
+ 1. Permanency: Missing SOURCEWEB
+ 1. Pass without Trace: Missing SOURCEWEB
+ 1. Permanent Image: Missing SOURCEWEB
+ 1. Persistent Image: Missing SOURCEWEB
+ 1. Phantasmal Killer: Missing SOURCEWEB
+ 1. Phantom Steed: Missing SOURCEWEB
+ 1. Phase Door: Missing SOURCEWEB
+ 1. Phantom Trap: Missing SOURCEWEB
+ 1. Planar Ally (Greater): Missing SOURCEWEB
+ 1. Planar Ally: Missing SOURCEWEB
+ 1. Planar Ally (Lesser): Missing SOURCEWEB
+ 1. Planar Binding: Missing SOURCEWEB
+ 1. Planar Binding (Greater): Missing SOURCEWEB
+ 1. Planar Binding (Lesser): Missing SOURCEWEB
+ 1. Plane Shift: Missing SOURCEWEB
+ 1. Plant Growth: Missing SOURCEWEB
+ 1. Plant Shape I: Missing SOURCEWEB
+ 1. Plant Shape II: Missing SOURCEWEB
+ 1. Plant Shape III: Missing SOURCEWEB
+ 1. Polar Ray: Missing SOURCEWEB
+ 1. Poison: Missing SOURCEWEB
+ 1. Polymorph: Missing SOURCEWEB
+ 1. Polymorph (Greater): Missing SOURCEWEB
+ 1. Polymorph Any Object: Missing SOURCEWEB
+ 1. Power Word Blind: Missing SOURCEWEB
+ 1. Power Word Kill: Missing SOURCEWEB
+ 1. Power Word Stun: Missing SOURCEWEB
+ 1. Prayer: Missing SOURCEWEB
+ 1. Prestidigitation: Missing SOURCEWEB
+ 1. Prismatic Sphere: Missing SOURCEWEB
+ 1. Prismatic Spray: Missing SOURCEWEB
+ 1. Prismatic Wall: Missing SOURCEWEB
+ 1. Prying Eyes: Missing SOURCEWEB
+ 1. Prying Eyes (Greater): Missing SOURCEWEB
+ 1. Produce Flame: Missing SOURCEWEB
+ 1. Programmed Image: Missing SOURCEWEB
+ 1. Project Image: Missing SOURCEWEB
+ 1. Protection from Chaos: Missing SOURCEWEB
+ 1. Protection from Arrows: Missing SOURCEWEB
+ 1. Protection from Energy: Missing SOURCEWEB
+ 1. Protection from Evil: Missing SOURCEWEB
+ 1. Protection from Good: Missing SOURCEWEB
+ 1. Protection from Law: Missing SOURCEWEB
+ 1. Protection from Spells: Missing SOURCEWEB
+ 1. Pyrotechnics: Missing SOURCEWEB
+ 1. Purify Food and Drink: Missing SOURCEWEB
+ 1. Quench: Missing SOURCEWEB
+ 1. Rage: Missing SOURCEWEB
+ 1. Raise Dead: Missing SOURCEWEB
+ 1. Rainbow Pattern: Missing SOURCEWEB
+ 1. Ray of Enfeeblement: Missing SOURCEWEB
+ 1. Ray of Exhaustion: Missing SOURCEWEB
+ 1. Ray of Frost: Missing SOURCEWEB
+ 1. Read Magic: Missing SOURCEWEB
+ 1. Reduce Animal: Missing SOURCEWEB
+ 1. Reduce Person: Missing SOURCEWEB
+ 1. Reduce Person (Mass): Missing SOURCEWEB
+ 1. Refuge: Missing SOURCEWEB
+ 1. Regenerate: Missing SOURCEWEB
+ 1. Reincarnate: Missing SOURCEWEB
+ 1. Remove Blindness/Deafness: Missing SOURCEWEB
+ 1. Remove Curse: Missing SOURCEWEB
+ 1. Remove Disease: Missing SOURCEWEB
+ 1. Remove Fear: Missing SOURCEWEB
+ 1. Remove Paralysis: Missing SOURCEWEB
+ 1. Repel Metal or Stone: Missing SOURCEWEB
+ 1. Repel Wood: Missing SOURCEWEB
+ 1. Repel Vermin: Missing SOURCEWEB
+ 1. Repulsion: Missing SOURCEWEB
+ 1. Resilient Sphere: Missing SOURCEWEB
+ 1. Resistance: Missing SOURCEWEB
+ 1. Restoration: Missing SOURCEWEB
+ 1. Resist Energy: Missing SOURCEWEB
+ 1. Restoration (Greater): Missing SOURCEWEB
+ 1. Restoration (Lesser): Missing SOURCEWEB
+ 1. Resurrection: Missing SOURCEWEB
+ 1. Reverse Gravity: Missing SOURCEWEB
+ 1. Righteous Might: Missing SOURCEWEB
+ 1. Rusting Grasp: Missing SOURCEWEB
+ 1. Rope Trick: Missing SOURCEWEB
+ 1. Scare: Missing SOURCEWEB
+ 1. Sanctuary: Missing SOURCEWEB
+ 1. Scintillating Pattern: Missing SOURCEWEB
+ 1. Screen: Missing SOURCEWEB
+ 1. Scorching Ray: Missing SOURCEWEB
+ 1. Scrying (Greater): Missing SOURCEWEB
+ 1. Scrying: Missing SOURCEWEB
+ 1. Sculpt Sound: Missing SOURCEWEB
+ 1. Searing Light: Missing SOURCEWEB
+ 1. Secret Chest: Missing SOURCEWEB
+ 1. Secret Page: Missing SOURCEWEB
+ 1. Secure Shelter: Missing SOURCEWEB
+ 1. See Invisibility: Missing SOURCEWEB
+ 1. Seeming: Missing SOURCEWEB
+ 1. Sending: Missing SOURCEWEB
+ 1. Sepia Snake Sigil: Missing SOURCEWEB
+ 1. Shades: Missing SOURCEWEB
+ 1. Sequester: Missing SOURCEWEB
+ 1. Shadow Evocation: Missing SOURCEWEB
+ 1. Shadow Conjuration: Missing SOURCEWEB
+ 1. Shadow Conjuration (Greater): Missing SOURCEWEB
+ 1. Shadow Walk: Missing SOURCEWEB
+ 1. Shadow Evocation (Greater): Missing SOURCEWEB
+ 1. Shapechange: Missing SOURCEWEB
+ 1. Shambler: Missing SOURCEWEB
+ 1. Shield: Missing SOURCEWEB
+ 1. Shatter: Missing SOURCEWEB
+ 1. Shield of Law: Missing SOURCEWEB
+ 1. Shield of Faith: Missing SOURCEWEB
+ 1. Shield Other: Missing SOURCEWEB
+ 1. Shillelagh: Missing SOURCEWEB
+ 1. Shrink Item: Missing SOURCEWEB
+ 1. Shocking Grasp: Missing SOURCEWEB
+ 1. Shout: Missing SOURCEWEB
+ 1. Shout (Greater): Missing SOURCEWEB
+ 1. Silence: Missing SOURCEWEB
+ 1. Silent Image: Missing SOURCEWEB
+ 1. Simulacrum: Missing SOURCEWEB
+ 1. Slay Living: Missing SOURCEWEB
+ 1. Sleep: Missing SOURCEWEB
+ 1. Sleet Storm: Missing SOURCEWEB
+ 1. Slow: Missing SOURCEWEB
+ 1. Soften Earth and Stone: Missing SOURCEWEB
+ 1. Snare: Missing SOURCEWEB
+ 1. Solid Fog: Missing SOURCEWEB
+ 1. Soul Bind: Missing SOURCEWEB
+ 1. Song of Discord: Missing SOURCEWEB
+ 1. Sound Burst: Missing SOURCEWEB
+ 1. Speak with Animals: Missing SOURCEWEB
+ 1. Speak with Dead: Missing SOURCEWEB
+ 1. Speak with Plants: Missing SOURCEWEB
+ 1. Spectral Hand: Missing SOURCEWEB
+ 1. Spell Immunity (Greater): Missing SOURCEWEB
+ 1. Spell Immunity: Missing SOURCEWEB
+ 1. Spell Resistance: Missing SOURCEWEB
+ 1. Spellstaff: Missing SOURCEWEB
+ 1. Spell Turning: Missing SOURCEWEB
+ 1. Spider Climb: Missing SOURCEWEB
+ 1. Spike Growth: Missing SOURCEWEB
+ 1. Spike Stones: Missing SOURCEWEB
+ 1. Spiritual Weapon: Missing SOURCEWEB
+ 1. Stabilize: Missing SOURCEWEB
+ 1. Statue: Missing SOURCEWEB
+ 1. Status: Missing SOURCEWEB
+ 1. Stinking Cloud: Missing SOURCEWEB
+ 1. Stone Shape: Missing SOURCEWEB
+ 1. Stoneskin: Missing SOURCEWEB
+ 1. Stone Tell: Missing SOURCEWEB
+ 1. Stone to Flesh: Missing SOURCEWEB
+ 1. Storm of Vengeance: Missing SOURCEWEB
+ 1. Suggestion (Mass): Missing SOURCEWEB
+ 1. Suggestion: Missing SOURCEWEB
+ 1. Summon Instrument: Missing SOURCEWEB
+ 1. Summon Monster I: Missing SOURCEWEB
+ 1. Summon Monster II: Missing SOURCEWEB
+ 1. Summon Monster III: Missing SOURCEWEB
+ 1. Summon Monster IV: Missing SOURCEWEB
+ 1. Summon Monster V: Missing SOURCEWEB
+ 1. Summon Monster VI: Missing SOURCEWEB
+ 1. Summon Monster VII: Missing SOURCEWEB
+ 1. Summon Monster VIII: Missing SOURCEWEB
+ 1. Summon Monster IX: Missing SOURCEWEB
+ 1. Summon Nature's Ally I: Missing SOURCEWEB
+ 1. Summon Nature's Ally II: Missing SOURCEWEB
+ 1. Summon Nature's Ally III: Missing SOURCEWEB
+ 1. Summon Nature's Ally IV: Missing SOURCEWEB
+ 1. Summon Nature's Ally V: Missing SOURCEWEB
+ 1. Summon Nature's Ally VI: Missing SOURCEWEB
+ 1. Summon Nature's Ally VII: Missing SOURCEWEB
+ 1. Summon Nature's Ally VIII: Missing SOURCEWEB
+ 1. Summon Nature's Ally IX: Missing SOURCEWEB
+ 1. Summon Swarm: Missing SOURCEWEB
+ 1. Sunbeam: Missing SOURCEWEB
+ 1. Sunburst: Missing SOURCEWEB
+ 1. Symbol of Fear: Missing SOURCEWEB
+ 1. Symbol of Death: Missing SOURCEWEB
+ 1. Symbol of Pain: Missing SOURCEWEB
+ 1. Symbol of Insanity: Missing SOURCEWEB
+ 1. Symbol of Persuasion: Missing SOURCEWEB
+ 1. Symbol of Sleep: Missing SOURCEWEB
+ 1. Sympathy: Missing SOURCEWEB
+ 1. Symbol of Weakness: Missing SOURCEWEB
+ 1. Symbol of Stunning: Missing SOURCEWEB
+ 1. Sympathetic Vibration: Missing SOURCEWEB
+ 1. Telekinetic Sphere: Missing SOURCEWEB
+ 1. Teleport: Missing SOURCEWEB
+ 1. Telekinesis: Missing SOURCEWEB
+ 1. Telepathic Bond: Missing SOURCEWEB
+ 1. Teleport (Greater): Missing SOURCEWEB
+ 1. Teleport Object: Missing SOURCEWEB
+ 1. Teleportation Circle: Missing SOURCEWEB
+ 1. Temporal Stasis: Missing SOURCEWEB
+ 1. Time Stop: Missing SOURCEWEB
+ 1. Tiny Hut: Missing SOURCEWEB
+ 1. Tongues: Missing SOURCEWEB
+ 1. Touch of Idiocy: Missing SOURCEWEB
+ 1. Touch of Fatigue: Missing SOURCEWEB
+ 1. Transformation: Missing SOURCEWEB
+ 1. Transmute Metal to Wood: Missing SOURCEWEB
+ 1. Transmute Mud to Rock: Missing SOURCEWEB
+ 1. Transmute Rock to Mud: Missing SOURCEWEB
+ 1. Transport via Plants: Missing SOURCEWEB
+ 1. Trap the Soul: Missing SOURCEWEB
+ 1. Tree Shape: Missing SOURCEWEB
+ 1. True Resurrection: Missing SOURCEWEB
+ 1. Tree Stride: Missing SOURCEWEB
+ 1. True Seeing: Missing SOURCEWEB
+ 1. True Strike: Missing SOURCEWEB
+ 1. Undeath to Death: Missing SOURCEWEB
+ 1. Undetectable Alignment: Missing SOURCEWEB
+ 1. Unhallow: Missing SOURCEWEB
+ 1. Unholy Aura: Missing SOURCEWEB
+ 1. Unholy Blight: Missing SOURCEWEB
+ 1. Unseen Servant: Missing SOURCEWEB
+ 1. Vampiric Touch: Missing SOURCEWEB
+ 1. Ventriloquism: Missing SOURCEWEB
+ 1. Veil: Missing SOURCEWEB
+ 1. Virtue: Missing SOURCEWEB
+ 1. Vision: Missing SOURCEWEB
+ 1. Wail of the Banshee: Missing SOURCEWEB
+ 1. Wall of Force: Missing SOURCEWEB
+ 1. Wall of Fire: Missing SOURCEWEB
+ 1. Wall of Ice: Missing SOURCEWEB
+ 1. Wall of Iron: Missing SOURCEWEB
+ 1. Wall of Stone: Missing SOURCEWEB
+ 1. Wall of Thorns: Missing SOURCEWEB
+ 1. Warp Wood: Missing SOURCEWEB
+ 1. Water Breathing: Missing SOURCEWEB
+ 1. Water Walk: Missing SOURCEWEB
+ 1. Waves of Exhaustion: Missing SOURCEWEB
+ 1. Waves of Fatigue: Missing SOURCEWEB
+ 1. Web: Missing SOURCEWEB
+ 1. Weird: Missing SOURCEWEB
+ 1. Whirlwind: Missing SOURCEWEB
+ 1. Whispering Wind: Missing SOURCEWEB
+ 1. Wind Walk: Missing SOURCEWEB
+ 1. Wind Wall: Missing SOURCEWEB
+ 1. Wish: Missing SOURCEWEB
+ 1. Word of Recall: Missing SOURCEWEB
+ 1. Wood Shape: Missing SOURCEWEB
+ 1. Word of Chaos: Missing SOURCEWEB
+ 1. Zone of Silence: Missing SOURCEWEB
+ 1. Zone of Truth: Missing SOURCEWEB
+ 1. Desecrate (Standard): Missing SOURCEWEB
+ 1. Desecrate (With Altar): Missing SOURCEWEB
+ 1. Desecrate (Summoned Undead): Missing SOURCEWEB
+ 1. Desecrate (Summoned Undead with Altar): Missing SOURCEWEB
+ 1. Magic Vestment (Shield use): Missing SOURCEWEB
+
+
+Ultimate Magic
+==============
+
+ 1. Acidic Spray: Missing SOURCEWEB
+ 1. Acute Senses: Missing SOURCEWEB
+ 1. Age Resistance: Missing SOURCEWEB
+ 1. Age Resistance (Greater): Missing SOURCEWEB
+ 1. Age Resistance (Lesser): Missing SOURCEWEB
+ 1. Agonize: Missing SOURCEWEB
+ 1. Animate Dead (Lesser): Missing SOURCEWEB
+ 1. Allegro: Missing SOURCEWEB
+ 1. Anthropomorphic Animal: Missing SOURCEWEB
+ 1. Anticipate Peril: Missing SOURCEWEB
+ 1. Arcana Theft: Missing SOURCEWEB
+ 1. Arboreal Hammer: Missing SOURCEWEB
+ 1. Archon's Aura: Missing SOURCEWEB
+ 1. Arrow of Law: Missing SOURCEWEB
+ 1. Ash Storm: Missing SOURCEWEB
+ 1. Astral Projection (Lesser): Missing SOURCEWEB
+ 1. Badger's Ferocity: Missing SOURCEWEB
+ 1. Atavism: Missing SOURCEWEB
+ 1. Atavism (Mass): Missing SOURCEWEB
+ 1. Aura of Doom: Missing SOURCEWEB
+ 1. Battlemind Link: Missing SOURCEWEB
+ 1. Blade of Bright Victory: Missing SOURCEWEB
+ 1. Bestow Grace of the Champion: Missing SOURCEWEB
+ 1. Blade of Dark Triumph: Missing SOURCEWEB
+ 1. Blessing of the Mole: Missing SOURCEWEB
+ 1. Blood Crow Strike: Missing SOURCEWEB
+ 1. Blood Mist: Missing SOURCEWEB
+ 1. Blood Transcription: Missing SOURCEWEB
+ 1. Boiling Blood: Missing SOURCEWEB
+ 1. Bungle: Missing SOURCEWEB
+ 1. Burrow: Missing SOURCEWEB
+ 1. Burst of Nettles: Missing SOURCEWEB
+ 1. Cackling Skull: Missing SOURCEWEB
+ 1. Call Construct: Missing SOURCEWEB
+ 1. Chord of Shards: Missing SOURCEWEB
+ 1. Cape of Wasps: Missing SOURCEWEB
+ 1. Caustic Eruption: Missing SOURCEWEB
+ 1. Circle of Clarity: Missing SOURCEWEB
+ 1. Cold Ice Strike: Missing SOURCEWEB
+ 1. Compassionate Ally: Missing SOURCEWEB
+ 1. Conjure Black Pudding: Missing SOURCEWEB
+ 1. Contagion (Greater): Missing SOURCEWEB
+ 1. Control Summoned Creature: Missing SOURCEWEB
+ 1. Control Construct: Missing SOURCEWEB
+ 1. Corrosive Consumption: Missing SOURCEWEB
+ 1. Corrosive Touch: Missing SOURCEWEB
+ 1. Countless Eyes: Missing SOURCEWEB
+ 1. Create Demiplane (Greater): Missing SOURCEWEB
+ 1. Create Demiplane: Missing SOURCEWEB
+ 1. Create Demiplane (Lesser): Missing SOURCEWEB
+ 1. Curse (Major): Missing SOURCEWEB
+ 1. Curse of Disgust: Missing SOURCEWEB
+ 1. Curse of Magic Negation: Missing SOURCEWEB
+ 1. Cursed Earth: Missing SOURCEWEB
+ 1. Cushioning Bands: Missing SOURCEWEB
+ 1. Dance of a Hundred Cuts: Missing SOURCEWEB
+ 1. Dance of a Thousand Cuts: Missing SOURCEWEB
+ 1. Darkvision (Greater): Missing SOURCEWEB
+ 1. Daze (Mass): Missing SOURCEWEB
+ 1. Decompose Corpse: Missing SOURCEWEB
+ 1. Defensive Shock: Missing SOURCEWEB
+ 1. Delay Pain: Missing SOURCEWEB
+ 1. Delusional Pride: Missing SOURCEWEB
+ 1. Diagnose Disease: Missing SOURCEWEB
+ 1. Disfiguring Touch: Missing SOURCEWEB
+ 1. Disguise Other: Missing SOURCEWEB
+ 1. Distracting Cacophony: Missing SOURCEWEB
+ 1. Distressing Tone: Missing SOURCEWEB
+ 1. Eagle Aerie: Missing SOURCEWEB
+ 1. Divine Pursuit: Missing SOURCEWEB
+ 1. Dread Bolt: Missing SOURCEWEB
+ 1. Ear-Piercing Scream: Missing SOURCEWEB
+ 1. Echolocation: Missing SOURCEWEB
+ 1. Eldritch Fever: Missing SOURCEWEB
+ 1. Envious Urge: Missing SOURCEWEB
+ 1. Epidemic: Missing SOURCEWEB
+ 1. Eruptive Pustules: Missing SOURCEWEB
+ 1. Excruciating Deformation: Missing SOURCEWEB
+ 1. Exquisite Accompaniment: Missing SOURCEWEB
+ 1. False Life (Greater): Missing SOURCEWEB
+ 1. Familiar Melding: Missing SOURCEWEB
+ 1. Fleshworm Infestation: Missing SOURCEWEB
+ 1. Fickle Winds: Missing SOURCEWEB
+ 1. Forbid Action (Greater): Missing SOURCEWEB
+ 1. Forbid Action: Missing SOURCEWEB
+ 1. Force Hook Charge: Missing SOURCEWEB
+ 1. Force Punch: Missing SOURCEWEB
+ 1. Forced Quiet: Missing SOURCEWEB
+ 1. Frigid Touch: Missing SOURCEWEB
+ 1. Frostbite: Missing SOURCEWEB
+ 1. Fumbletongue: Missing SOURCEWEB
+ 1. Ghostly Disguise: Missing SOURCEWEB
+ 1. Fungal Infestation: Missing SOURCEWEB
+ 1. Haunting Mists: Missing SOURCEWEB
+ 1. Haunting Choir: Missing SOURCEWEB
+ 1. Hex Ward: Missing SOURCEWEB
+ 1. Holy Ice: Missing SOURCEWEB
+ 1. Holy Shield: Missing SOURCEWEB
+ 1. Howling Agony: Missing SOURCEWEB
+ 1. Horn of Pursuit: Missing SOURCEWEB
+ 1. Ice Body: Missing SOURCEWEB
+ 1. Ice Crystal Teleport: Missing SOURCEWEB
+ 1. Icy Prison: Missing SOURCEWEB
+ 1. Imbue with Aura: Missing SOURCEWEB
+ 1. Icicle Dagger: Missing SOURCEWEB
+ 1. Icy Prison (Mass): Missing SOURCEWEB
+ 1. Interrogation: Missing SOURCEWEB
+ 1. Interplanetary Teleport: Missing SOURCEWEB
+ 1. Interrogation (Greater): Missing SOURCEWEB
+ 1. Joyful Rapture: Missing SOURCEWEB
+ 1. Ki Arrow: Missing SOURCEWEB
+ 1. Ki Leech: Missing SOURCEWEB
+ 1. Ki Shout: Missing SOURCEWEB
+ 1. Know the Enemy: Missing SOURCEWEB
+ 1. Leashed Shackles: Missing SOURCEWEB
+ 1. Lend Judgment: Missing SOURCEWEB
+ 1. Lend Judgment (Greater): Missing SOURCEWEB
+ 1. Lightning Arc: Missing SOURCEWEB
+ 1. Loathsome Veil: Missing SOURCEWEB
+ 1. Lunar Veil: Missing SOURCEWEB
+ 1. Mad Hallucination: Missing SOURCEWEB
+ 1. Mad Monkeys: Missing SOURCEWEB
+ 1. Malfunction: Missing SOURCEWEB
+ 1. Malicious Spite: Missing SOURCEWEB
+ 1. Marionette Possession: Missing SOURCEWEB
+ 1. Masterwork Transformation: Missing SOURCEWEB
+ 1. Monstrous Physique I: Missing SOURCEWEB
+ 1. Miserable Pity: Missing SOURCEWEB
+ 1. Monstrous Physique II: Missing SOURCEWEB
+ 1. Monstrous Physique III: Missing SOURCEWEB
+ 1. Monstrous Physique IV: Missing SOURCEWEB
+ 1. Murderous Command: Missing SOURCEWEB
+ 1. Oppressive Boredom: Missing SOURCEWEB
+ 1. Oracle's Vessel: Missing SOURCEWEB
+ 1. Orb of the Void: Missing SOURCEWEB
+ 1. Overwhelming Grief: Missing SOURCEWEB
+ 1. Overwhelming Presence: Missing SOURCEWEB
+ 1. Pernicious Poison: Missing SOURCEWEB
+ 1. Piercing Shriek: Missing SOURCEWEB
+ 1. Persuasive Goad: Missing SOURCEWEB
+ 1. Plague Carrier: Missing SOURCEWEB
+ 1. Plague Storm: Missing SOURCEWEB
+ 1. Play Instrument: Missing SOURCEWEB
+ 1. Polar Midnight: Missing SOURCEWEB
+ 1. Polypurpose Panacea: Missing SOURCEWEB
+ 1. Possess Object: Missing SOURCEWEB
+ 1. Prediction of Failure: Missing SOURCEWEB
+ 1. Primal Scream: Missing SOURCEWEB
+ 1. Raise Animal Companion: Missing SOURCEWEB
+ 1. Protective Penumbra: Missing SOURCEWEB
+ 1. Rain of Frogs: Missing SOURCEWEB
+ 1. Rapid Repair: Missing SOURCEWEB
+ 1. Ray of Sickening: Missing SOURCEWEB
+ 1. Reckless Infatuation: Missing SOURCEWEB
+ 1. Reprobation: Missing SOURCEWEB
+ 1. Remove Sickness: Missing SOURCEWEB
+ 1. Resonating Word: Missing SOURCEWEB
+ 1. Restore Corpse: Missing SOURCEWEB
+ 1. Restore Eidolon: Missing SOURCEWEB
+ 1. Restore Eidolon (Lesser): Missing SOURCEWEB
+ 1. Ride the Waves: Missing SOURCEWEB
+ 1. Ride the Lightning: Missing SOURCEWEB
+ 1. Sanctify Corpse: Missing SOURCEWEB
+ 1. Sands of Time: Missing SOURCEWEB
+ 1. Scouring Winds: Missing SOURCEWEB
+ 1. Sculpt Simulacrum: Missing SOURCEWEB
+ 1. Serenity: Missing SOURCEWEB
+ 1. Shadowbard: Missing SOURCEWEB
+ 1. Shadow Step: Missing SOURCEWEB
+ 1. Shadow Weapon: Missing SOURCEWEB
+ 1. Shard of Chaos: Missing SOURCEWEB
+ 1. Silk to Steel: Missing SOURCEWEB
+ 1. Share Memory: Missing SOURCEWEB
+ 1. Simulacrum (Lesser): Missing SOURCEWEB
+ 1. Skinsend: Missing SOURCEWEB
+ 1. Smug Narcissism: Missing SOURCEWEB
+ 1. Snapdragon Fireworks: Missing SOURCEWEB
+ 1. Sonic Thrust: Missing SOURCEWEB
+ 1. Soothe Construct: Missing SOURCEWEB
+ 1. Spear of Purity: Missing SOURCEWEB
+ 1. Steal Voice: Missing SOURCEWEB
+ 1. Spit Venom: Missing SOURCEWEB
+ 1. Strangling Hair: Missing SOURCEWEB
+ 1. Summon Elder Worm: Missing SOURCEWEB
+ 1. Summon Froghemoth: Missing SOURCEWEB
+ 1. Summon Minor Monster: Missing SOURCEWEB
+ 1. Summon Minor Ally: Missing SOURCEWEB
+ 1. Surmount Affliction: Missing SOURCEWEB
+ 1. Symbol of Healing: Missing SOURCEWEB
+ 1. Symbol of Mirroring: Missing SOURCEWEB
+ 1. Symbol of Revelation: Missing SOURCEWEB
+ 1. Symbol of Scrying: Missing SOURCEWEB
+ 1. Symbol of Sealing: Missing SOURCEWEB
+ 1. Symbol of Strife: Missing SOURCEWEB
+ 1. Symbol of Slowing: Missing SOURCEWEB
+ 1. Symbol of Vulnerability: Missing SOURCEWEB
+ 1. Tar Ball: Missing SOURCEWEB
+ 1. Temporary Resurrection: Missing SOURCEWEB
+ 1. Touch of Slime: Missing SOURCEWEB
+ 1. Terrible Remorse: Missing SOURCEWEB
+ 1. Toxic Gift: Missing SOURCEWEB
+ 1. Transmute Blood To Acid: Missing SOURCEWEB
+ 1. Unadulterated Loathing: Missing SOURCEWEB
+ 1. Unbreakable Construct: Missing SOURCEWEB
+ 1. Undead Anatomy I: Missing SOURCEWEB
+ 1. Undead Anatomy II: Missing SOURCEWEB
+ 1. Undead Anatomy III: Missing SOURCEWEB
+ 1. Undead Anatomy IV: Missing SOURCEWEB
+ 1. Unholy Ice: Missing SOURCEWEB
+ 1. Unholy Sword: Missing SOURCEWEB
+ 1. Unnatural Lust: Missing SOURCEWEB
+ 1. Unprepared Combatant: Missing SOURCEWEB
+ 1. Unshakable Chill: Missing SOURCEWEB
+ 1. Utter Contempt: Missing SOURCEWEB
+ 1. Vermin Shape I: Missing SOURCEWEB
+ 1. Vengeful Outrage: Missing SOURCEWEB
+ 1. Vestment of the Champion: Missing SOURCEWEB
+ 1. Vermin Shape II: Missing SOURCEWEB
+ 1. Virtuoso Performance: Missing SOURCEWEB
+ 1. Vision of Hell: Missing SOURCEWEB
+ 1. Vitriolic Mist: Missing SOURCEWEB
+ 1. Vocal Alteration: Missing SOURCEWEB
+ 1. Volcanic Storm: Missing SOURCEWEB
+ 1. Wall of Sound: Missing SOURCEWEB
+ 1. Wartrain Mount: Missing SOURCEWEB
+ 1. Web Shelter: Missing SOURCEWEB
+ 1. Waves of Ecstasy: Missing SOURCEWEB
+ 1. Witness: Missing SOURCEWEB
+ 1. Wooden Phalanx: Missing SOURCEWEB
+ 1. Word of Resolve: Missing SOURCEWEB
+ 1. Youthful Appearance: Missing SOURCEWEB
+ 1. Masterpiece (At the Heart of It All): Missing SOURCEWEB
+ 1. Masterpiece (Cat-Step): Missing SOURCEWEB
+ 1. Masterpiece (Dance of 23 Steps): Missing SOURCEWEB
+ 1. Masterpiece (Depths of the Mountain): Missing SOURCEWEB
+ 1. Masterpiece (Dumbshow of Gorroc): Missing SOURCEWEB
+ 1. Masterpiece (House of Imaginary Walls): Missing SOURCEWEB
+ 1. Masterpiece (Legato Piece on the Infernal Bargain): Missing SOURCEWEB
+ 1. Masterpiece (Lullaby of Ember the Ancient): Missing SOURCEWEB
+ 1. Masterpiece (Minuet of the Midnight Ivy): Missing SOURCEWEB
+ 1. Masterpiece (Quickening Pulse): Missing SOURCEWEB
+ 1. Masterpiece (Requiem of the Fallen Priest-King): Missing SOURCEWEB
+ 1. Masterpiece (Stone Face): Missing SOURCEWEB
+ 1. Masterpiece (Toccata and Fugue of the Danse Macabre): Missing SOURCEWEB
+ 1. Masterpiece (Triple Time): Missing SOURCEWEB
+ 1. Masterpiece (Winds of the Five Heavens): Missing SOURCEWEB
+ 1. Major Creation (Metal Items Only): Missing SOURCEWEB
+ 1. Minor Creation (Wood Items Only): Missing SOURCEWEB
+ 1. Statue (Metal Statue Instead of Iron): Missing SOURCEWEB
+ 1. Resist Energy (Cold Only): Missing SOURCEWEB
+ 1. Bottled Ooze (1): Missing SOURCEWEB
+ 1. Bottled Ooze (2): Missing SOURCEWEB
+ 1. Bottled Ooze (3): Missing SOURCEWEB
+ 1. Bottled Ooze (4): Missing SOURCEWEB
+ 1. Bottled Ooze (5): Missing SOURCEWEB
+ 1. Bottled Ooze (6): Missing SOURCEWEB
+ 1. Animal Shapes (Aquatic Creatures Only): Missing SOURCEWEB
+ 1. Animal Shapes (Amphibians Only): Missing SOURCEWEB
+ 1. Animal Shapes (Apes and Monkeys Only): Missing SOURCEWEB
+ 1. Animal Shapes (Birds Only): Missing SOURCEWEB
+ 1. Animal Shapes (Canines Only): Missing SOURCEWEB
+ 1. Animal Shapes (Reptiles and Snakes Only): Missing SOURCEWEB
+ 1. Statue (looking like a stalagmite or stalactite): Missing SOURCEWEB
+ 1. Summon Nature's Ally V (Dire Ape or Girallon only): Missing SOURCEWEB
+ 1. Transmute Rock to Mud (loose sand instead of mud): Missing SOURCEWEB
+ 1. Plane Shift (Plane of Air Only): Missing SOURCEWEB
+ 1. Plane Shift (Plane of Fire Only): Missing SOURCEWEB
+ 1. Plane Shift (Plane of Water Only): Missing SOURCEWEB
+ 1. Plane Shift (Plane of Earth Only): Missing SOURCEWEB
