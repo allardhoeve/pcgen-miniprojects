@@ -1,11 +1,11 @@
-Found total of 1560 spells in Pathfinder
-Found total of 1559 spells in Pathfinder with errors
+Found total of 1544 spells in Pathfinder
+Found total of 1543 spells in Pathfinder with errors
 
 
 Advanced Player's Guide
 =======================
 
- 1. Blindness/Deafness.COPY=Blindness/Deafness (Only Cause Blindness): Missing SOURCEWEB
+ 1. Wall of Thorms: Missing SOURCEWEB
  1. Corruption Resistance: Missing SOURCEWEB
  1. Defile Armor: Missing SOURCEWEB
  1. Resounding Blow: Missing SOURCEWEB
@@ -267,58 +267,16 @@ Advanced Player's Guide
  1. Oracle's Burden: Missing SOURCEWEB
  1. Borrow Fortune: Missing SOURCEWEB
  1. Divine Vessel: Missing SOURCEWEB
- 1. Planar Ally.COPY=Planar Ally (Agathions Only): Missing SOURCEWEB
- 1. Planar Ally.COPY=Planar Ally (Azata Only): Missing SOURCEWEB
- 1. Planar Ally.COPY=Planar Ally (Archon Only): Missing SOURCEWEB
- 1. Planar Binding.COPY=Planar Binding (Daemons Only): Missing SOURCEWEB
- 1. Beast Shape I.COPY=Beast Shape I (Animals Only): Missing SOURCEWEB
- 1. Planar Binding.COPY=Planar Binding (Inevitables Only): Missing SOURCEWEB
- 1. Planar Binding.COPY=Planar Binding (Proteans Only): Missing SOURCEWEB
- 1. Elemental Aura.COPY=Elemental Aura (Cold Only): Missing SOURCEWEB
- 1. Meteor Swarm.COPY=Meteor Swarm (Dealing Cold Damage): Missing SOURCEWEB
- 1. Summon Monster III.COPY=Summon Monster III (Reptiles Only): Missing SOURCEWEB
- 1. Summon Monster VII.COPY=Summon Monster VII (Reptiles Only): Missing SOURCEWEB
- 1. Call Lightning Storm.COPY=Call Lightning Storm (Starsoul): Missing SOURCEWEB
  1. Heroic Fortune: Missing SOURCEWEB
  1. Heroic Fortune (Mass): Missing SOURCEWEB
  1. Malediction: Missing SOURCEWEB
  1. Severed Fate: Missing SOURCEWEB
  1. Unravel Destiny: Missing SOURCEWEB
- 1. Summon Monster V.COPY=Summon Monster V (Summons 1d3 Shadows): Missing SOURCEWEB
- 1. Planar Binding.COPY=Planar Binding (Devils Only): Missing SOURCEWEB
- 1. Planar Binding.COPY=Planar Binding (Demons Only): Missing SOURCEWEB
- 1. Wall of Thorms: Missing SOURCEWEB
 
 
 Advanced Race Guide
 ====================
 
- 1. Groundswell: Missing SOURCEWEB
- 1. Whispering Lore: Missing SOURCEWEB
- 1. Ironbeard: Missing SOURCEWEB
- 1. Toilsome Chant: Missing SOURCEWEB
- 1. Blend: Missing SOURCEWEB
- 1. Ward of the Season: Missing SOURCEWEB
- 1. Death From Below: Missing SOURCEWEB
- 1. Jitterbugs: Missing SOURCEWEB
- 1. Major Phantom Object: Missing SOURCEWEB
- 1. Minor Phantom Object: Missing SOURCEWEB
- 1. Minor Dream: Missing SOURCEWEB
- 1. Recharge Innate Magic: Missing SOURCEWEB
- 1. Sow Thought: Missing SOURCEWEB
- 1. Forgetful Slumber: Missing SOURCEWEB
- 1. Paragon Surge: Missing SOURCEWEB
- 1. Resilient Reservoir: Missing SOURCEWEB
- 1. Urban Grace: Missing SOURCEWEB
- 1. Battle Trance: Missing SOURCEWEB
- 1. Ghost Wolf: Missing SOURCEWEB
- 1. Half-Blood Extraction: Missing SOURCEWEB
- 1. Linebreaker: Missing SOURCEWEB
- 1. Savage Maw: Missing SOURCEWEB
- 1. Blessing of Luck and Resolve: Missing SOURCEWEB
- 1. Escaping Ward: Missing SOURCEWEB
- 1. Blessing of Luck and Resolve (Mass): Missing SOURCEWEB
- 1. Fearsome Duplicate: Missing SOURCEWEB
  1. Village Veil: Missing SOURCEWEB
  1. Black Mark: Missing SOURCEWEB
  1. Bestow Insight: Missing SOURCEWEB
@@ -352,6 +310,32 @@ Advanced Race Guide
  1. Enemy's Heart: Missing SOURCEWEB
  1. Blood Scent: Missing SOURCEWEB
  1. Sentry Skull: Missing SOURCEWEB
+ 1. Groundswell: Missing SOURCEWEB
+ 1. Whispering Lore: Missing SOURCEWEB
+ 1. Ironbeard: Missing SOURCEWEB
+ 1. Toilsome Chant: Missing SOURCEWEB
+ 1. Blend: Missing SOURCEWEB
+ 1. Ward of the Season: Missing SOURCEWEB
+ 1. Death From Below: Missing SOURCEWEB
+ 1. Jitterbugs: Missing SOURCEWEB
+ 1. Major Phantom Object: Missing SOURCEWEB
+ 1. Minor Phantom Object: Missing SOURCEWEB
+ 1. Minor Dream: Missing SOURCEWEB
+ 1. Recharge Innate Magic: Missing SOURCEWEB
+ 1. Sow Thought: Missing SOURCEWEB
+ 1. Forgetful Slumber: Missing SOURCEWEB
+ 1. Paragon Surge: Missing SOURCEWEB
+ 1. Resilient Reservoir: Missing SOURCEWEB
+ 1. Urban Grace: Missing SOURCEWEB
+ 1. Battle Trance: Missing SOURCEWEB
+ 1. Ghost Wolf: Missing SOURCEWEB
+ 1. Half-Blood Extraction: Missing SOURCEWEB
+ 1. Linebreaker: Missing SOURCEWEB
+ 1. Savage Maw: Missing SOURCEWEB
+ 1. Blessing of Luck and Resolve: Missing SOURCEWEB
+ 1. Escaping Ward: Missing SOURCEWEB
+ 1. Blessing of Luck and Resolve (Mass): Missing SOURCEWEB
+ 1. Fearsome Duplicate: Missing SOURCEWEB
  1. Binding Earth: Missing SOURCEWEB
  1. Binding Earth (Mass): Missing SOURCEWEB
  1. Mighty Fist of the Earth: Missing SOURCEWEB
@@ -373,9 +357,9 @@ Advanced Race Guide
  1. Damnation Stride: Missing SOURCEWEB
  1. Marid's Mastery: Missing SOURCEWEB
  1. Nereid's Grace: Missing SOURCEWEB
- 1. Nixie's Lure: Missing SOURCEWEB
  1. Sow Thought ~ Changeling: Missing SOURCEWEB
  1. Undine's Curse: Missing SOURCEWEB
+ 1. Nixie's Lure: Missing SOURCEWEB
  1. Fins to Feet: Missing SOURCEWEB
  1. Aboleth's Lung: Missing SOURCEWEB
  1. Karmic Blessing: Missing SOURCEWEB
@@ -915,8 +899,8 @@ Core Rulebook
  1. Owl's Wisdom: Missing SOURCEWEB
  1. Passwall: Missing SOURCEWEB
  1. Owl's Wisdom (Mass): Missing SOURCEWEB
- 1. Pass without Trace: Missing SOURCEWEB
  1. Permanency: Missing SOURCEWEB
+ 1. Pass without Trace: Missing SOURCEWEB
  1. Permanent Image: Missing SOURCEWEB
  1. Persistent Image: Missing SOURCEWEB
  1. Phantasmal Killer: Missing SOURCEWEB
@@ -1168,41 +1152,15 @@ Core Rulebook
 Ultimate Combat
 ===============
 
- 1. Absorb Toxicity: Missing SOURCEWEB
+ 1. Ablative Barrier: Missing SOURCEWEB
  1. Abundant Ammunition: Missing SOURCEWEB
+ 1. Absorb Toxicity: Missing SOURCEWEB
  1. Adjuring Step: Missing SOURCEWEB
  1. Adoration: Missing SOURCEWEB
  1. Air Walk (Communal): Missing SOURCEWEB
  1. Air Bubble: Missing SOURCEWEB
  1. Animal Aspect: Missing SOURCEWEB
  1. Animal Aspect (Greater): Missing SOURCEWEB
- 1. Ablative Barrier: Missing SOURCEWEB
- 1. Ant Haul (Communal): Missing SOURCEWEB
- 1. Arcane Cannon: Missing SOURCEWEB
- 1. Bestow Weapon Proficiency: Missing SOURCEWEB
- 1. Blistering Invective: Missing SOURCEWEB
- 1. Bowstaff: Missing SOURCEWEB
- 1. Brow Gasher: Missing SOURCEWEB
- 1. Bullet Shield: Missing SOURCEWEB
- 1. Burst of Speed: Missing SOURCEWEB
- 1. Caging Bomb Admixture: Missing SOURCEWEB
- 1. Certain Grip: Missing SOURCEWEB
- 1. Chain of Perdition: Missing SOURCEWEB
- 1. Companion Mind Link: Missing SOURCEWEB
- 1. Compel Hostility: Missing SOURCEWEB
- 1. Damp Powder: Missing SOURCEWEB
- 1. Darkvision (Communal): Missing SOURCEWEB
- 1. Daybreak Arrow: Missing SOURCEWEB
- 1. Deadly Juggernaut: Missing SOURCEWEB
- 1. Deadeye's Lore: Missing SOURCEWEB
- 1. Debilitating Portent: Missing SOURCEWEB
- 1. Delay Poison (Communal): Missing SOURCEWEB
- 1. Destabilize Powder: Missing SOURCEWEB
- 1. Discovery Torch: Missing SOURCEWEB
- 1. Divine Arrow: Missing SOURCEWEB
- 1. Dust Form: Missing SOURCEWEB
- 1. Effortless Armor: Missing SOURCEWEB
- 1. Endure Elements (Communal): Missing SOURCEWEB
  1. Energy Siege Shot: Missing SOURCEWEB
  1. Energy Siege Shot (Greater): Missing SOURCEWEB
  1. Fabricate Bullets: Missing SOURCEWEB
@@ -1287,6 +1245,32 @@ Ultimate Combat
  1. Share Language (Communal): Missing SOURCEWEB
  1. Shocking Image: Missing SOURCEWEB
  1. Siege of Trees: Missing SOURCEWEB
+ 1. Ant Haul (Communal): Missing SOURCEWEB
+ 1. Arcane Cannon: Missing SOURCEWEB
+ 1. Bestow Weapon Proficiency: Missing SOURCEWEB
+ 1. Blistering Invective: Missing SOURCEWEB
+ 1. Bowstaff: Missing SOURCEWEB
+ 1. Brow Gasher: Missing SOURCEWEB
+ 1. Bullet Shield: Missing SOURCEWEB
+ 1. Burst of Speed: Missing SOURCEWEB
+ 1. Caging Bomb Admixture: Missing SOURCEWEB
+ 1. Certain Grip: Missing SOURCEWEB
+ 1. Chain of Perdition: Missing SOURCEWEB
+ 1. Companion Mind Link: Missing SOURCEWEB
+ 1. Compel Hostility: Missing SOURCEWEB
+ 1. Damp Powder: Missing SOURCEWEB
+ 1. Darkvision (Communal): Missing SOURCEWEB
+ 1. Daybreak Arrow: Missing SOURCEWEB
+ 1. Deadly Juggernaut: Missing SOURCEWEB
+ 1. Deadeye's Lore: Missing SOURCEWEB
+ 1. Debilitating Portent: Missing SOURCEWEB
+ 1. Delay Poison (Communal): Missing SOURCEWEB
+ 1. Destabilize Powder: Missing SOURCEWEB
+ 1. Discovery Torch: Missing SOURCEWEB
+ 1. Divine Arrow: Missing SOURCEWEB
+ 1. Dust Form: Missing SOURCEWEB
+ 1. Effortless Armor: Missing SOURCEWEB
+ 1. Endure Elements (Communal): Missing SOURCEWEB
  1. Siege of Trees (Greater): Missing SOURCEWEB
  1. Spell Immunity (Communal): Missing SOURCEWEB
  1. Spell Immunity (Greater/Communal): Missing SOURCEWEB
@@ -1426,8 +1410,8 @@ Ultimate Magic
  1. Imbue with Aura: Missing SOURCEWEB
  1. Icicle Dagger: Missing SOURCEWEB
  1. Icy Prison (Mass): Missing SOURCEWEB
- 1. Interplanetary Teleport: Missing SOURCEWEB
  1. Interrogation: Missing SOURCEWEB
+ 1. Interplanetary Teleport: Missing SOURCEWEB
  1. Interrogation (Greater): Missing SOURCEWEB
  1. Joyful Rapture: Missing SOURCEWEB
  1. Ki Arrow: Missing SOURCEWEB

@@ -7,7 +7,20 @@ from pcgen.testcase import TestCase
 class TestReadLstFile(TestCase):
 
     def setUp(self):
-        self.fixture = "# CVS $Revision$ $Author$ -- Sat Oct 13 13:49:23 2012 -- reformated by prettylst.pl v1.39 (build 15052)\nSOURCELONG:Core Rulebook\n \n\t\n# Original Entry by: Eddy Anthony\n# Incorporated 11/22/2011 errata (Stefan Radermacher)\n\n###Block: A\n# Spell Name\nAcid Arrow\nAcid Fog\nAcid Splash\nAcid Splash.MOD\n"
+        self.fixture = """
+# CVS $Revision$ $Author$ -- Sat Oct 13 13:49:23 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Core Rulebook
+
+# Original Entry by: Eddy Anthony\n# Incorporated 11/22/2011 errata (Stefan Radermacher)
+
+### Block: A
+# Spell Name
+Acid Arrow
+Acid Fog
+Acid Splash
+Acid Splash.MOD
+Planar Ally.COPY=Planar Ally (Agathions Only)
+"""
         self.mock_open = self.setUpPatch("__builtin__.open", mock.mock_open(read_data=self.fixture))
 
     def test_read_lst_file_opens_designated_file(self):
@@ -26,6 +39,11 @@ class TestReadLstFile(TestCase):
         (ret, source) = read_lst_file("Testnaam")
         for line in ret:
             self.assertFalse(re.search(r'^[^\t]*\.MOD', line), "line is a MOD line: %s" % line)
+
+    def test_read_lst_file_filters_copy(self):
+        (ret, source) = read_lst_file("Testnaam")
+        for line in ret:
+            self.assertFalse(re.search(r'^[^\t]*\.COPY', line), "line is a COPY line: %s" % line)
 
     def test_read_lst_file_filters_lines_starting_with_hash(self):
         (ret, source) = read_lst_file("Testnaam")
