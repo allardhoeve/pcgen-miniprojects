@@ -14,7 +14,6 @@ class QASpellSourceWeb(object):
 
         return result
 
-
     def testlink(self, spell):
 
         if spell.sourceweb is None:
