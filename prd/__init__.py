@@ -3,9 +3,12 @@ from lxml import etree
 import requests
 
 
-def get_prd_spell_links():
-    index = requests.get("http://paizo.com/pathfinderRPG/prd/indices/spells.html")
-    root = etree.HTML(index)
+def get_prd_spell_links(html=None):
+
+    if not html:
+        html = fetch_prd_spell_index()
+
+    root = etree.HTML(html)
     links = root.xpath("//div[@id='spell-index-wrapper']/ul/li/a")
 
     ret = {}
@@ -16,3 +19,6 @@ def get_prd_spell_links():
         ret[name] = url
 
     return ret
+
+def fetch_prd_spell_index():
+    index = requests.get("http://paizo.com/pathfinderRPG/prd/indices/spells.html")

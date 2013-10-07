@@ -1,18 +1,32 @@
 #!/usr/bin/env python
 from operator import attrgetter
+from fuzzywuzzy import process
+
+# Flush stdout
+import sys
+import os
+sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import find_all_pathfinder_spells
 from pcgen.qa import QASpellSourceWeb
+from prd import get_prd_spell_links
 
 spells = find_all_pathfinder_spells()
 
-print("Found total of %d spells in Pathfinder" % len(spells))
+with open("testdata/spells.html") as fh:
+    html = fh.read()
+    prdspells = get_prd_spell_links(html)
+
+print("Found total of %d spells in Pathfinder LST sources" % len(spells))
+print("Found total of %d spells in Pathfinder SRD" % len(prdspells))
 
 qs = QASpellSourceWeb()
 result = qs.test(spells)
 
 print("Found total of %d spells in Pathfinder with errors" % len(result))
 
+
+# re-order spells by sourcelong
 by_source = {}
 
 for (spell, error) in result:
@@ -20,6 +34,7 @@ for (spell, error) in result:
         by_source[spell.sourcelong] = {}
 
     by_source[spell.sourcelong][spell] = error
+
 
 for source in sorted(by_source.iterkeys()):
     print
@@ -30,4 +45,21 @@ for source in sorted(by_source.iterkeys()):
 
     for spell in sorted(by_source[source].iterkeys(), key=attrgetter('name')):
         name = spell.key or spell.name
-        print " 1. %s: %s" % (name, by_source[source][spell])
+
+        if name in prdspells:
+            match = (name, 100)
+        else:
+            match = process.extractOne(name, prdspells)
+
+        if (match):
+            matchedname = match[0]
+            matchedperc = match[1]
+
+            print " 1. [%s](%s) can be corrected with certainty of _%d_ out of 100" % (name, prdspells[matchedname], matchedperc)
+        else:
+            print " 1. _%s has no source url and cannot be autocorrected_" % name
+
+
+print
+print
+
