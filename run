@@ -49,13 +49,13 @@ for source in sorted(by_source.iterkeys()):
         if name in prdspells:
             match = (name, 100)
         else:
-            match = process.extractOne(name, prdspells)
+            match = process.extractOne(spell.name, prdspells)
 
         if (match):
             matchedname = match[0]
             matchedperc = match[1]
 
-            print " 1. [%s](%s) can be corrected with certainty of _%d_ out of 100" % (name, prdspells[matchedname], matchedperc)
+            print " 1. [%s](%s) has no SOURCEWEB, but can be corrected with certainty of _%d_ out of 100" % (name, prdspells[matchedname], matchedperc)
         else:
             print " 1. _%s has no source url and cannot be autocorrected_" % name
 
