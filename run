@@ -20,19 +20,15 @@ print("Found total of %d spells in Pathfinder LST sources" % len(spells))
 print("Found total of %d spells in Pathfinder SRD" % len(prdspells))
 
 qs = QASpellSourceWeb()
-result = qs.test(spells)
-
-print("Found total of %d spells in Pathfinder with errors" % len(result))
-
 
 # re-order spells by sourcelong
 by_source = {}
 
-for (spell, error) in result:
+for spell in spells:
     if spell.sourcelong not in by_source:
-        by_source[spell.sourcelong] = {}
+        by_source[spell.sourcelong] = []
 
-    by_source[spell.sourcelong][spell] = error
+    by_source[spell.sourcelong].append(spell)
 
 
 for source in sorted(by_source.iterkeys()):
@@ -42,7 +38,13 @@ for source in sorted(by_source.iterkeys()):
     print "=" * len(source or "None")
     print
 
-    for spell in sorted(by_source[source].iterkeys(), key=attrgetter('name')):
+    for spell in sorted(by_source[source], key=attrgetter('name')):
+
+        # Test the SOURCEWEB
+        if qs.testlink(spell) is False:  # correct link
+            print " 1. %s has a valid source URL" % spell.name
+            continue
+
         # correct the spell
         result = qs.correct(spell, prdspells)
 
