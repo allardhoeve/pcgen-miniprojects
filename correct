@@ -1,7 +1,54 @@
 #!/usr/bin/env python
-from pcgen import PathfinderCampaign
 
+# Flush stdout
+import sys
+import os
+sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
+
+from pcgen import PathfinderCampaign
+from pcgen.parser import describes_valid_lst_object, SpellObject
+from pcgen.qa import QASpellSourceWeb
+from prd import get_prd_spell_links
+
+###
+# Configure objects
+###
+
+qa = QASpellSourceWeb()
 campaign = PathfinderCampaign()
 lstfiles = campaign.find_spell_listfiles()
 
-print lstfiles
+###
+# Get PRD spells
+###
+
+with open("testdata/spells.html") as fh:
+    html = fh.read()
+    prdspells = get_prd_spell_links(html)
+
+###
+# correct each file
+###
+for (lstfile, sourcedef) in lstfiles:
+    print "Opening %(sourcelong)s (%(sourcefile)s)" % sourcedef
+
+    # read original data
+    lstfh = open(lstfile)
+    data = lstfh.read()
+    lines = data.split("\n")
+    lstfh.close()
+
+    # write new data
+    with open(lstfile, 'w') as writelstfh:
+        print " - Processing %d lines" % len(lines)
+
+        for line in lines:
+            if not describes_valid_lst_object(line):
+                writelstfh.write(line + "\n")
+            else:
+                spell = SpellObject(line, sourcedef)
+                print " - Fixing %s" % spell.name
+
+                qa.correct(spell, prdspells)
+
+                writelstfh.write(spell.lstline + "\n")
