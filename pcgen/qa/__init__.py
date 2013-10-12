@@ -1,7 +1,41 @@
+import re
 from urlparse import urlparse
 
 
 class QASpellSourceWeb(object):
+
+    pattern = "(?<=SOURCEWEB:)[^\t]+"
+
+    def __init__(self):
+        self.pattern = re.compile(self.pattern)
+
+    def correct(self, spell, srdspells):
+        """
+        Autocorrect the sourceweb and lstline of a Spell object if needed
+
+        The spell is fixed in-place. The field spell.sourceweb is updated and
+        spell.lstline is updated. Invalid SOURCEWEB: is fixed if not there.
+        SOURCEWEB:url is appended if missing.
+
+        Positional arguments:
+          - spell: SpellObject to be corrected
+          - srdspells: an dict of known spells and their URL
+
+        Returns:
+          - boolean: has the entry been updated?
+
+        """
+        if self.testlink(spell) is False:  # no errors
+            return False
+
+        spell.sourceweb = srdspells[spell.name]
+
+        if self.pattern.search(spell.lstline):
+            spell.lstline = self.pattern.sub(spell.sourceweb, spell.lstline)
+        else:
+            spell.lstline = "%s\t\tSOURCEWEB:%s" % (spell.lstline, spell.sourceweb)
+
+        return True
 
     def test(self, collection):
         result = []
