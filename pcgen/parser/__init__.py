@@ -58,11 +58,15 @@ def read_lst_file(filename):
     }
 
     # other entries
-    entries = filter(lambda x: not x.startswith("#"), entries)
-    entries = filter(lambda x: not x.startswith("SOURCELONG"), entries)
-    entries = filter(lambda x: not re.search(r'^\s', x), entries)
-    entries = filter(lambda x: not re.search(r'^[^\t]*\.MOD', x), entries)
-    entries = filter(lambda x: not re.search(r'^[^\t]*\.COPY', x), entries)
-    entries = filter(lambda x: len(x) > 0, entries)
+    entries = filter(describes_valid_lst_object, entries)
 
     return entries, sourcedef
+
+
+def describes_valid_lst_object(line):
+    return (not line.startswith("#") and
+            not line.startswith("SOURCELONG") and
+            not re.search(r'^\s', line) and
+            not re.search(r'^[^\t]*\.MOD', line) and
+            not re.search(r'^[^\t]*\.COPY', line) and
+            len(line) > 0)
