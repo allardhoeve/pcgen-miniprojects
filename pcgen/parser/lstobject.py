@@ -13,6 +13,8 @@ class LstObject(object):
         'sourcefile'
     ]
 
+    listline = None
+
     keywords = []
 
     def __init__(self, line=None, source=None):
@@ -21,6 +23,7 @@ class LstObject(object):
 
         if not line is None:
             self.parseLine(line)
+            self.lstline = line
 
         if source:
             self.sourcelong = source['sourcelong']

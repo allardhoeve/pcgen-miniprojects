@@ -147,6 +147,11 @@ class TestSpellObject(TestCase):
         line = "Acid Dart\t\tTEMPBONUS:Henk"
         SpellObject(line)
 
+    def test_spell_stores_original_line(self):
+        line = "Acid Dart\t\tTEMPBONUS:Henk"
+        spell = SpellObject(line)
+        self.assertEqual(spell.lstline, line)
+
     def print_class_keywords(self, object):
         import sys
         print >>sys.stderr, "\n\n%s\n" % object.name.upper()
