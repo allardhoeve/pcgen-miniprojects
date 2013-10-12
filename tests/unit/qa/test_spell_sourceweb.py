@@ -47,6 +47,20 @@ class TestSpellSourceWeb(TestCase):
         self.assertEqual(spell.sourceweb, origsourceweb)
         self.assertEqual(spell.lstline, origlstline)
 
+    def test_correct_fuzzymatches_spells_if_spell_misspelled(self):
+        spell = SpellObject("Acid Dard")
+        result = self.sourceweb.correct(spell, self.srdspells)
+
+        self.assertEqual(result, True)
+        self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
+
+    def test_correct_only_uses_fuzzymatch_if_probable_match(self):
+        spell = SpellObject("Acid Ball")
+        result = self.sourceweb.correct(spell, self.srdspells)
+
+        self.assertEqual(result, False)
+        self.assertEqual(spell.sourceweb, None)
+
     def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
         result = self.sourceweb.test(self.spells)
 

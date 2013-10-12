@@ -1,5 +1,6 @@
 import re
 from urlparse import urlparse
+from fuzzywuzzy import process
 
 
 class QASpellSourceWeb(object):
@@ -19,17 +20,28 @@ class QASpellSourceWeb(object):
 
         Positional arguments:
           - spell: SpellObject to be corrected
-          - srdspells: an dict of known spells and their URL
+          - srdspells: an dict of known spells and their URL (prd.get_prd_spell_links)
 
         Returns:
           - boolean: has the entry been updated?
 
         """
+        # If the sourceweb tests ok, don't touch it
         if self.testlink(spell) is False:  # no errors
             return False
 
-        spell.sourceweb = srdspells[spell.name]
+        # Try to find correct link in srdspells
+        if spell.name in srdspells:
+            spell.sourceweb = srdspells[spell.name]
+        else:
+            candidate, probability = process.extractOne(spell.name, srdspells)
 
+            if probability < 80:
+                return False
+
+            spell.sourceweb = srdspells[candidate]
+
+        # Add or correct SOURCEWEB in lstline
         if self.pattern.search(spell.lstline):
             spell.lstline = self.pattern.sub(spell.sourceweb, spell.lstline)
         else:
