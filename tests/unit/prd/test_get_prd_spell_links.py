@@ -25,6 +25,10 @@ class TestPRD(TestCase):
         spells = get_prd_spell_links()
         self.assertEqual(spells["Fox's Cunning"], "http://paizo.com/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning")
 
+    def test_get_prd_spell_links_finds_adjuring_step(self):
+        spells = get_prd_spell_links()
+        self.assertIn("Adjuring Step", spells)
+
     @skip("Not yet implemented")
     def test_get_prd_spells_skips_letter_indices(self):
         pass

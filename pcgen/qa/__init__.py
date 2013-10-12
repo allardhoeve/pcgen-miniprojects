@@ -1,6 +1,6 @@
 import re
 from urlparse import urlparse
-from fuzzywuzzy import process
+from pcgen import fuzzy
 
 
 class QASpellSourceWeb(object):
@@ -49,7 +49,11 @@ class QASpellSourceWeb(object):
             correction["match"] = spell.name
             correction["certainty"] = 100
         else:
-            candidate, probability = process.extractOne(spell.name, srdspells)
+            candidate, probability = fuzzy.match(
+                spell.name,
+                srdspells,
+                scorer=fuzzy.SpellRatio
+            )
             correction["method"] = "fuzzy"
             correction["match"] = candidate
             correction["certainty"] = probability

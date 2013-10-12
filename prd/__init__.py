@@ -13,7 +13,7 @@ def get_prd_spell_links(html=None):
     ret = {}
 
     for link in links:
-        name = link.text
+        name = link.text.strip()
         url = "http://paizo.com" + link.attrib['href']
         ret[name] = url
 

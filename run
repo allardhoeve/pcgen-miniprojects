@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from operator import attrgetter
-from fuzzywuzzy import process
 
 # Flush stdout
 import sys
@@ -47,18 +46,23 @@ for source in sorted(by_source.iterkeys()):
         # correct the spell
         result = qs.correct(spell, prdspells)
 
-        if not result:
-            print " 1. _%s has no valid source URL and cannot be auto-corrected_"
-            continue
+        output = None
 
-        print " 1. [%(spell)s](%(link)s) can be auto-corrected to '%(match)s' using '%(method)s'" % {
+        if not result:
+            print " 1. _%s has no valid source URL and cannot be auto-corrected_" % spell.name
+            continue
+        elif result["method"] == "match":
+            output = " 1. [%(spell)s](%(link)s) can be auto-corrected"
+        else:
+            output = " 1. [%(spell)s](%(link)s) can be auto-corrected to '%(match)s' using '%(method)s' (%(prob)d%%)"
+
+        print output % {
             "spell": spell.name,
             "link": spell.sourceweb,
             "match": result["match"],
-            "method": "fuzzy %d%%" % result["certainty"] if result["method"] == "fuzzy" else result["method"],
+            "method": result["method"],
             "prob": result["certainty"]
         }
 
 print
 print
-
