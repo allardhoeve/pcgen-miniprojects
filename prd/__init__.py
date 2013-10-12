@@ -1,4 +1,3 @@
-from io import StringIO
 from lxml import etree
 import requests
 
@@ -20,5 +19,7 @@ def get_prd_spell_links(html=None):
 
     return ret
 
+
 def fetch_prd_spell_index():
     index = requests.get("http://paizo.com/pathfinderRPG/prd/indices/spells.html")
+    return index
