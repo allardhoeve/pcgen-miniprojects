@@ -44,21 +44,20 @@ for source in sorted(by_source.iterkeys()):
     print
 
     for spell in sorted(by_source[source].iterkeys(), key=attrgetter('name')):
-        name = spell.key or spell.name
+        # correct the spell
+        result = qs.correct(spell, prdspells)
 
-        if name in prdspells:
-            match = (name, 100)
-        else:
-            match = process.extractOne(spell.name, prdspells)
+        if not result:
+            print " 1. _%s has no valid source URL and cannot be auto-corrected_"
+            continue
 
-        if (match):
-            matchedname = match[0]
-            matchedperc = match[1]
-
-            print " 1. [%s](%s) has no SOURCEWEB, but can be corrected with certainty of _%d_ out of 100" % (name, prdspells[matchedname], matchedperc)
-        else:
-            print " 1. _%s has no source url and cannot be autocorrected_" % name
-
+        print " 1. [%(spell)s](%(link)s) can be auto-corrected to '%(match)s' using '%(method)s'" % {
+            "spell": spell.name,
+            "link": spell.sourceweb,
+            "match": result["match"],
+            "method": "fuzzy %d%%" % result["certainty"] if result["method"] == "fuzzy" else result["method"],
+            "prob": result["certainty"]
+        }
 
 print
 print

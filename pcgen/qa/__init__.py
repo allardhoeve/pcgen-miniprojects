@@ -26,6 +26,7 @@ class QASpellSourceWeb(object):
           - False if spell not updated
           - dict if spell updated (can be tested against boolean operaters as True):
             - method: "match" or "fuzzy"
+            - match: matched spell name
             - certainty: integer - how probable is the fuzzy match on scale 0-100
             - lst: "add" or "correct" to see how the SOURCEWEB string was handled
 
@@ -36,6 +37,7 @@ class QASpellSourceWeb(object):
 
         correction = {
             "method": None,
+            "match": None,
             "certainty": 0,
             "lst": None
         }
@@ -44,10 +46,12 @@ class QASpellSourceWeb(object):
         if spell.name in srdspells:
             spell.sourceweb = srdspells[spell.name]
             correction["method"] = "match"
+            correction["match"] = spell.name
             correction["certainty"] = 100
         else:
             candidate, probability = process.extractOne(spell.name, srdspells)
             correction["method"] = "fuzzy"
+            correction["match"] = candidate
             correction["certainty"] = probability
 
             if probability < 80:
