@@ -25,7 +25,9 @@ class TestSpellSourceWeb(TestCase):
         spell = self.spells[0]
         result = self.sourceweb.correct(spell, self.srdspells)
 
-        self.assertEqual(result, True)
+        self.assertTrue(result)
+        self.assertEqual(result["method"], "match")
+        self.assertEqual(result["lst"], "add")
         self.assertEqual(spell.sourceweb, "http://pcgen.nl/acidsplash.html")
         self.assertEqual(spell.lstline, "Acid Splash\t\tSOURCEWEB:http://pcgen.nl/acidsplash.html")
 
@@ -33,7 +35,9 @@ class TestSpellSourceWeb(TestCase):
         spell = self.spells[1]
         result = self.sourceweb.correct(spell, self.srdspells)
 
-        self.assertEqual(result, True)
+        self.assertTrue(result)
+        self.assertEqual(result["method"], "match")
+        self.assertEqual(result["lst"], "correct")
         self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
         self.assertEqual(spell.lstline, "Acid Dart\t\tSOURCEWEB:http://pcgen.nl/aciddart.html\t\tDESC:Henk")
 
@@ -43,7 +47,7 @@ class TestSpellSourceWeb(TestCase):
         origlstline = spell.lstline
         result = self.sourceweb.correct(spell, self.srdspells)
 
-        self.assertEqual(result, False)
+        self.assertFalse(result)
         self.assertEqual(spell.sourceweb, origsourceweb)
         self.assertEqual(spell.lstline, origlstline)
 
@@ -51,14 +55,15 @@ class TestSpellSourceWeb(TestCase):
         spell = SpellObject("Acid Dard")
         result = self.sourceweb.correct(spell, self.srdspells)
 
-        self.assertEqual(result, True)
+        self.assertTrue(result)
+        self.assertEqual(result["method"], "fuzzy")
         self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
 
     def test_correct_only_uses_fuzzymatch_if_probable_match(self):
         spell = SpellObject("Acid Ball")
         result = self.sourceweb.correct(spell, self.srdspells)
 
-        self.assertEqual(result, False)
+        self.assertFalse(result)
         self.assertEqual(spell.sourceweb, None)
 
     def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):

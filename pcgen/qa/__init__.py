@@ -23,18 +23,32 @@ class QASpellSourceWeb(object):
           - srdspells: an dict of known spells and their URL (prd.get_prd_spell_links)
 
         Returns:
-          - boolean: has the entry been updated?
+          - False if spell not updated
+          - dict if spell updated (can be tested against boolean operaters as True):
+            - method: "match" or "fuzzy"
+            - certainty: integer - how probable is the fuzzy match on scale 0-100
+            - lst: "add" or "correct" to see how the SOURCEWEB string was handled
 
         """
         # If the sourceweb tests ok, don't touch it
         if self.testlink(spell) is False:  # no errors
             return False
 
+        correction = {
+            "method": None,
+            "certainty": 0,
+            "lst": None
+        }
+
         # Try to find correct link in srdspells
         if spell.name in srdspells:
             spell.sourceweb = srdspells[spell.name]
+            correction["method"] = "match"
+            correction["certainty"] = 100
         else:
             candidate, probability = process.extractOne(spell.name, srdspells)
+            correction["method"] = "fuzzy"
+            correction["certainty"] = probability
 
             if probability < 80:
                 return False
@@ -43,11 +57,13 @@ class QASpellSourceWeb(object):
 
         # Add or correct SOURCEWEB in lstline
         if self.pattern.search(spell.lstline):
+            correction["lst"] = "correct"
             spell.lstline = self.pattern.sub(spell.sourceweb, spell.lstline)
         else:
+            correction["lst"] = "add"
             spell.lstline = "%s\t\tSOURCEWEB:%s" % (spell.lstline, spell.sourceweb)
 
-        return True
+        return correction
 
     def test(self, collection):
         result = []
