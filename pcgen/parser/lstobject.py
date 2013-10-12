@@ -13,7 +13,7 @@ class LstObject(object):
         'sourcefile'
     ]
 
-    listline = None
+    lstline = None
 
     keywords = []
 
