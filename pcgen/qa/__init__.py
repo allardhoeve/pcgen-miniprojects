@@ -84,7 +84,7 @@ class QASpellSourceWeb(object):
 
     def get_canonical_name(self, spell):
         canon = spell.name.strip()
-        canon = re.sub(' \((Communal|Greater|Lesser)\)', r', \1', canon)
+        canon = re.sub(' \((Communal|Greater|Lesser|Mass)\)', r', \1', canon)
 
         return canon
 

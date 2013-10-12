@@ -36,6 +36,10 @@ class TestSpellSourceWeb(TestCase):
         canon = self.sourceweb.get_canonical_name(spell)
         self.assertEqual(canon, "Endure Elements, Lesser")
 
+        spell = SpellObject("Endure Elements (Mass)")
+        canon = self.sourceweb.get_canonical_name(spell)
+        self.assertEqual(canon, "Endure Elements, Mass")
+
     def test_correct_adds_sourceweb_entry(self):
         spell = self.spells[0]
         result = self.sourceweb.correct(spell, self.srdspells)
