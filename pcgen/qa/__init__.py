@@ -42,12 +42,21 @@ class QASpellSourceWeb(object):
             "lst": None
         }
 
+        canonicalname = self.get_canonical_name(spell)
+
         # Try to find correct link in srdspells
         if spell.name in srdspells:
             spell.sourceweb = srdspells[spell.name]
             correction["method"] = "match"
             correction["match"] = spell.name
             correction["certainty"] = 100
+
+        elif canonicalname in srdspells:
+            spell.sourceweb = srdspells[canonicalname]
+            correction["method"] = "match"
+            correction["match"] = canonicalname
+            correction["certainty"] = 100
+
         else:
             candidate, probability = fuzzy.match(
                 spell.name,
@@ -72,6 +81,12 @@ class QASpellSourceWeb(object):
             spell.lstline = "%s\t\tSOURCEWEB:%s" % (spell.lstline, spell.sourceweb)
 
         return correction
+
+    def get_canonical_name(self, spell):
+        canon = spell.name.strip()
+        canon = re.sub(' \((Communal|Greater|Lesser)\)', r', \1', canon)
+
+        return canon
 
     def test(self, collection):
         result = []

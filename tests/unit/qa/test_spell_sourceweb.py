@@ -1,3 +1,4 @@
+import mock
 from pcgen.parser import SpellObject
 from pcgen.qa import QASpellSourceWeb
 from pcgen.testcase import TestCase
@@ -18,8 +19,22 @@ class TestSpellSourceWeb(TestCase):
             "Acid Splash": "http://pcgen.nl/acidsplash.html",
             "Acid Dart": "http://pcgen.nl/aciddart.html",
             "Magic Missile": "http://pcgen.nl/magicmissile.html",
-            "Fireball": "http://pcgen.nl/fireball.html"
+            "Fireball": "http://pcgen.nl/fireball.html",
+            "Endure Elements, Communal": "http://pcgen.nl/endure.html"
         }
+
+    def test_get_canonical_name_returns_pathfinder_name(self):
+        spell = SpellObject("Endure Elements (Communal)")
+        canon = self.sourceweb.get_canonical_name(spell)
+        self.assertEqual(canon, "Endure Elements, Communal")
+
+        spell = SpellObject("Endure Elements (Greater)")
+        canon = self.sourceweb.get_canonical_name(spell)
+        self.assertEqual(canon, "Endure Elements, Greater")
+
+        spell = SpellObject("Endure Elements (Lesser)")
+        canon = self.sourceweb.get_canonical_name(spell)
+        self.assertEqual(canon, "Endure Elements, Lesser")
 
     def test_correct_adds_sourceweb_entry(self):
         spell = self.spells[0]
@@ -65,6 +80,18 @@ class TestSpellSourceWeb(TestCase):
 
         self.assertFalse(result)
         self.assertEqual(spell.sourceweb, None)
+
+    def test_correct_matches_communal_spell_to_link_without_fuzz(self):
+        with mock.patch('pcgen.fuzzy.match') as mock_match:
+            mock_match.return_value = ("Endure Elements, Communal", 100)
+
+            spell = SpellObject("Endure Elements (Communal)")
+            result = self.sourceweb.correct(spell, self.srdspells)
+
+            self.assertTrue(result)
+            self.assertEqual(result["match"], "Endure Elements, Communal")
+
+            self.assertFalse(mock_match.called, "Fuzzer should not have been used")
 
     def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
         result = self.sourceweb.test(self.spells)
