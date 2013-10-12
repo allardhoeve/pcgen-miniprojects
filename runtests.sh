@@ -3,12 +3,8 @@
 export PYTHONDONTWRITEBYTECODE=1
 
 if [ -z "$VIRTUAL_ENV" ]; then
-	if [ -e "../bin/activate" ]; then
-		echo "Activating your environment for you"
-		. ../bin/activate
-	else 
-		echo "Please activate your environment first!"
-	fi
+	echo "Please activate your environment first!"
+	exit 1;
 fi
 
 if [ "$1" = "--jenkins" ]; then
