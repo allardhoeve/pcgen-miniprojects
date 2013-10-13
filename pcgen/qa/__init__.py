@@ -58,10 +58,9 @@ class QASpellSourceWeb(object):
             correction["certainty"] = 100
 
         else:
-            candidate, probability = fuzzy.match(
+            candidate, probability = fuzzy.match_spell(
                 spell.name,
                 srdspells,
-                scorer=fuzzy.SpellRatio
             )
             correction["method"] = "fuzzy"
             correction["match"] = candidate

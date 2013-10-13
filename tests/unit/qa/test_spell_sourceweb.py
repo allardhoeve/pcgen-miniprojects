@@ -86,7 +86,7 @@ class TestSpellSourceWeb(TestCase):
         self.assertEqual(spell.sourceweb, None)
 
     def test_correct_matches_communal_spell_to_link_without_fuzz(self):
-        with mock.patch('pcgen.fuzzy.match') as mock_match:
+        with mock.patch('pcgen.fuzzy.match_spell') as mock_match:
             mock_match.return_value = ("Endure Elements, Communal", 100)
 
             spell = SpellObject("Endure Elements (Communal)")

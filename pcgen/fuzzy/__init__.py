@@ -3,7 +3,7 @@ from fuzzywuzzy.fuzz import WRatio
 from fuzzywuzzy.process import extractOne
 
 
-def match(query, choices, processor=None, scorer=None, score_cutoff=0):
+def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
     """
     Case-optimize the fuzzy-matcher.
 
@@ -38,30 +38,3 @@ def match(query, choices, processor=None, scorer=None, score_cutoff=0):
         processor=processor,
         scorer=scorer,
         score_cutoff=score_cutoff)
-
-
-def SpellRatio(s1, s2, *args, **kwargs):
-    """
-    Modified fuzzywuzzy.fuzz.WRatio
-
-    If the spell description is a variant of another spell, the standard
-    algorithm does not always correctly detect the name.
-
-    Example:
-      Beast Shape III (Animals Only) -> Beast Shape I
-
-    We want to optimize the selection by removing the parenthesized string
-    if it ends in Only. This denotes a variant spell in all current Pathfinder
-    cases.
-
-    Then, let WRatio decide.
-
-    arguments:
-     - s1: name to find
-     - s2: candidate from extrator choices
-     - other arguments are passed to fuzzywuzzy.fuzz.WRatio
-
-    returns:
-     - integer with probability of match
-    """
-    return WRatio(s1, s2, *args, **kwargs)

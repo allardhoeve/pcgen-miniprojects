@@ -1,10 +1,9 @@
 from pcgen import fuzzy
-from pcgen.parser import SpellObject
 from pcgen.testcase import TestCase
 from prd import get_prd_spell_links
 
 
-class TestSpellRatioFuzzer(TestCase):
+class TestSpellFuzzerMatcher(TestCase):
 
     def setUp(self):
         self.prdspells = [
@@ -17,7 +16,7 @@ class TestSpellRatioFuzzer(TestCase):
         ]
 
     def assertFuzzerMatches(self, spell, expected):
-        (candidate, probability) = fuzzy.match(spell, self.prdspells, scorer=fuzzy.SpellRatio)
+        (candidate, probability) = fuzzy.match_spell(spell, self.prdspells)
         self.assertEqual(candidate, expected)
 
     def test_beast_shape_III_is_correctly_detected(self):
