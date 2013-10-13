@@ -47,8 +47,9 @@ for (lstfile, sourcedef) in lstfiles:
                 writelstfh.write(line + "\n")
             else:
                 spell = SpellObject(line, sourcedef)
-                print " - Fixing %s" % spell.name
 
-                qa.correct(spell, prdspells)
+                if qa.testlink(spell):  # test to see if correction is needed
+                    print " - Fixing %s" % spell.name
+                    qa.correct(spell, prdspells)
 
                 writelstfh.write(spell.lstline + "\n")
