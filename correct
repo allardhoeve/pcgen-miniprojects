@@ -10,6 +10,10 @@ from pcgen.parser import describes_valid_lst_object, SpellObject
 from pcgen.qa import QASpellSourceWeb
 from prd import get_prd_spell_links
 
+print "# Pathfinder PRD Sourceweb Cleanup Run"
+print
+
+
 ###
 # Configure objects
 ###
@@ -30,7 +34,11 @@ with open("testdata/spells.html") as fh:
 # correct each file
 ###
 for (lstfile, sourcedef) in lstfiles:
-    print "Opening %(sourcelong)s (%(sourcefile)s)" % sourcedef
+    print
+    print "## Opening %s" % sourcedef["sourcelong"]
+    print
+    print lstfile
+    print
 
     # read original data
     lstfh = open(lstfile)
@@ -40,8 +48,6 @@ for (lstfile, sourcedef) in lstfiles:
 
     # write new data
     with open(lstfile, 'w') as writelstfh:
-        print " - Processing %d lines" % len(lines)
-
         for line in lines:
             if not describes_valid_lst_object(line):
                 writelstfh.write(line + "\n")
@@ -50,6 +56,12 @@ for (lstfile, sourcedef) in lstfiles:
 
                 if qa.testlink(spell):  # test to see if correction is needed
                     print " - Fixing %s" % spell.name
-                    qa.correct(spell, prdspells)
+                    result = qa.correct(spell, prdspells)
+
+                    if result:
+                        if result["method"] == "fuzzy":
+                            print "   - fuzzy match [%s](%s)" % (result["match"], spell.sourceweb)
+                    else:
+                        print "   - cannot find a match in PRD index"
 
                 writelstfh.write(spell.lstline + "\n")
