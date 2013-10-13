@@ -1,5 +1,6 @@
 from lxml import etree
 import requests
+from prd.dict import CaseInsensitiveDict
 
 
 def get_prd_spell_links(html=None):
@@ -10,7 +11,7 @@ def get_prd_spell_links(html=None):
     root = etree.HTML(html)
     links = root.xpath("//div[@id='spell-index-wrapper']/ul/li/a")
 
-    ret = {}
+    ret = CaseInsensitiveDict()
 
     for link in links:
         name = link.text.strip()

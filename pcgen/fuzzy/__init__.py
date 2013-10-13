@@ -7,25 +7,28 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
     """
     Case-optimize the fuzzy-matcher.
 
-    Use canonical Pathfinder names, to instantly find spells:
+    The matcher disregards case:
+     - Magic Circle against Good -> Magic Circle Against Good
+
+    And it uses canonical Pathfinder names, to instantly find spells:
      - Aid (Mass) -> Aid, Mass
      - Restoration (Lesser) -> Restoration, Lesser
      - Command (Greater) -> Command, Greater
      - Endure Elements (Communal) -> Endure Elements, Communal
 
-    Also try to match restricted spells to their normal counterparts:
+    It also tries to match restricted spells to their normal counterparts:
      - Align Weapon (Chaos Only) -> Align Weapon
 
-    Finally, skip any Masterpieces (they are not on the PRD):
+    Finally, it skips any Masterpieces (they are not on the PRD):
      - Masterpiece (Depths of the Mountain) -> None
 
-    arguments:
+    Arguments:
      - arguments are like fuzzywuzzy.process.extractOne
      - notable arguments:
        - query: the name of the spell to find
        - choices: the group to match the name to
 
-    returns:
+    Returns:
      - tuple of (name, certainty, method)
        - name: the name of the SRD spell matched or None
        - certainty: how certain is the match on a scale of 0 - 100

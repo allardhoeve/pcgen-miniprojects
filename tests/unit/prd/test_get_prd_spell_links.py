@@ -29,6 +29,12 @@ class TestPRD(TestCase):
         spells = get_prd_spell_links()
         self.assertIn("Adjuring Step", spells)
 
+    def test_get_prd_spell_links_is_caseinsensitive(self):
+        spells = get_prd_spell_links()
+        self.assertIn("Adjuring Step", spells)
+        self.assertIn("adjuring step", spells)
+        self.assertIn("adJuring stEp", spells)
+
     @skip("Not yet implemented")
     def test_get_prd_spells_skips_letter_indices(self):
         pass
