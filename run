@@ -55,7 +55,7 @@ for source in sorted(by_source.iterkeys()):
         output = None
 
         if not result:
-            print " 1. **%s has no valid source URL and cannot be auto-corrected**" % spell.name
+            print " 1. %s has no valid source URL and cannot be auto-corrected" % spell.name
             continue
         elif result["method"] == "exact":
             output = " 1. [%(spell)s](%(link)s) can be auto-corrected"
