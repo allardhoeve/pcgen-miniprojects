@@ -16,6 +16,8 @@ with open("testdata/spells.html") as fh:
     html = fh.read()
     prdspells = get_prd_spell_links(html)
 
+print("# Pathfinder Spell QA")
+print
 print("Found total of %d spells in Pathfinder LST sources" % len(spells))
 print("Found total of %d spells in Pathfinder SRD" % len(prdspells))
 
@@ -34,16 +36,18 @@ for spell in spells:
 for source in sorted(by_source.iterkeys()):
     print
     print
-    print source
-    print "=" * len(source or "None")
+    print "## %s" % source
     print
+
+    allvalid = True
 
     for spell in sorted(by_source[source], key=attrgetter('name')):
 
         # Test the SOURCEWEB
         if qs.testlink(spell) is False:  # correct link
-            print " 1. [%s](%s) has a valid source URL" % (spell.name, spell.sourceweb)
             continue
+
+        allvalid = False
 
         # correct the spell
         result = qs.correct(spell, prdspells)
@@ -51,7 +55,7 @@ for source in sorted(by_source.iterkeys()):
         output = None
 
         if not result:
-            print " 1. _%s has no valid source URL and cannot be auto-corrected_" % spell.name
+            print " 1. **%s has no valid source URL and cannot be auto-corrected**" % spell.name
             continue
         elif result["method"] == "exact":
             output = " 1. [%(spell)s](%(link)s) can be auto-corrected"
@@ -66,6 +70,9 @@ for source in sorted(by_source.iterkeys()):
             "method": result["method"],
             "certainty": result["certainty"]
         }
+
+    if allvalid:
+        print "All %d spells have valid SRD links" % len(by_source[source])
 
 print
 print
