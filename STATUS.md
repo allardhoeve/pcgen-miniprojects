@@ -359,10 +359,10 @@ Core Rulebook
  1. [Mage's Private Sanctum](http://paizo.com/pathfinderRPG/prd/spells/mageSPrivateSanctum.html#_mage-s-private-sanctum) can be auto-corrected
  1. [Mage's Sword](http://paizo.com/pathfinderRPG/prd/spells/mageSSword.html#_mage-s-sword) can be auto-corrected
  1. [Magic Aura](http://paizo.com/pathfinderRPG/prd/spells/magicAura.html#_magic-aura) can be auto-corrected
- 1. [Magic Circle against Chaos](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos) can be auto-corrected by fuzzy-matching 'Magic Circle Against Chaos' (100/100)
- 1. [Magic Circle against Evil](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil) can be auto-corrected by fuzzy-matching 'Magic Circle Against Evil' (100/100)
- 1. [Magic Circle against Good](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good) can be auto-corrected by fuzzy-matching 'Magic Circle Against Good' (100/100)
- 1. [Magic Circle against Law](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstLaw.html#_magic-circle-against-law) can be auto-corrected by fuzzy-matching 'Magic Circle Against Law' (100/100)
+ 1. [Magic Circle against Chaos](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstChaos.html#_magic-circle-against-chaos) can be auto-corrected
+ 1. [Magic Circle against Evil](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstEvil.html#_magic-circle-against-evil) can be auto-corrected
+ 1. [Magic Circle against Good](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstGood.html#_magic-circle-against-good) can be auto-corrected
+ 1. [Magic Circle against Law](http://paizo.com/pathfinderRPG/prd/spells/magicCircleAgainstLaw.html#_magic-circle-against-law) can be auto-corrected
  1. [Magic Fang](http://paizo.com/pathfinderRPG/prd/spells/magicFang.html#_magic-fang) can be auto-corrected
  1. [Magic Fang (Greater)](http://paizo.com/pathfinderRPG/prd/spells/magicFang.html#_magic-fang-greater) can be auto-corrected
  1. [Magic Jar](http://paizo.com/pathfinderRPG/prd/spells/magicJar.html#_magic-jar) can be auto-corrected
@@ -378,7 +378,7 @@ Core Rulebook
  1. [Make Whole](http://paizo.com/pathfinderRPG/prd/spells/makeWhole.html#_make-whole) can be auto-corrected
  1. [Mark of Justice](http://paizo.com/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice) can be auto-corrected
  1. [Maze](http://paizo.com/pathfinderRPG/prd/spells/maze.html#_maze) can be auto-corrected
- 1. [Meld into Stone](http://paizo.com/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone) can be auto-corrected by fuzzy-matching 'Meld Into Stone' (100/100)
+ 1. [Meld into Stone](http://paizo.com/pathfinderRPG/prd/spells/meldIntoStone.html#_meld-into-stone) can be auto-corrected
  1. [Mending](http://paizo.com/pathfinderRPG/prd/spells/mending.html#_mending) can be auto-corrected
  1. [Message](http://paizo.com/pathfinderRPG/prd/spells/message.html#_message) can be auto-corrected
  1. [Meteor Swarm](http://paizo.com/pathfinderRPG/prd/spells/meteorSwarm.html#_meteor-swarm) can be auto-corrected
@@ -406,7 +406,7 @@ Core Rulebook
  1. [Overland Flight](http://paizo.com/pathfinderRPG/prd/spells/overlandFlight.html#_overland-flight) can be auto-corrected
  1. [Owl's Wisdom](http://paizo.com/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom) can be auto-corrected
  1. [Owl's Wisdom (Mass)](http://paizo.com/pathfinderRPG/prd/spells/owlSWisdom.html#_owl-s-wisdom-mass) can be auto-corrected
- 1. [Pass without Trace](http://paizo.com/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace) can be auto-corrected by fuzzy-matching 'Pass Without Trace' (100/100)
+ 1. [Pass without Trace](http://paizo.com/pathfinderRPG/prd/spells/passWithoutTrace.html#_pass-without-trace) can be auto-corrected
  1. [Passwall](http://paizo.com/pathfinderRPG/prd/spells/passwall.html#_passwall) can be auto-corrected
  1. [Permanency](http://paizo.com/pathfinderRPG/prd/spells/permanency.html#_permanency) can be auto-corrected
  1. [Permanent Image](http://paizo.com/pathfinderRPG/prd/spells/permanentImage.html#_permanent-image) can be auto-corrected
@@ -620,7 +620,7 @@ Core Rulebook
  1. [Transmute Metal to Wood](http://paizo.com/pathfinderRPG/prd/spells/transmuteMetalToWood.html#_transmute-metal-to-wood) can be auto-corrected
  1. [Transmute Mud to Rock](http://paizo.com/pathfinderRPG/prd/spells/transmuteMudToRock.html#_transmute-mud-to-rock) can be auto-corrected
  1. [Transmute Rock to Mud](http://paizo.com/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud) can be auto-corrected
- 1. [Transport via Plants](http://paizo.com/pathfinderRPG/prd/spells/transportViaPlants.html#_transport-via-plants) can be auto-corrected by fuzzy-matching 'Transport Via Plants' (100/100)
+ 1. [Transport via Plants](http://paizo.com/pathfinderRPG/prd/spells/transportViaPlants.html#_transport-via-plants) can be auto-corrected
  1. [Trap the Soul](http://paizo.com/pathfinderRPG/prd/spells/trapTheSoul.html#_trap-the-soul) can be auto-corrected
  1. [Tree Shape](http://paizo.com/pathfinderRPG/prd/spells/treeShape.html#_tree-shape) can be auto-corrected
  1. [Tree Stride](http://paizo.com/pathfinderRPG/prd/spells/treeStride.html#_tree-stride) can be auto-corrected
@@ -808,7 +808,7 @@ Ultimate Combat
  1. [Twisted Space](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/twistedSpace.html#_twisted-space) can be auto-corrected
  1. [Unerring Weapon](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/unerringWeapon.html#_unerring-weapon) can be auto-corrected
  1. [Viper Bomb Admixture](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/viperBombAdmixture.html#_viper-bomb-admixture) can be auto-corrected
- 1. [Walk through Space](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space) can be auto-corrected by fuzzy-matching 'Walk Through Space' (100/100)
+ 1. [Walk through Space](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/walkThroughSpace.html#_walk-through-space) can be auto-corrected
  1. [Warding Weapon](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/wardingWeapon.html#_warding-weapon) can be auto-corrected
  1. [Water Walk (Communal)](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/waterWalk.html#_water-walk,-communal) can be auto-corrected
  1. [Weaken Powder](http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/weakenPowder.html#_weaken-powder) can be auto-corrected
@@ -886,8 +886,8 @@ Ultimate Magic
  1. [Curse of Magic Negation](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/curseOfMagicNegation.html#_curse-of-magic-negation) can be auto-corrected
  1. [Cursed Earth](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/cursedEarth.html#_cursed-earth) can be auto-corrected
  1. [Cushioning Bands](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/cushioningBands.html#_cushioning-bands) can be auto-corrected
- 1. [Dance of a Hundred Cuts](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/danceOfAHundredCuts.html#_dance-of-a-hundred-cuts) can be auto-corrected by fuzzy-matching 'Dance of A Hundred Cuts' (100/100)
- 1. [Dance of a Thousand Cuts](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/danceOfAThousandCuts.html#_dance-of-a-thousand-cuts) can be auto-corrected by fuzzy-matching 'Dance of A Thousand Cuts' (100/100)
+ 1. [Dance of a Hundred Cuts](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/danceOfAHundredCuts.html#_dance-of-a-hundred-cuts) can be auto-corrected
+ 1. [Dance of a Thousand Cuts](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/danceOfAThousandCuts.html#_dance-of-a-thousand-cuts) can be auto-corrected
  1. [Darkvision (Greater)](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/darkvision.html#_darkvision,-greater) can be auto-corrected
  1. [Daze (Mass)](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/daze.html#_daze,-mass) can be auto-corrected
  1. [Decompose Corpse](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/decomposeCorpse.html#_decompose-corpse) can be auto-corrected
@@ -1057,7 +1057,7 @@ Ultimate Magic
  1. [Terrible Remorse](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/terribleRemorse.html#_terrible-remorse) can be auto-corrected
  1. [Touch of Slime](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/touchOfSlime.html#_touch-of-slime) can be auto-corrected
  1. [Toxic Gift](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/toxicGift.html#_toxic-gift) can be auto-corrected
- 1. [Transmute Blood To Acid](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/transmuteBloodToAcid.html#_transmute-blood-to-acid) can be auto-corrected by fuzzy-matching 'Transmute Blood to Acid' (100/100)
+ 1. [Transmute Blood To Acid](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/transmuteBloodToAcid.html#_transmute-blood-to-acid) can be auto-corrected
  1. [Transmute Rock to Mud (loose sand instead of mud)](http://paizo.com/pathfinderRPG/prd/spells/transmuteRockToMud.html#_transmute-rock-to-mud) can be auto-corrected by fuzzy-matching 'Transmute Rock to Mud' (90/100)
  1. [Unadulterated Loathing](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/unadulteratedLoathing.html#_unadulterated-loathing) can be auto-corrected
  1. [Unbreakable Construct](http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/unbreakableConstruct.html#_unbreakable-construct) can be auto-corrected
