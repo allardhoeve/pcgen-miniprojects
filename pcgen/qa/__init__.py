@@ -35,57 +35,32 @@ class QASpellSourceWeb(object):
         if self.testlink(spell) is False:  # no errors
             return False
 
-        correction = {
-            "method": None,
-            "match": None,
-            "certainty": 0,
-            "lst": None
-        }
+        candidate, certainty, method = fuzzy.match_spell(
+            spell.name,
+            srdspells,
+        )
 
-        canonicalname = self.get_canonical_name(spell)
+        # No match found
+        if candidate is None:
+            return False
 
-        # Try to find correct link in srdspells
-        if spell.name in srdspells:
-            spell.sourceweb = srdspells[spell.name]
-            correction["method"] = "match"
-            correction["match"] = spell.name
-            correction["certainty"] = 100
-
-        elif canonicalname in srdspells:
-            spell.sourceweb = srdspells[canonicalname]
-            correction["method"] = "match"
-            correction["match"] = canonicalname
-            correction["certainty"] = 100
-
-        else:
-            candidate, probability, method = fuzzy.match_spell(
-                spell.name,
-                srdspells,
-            )
-            correction["method"] = "fuzzy"
-            correction["match"] = candidate
-            correction["certainty"] = probability
-
-            if probability < 80:
-                return False
-
-            spell.sourceweb = srdspells[candidate]
+        spell.sourceweb = srdspells[candidate]
 
         # Add or correct SOURCEWEB in lstline
+        lst = None
         if self.pattern.search(spell.lstline):
-            correction["lst"] = "correct"
+            lst = "correct"
             spell.lstline = self.pattern.sub(spell.sourceweb, spell.lstline)
         else:
-            correction["lst"] = "add"
+            lst = "add"
             spell.lstline = "%s\t\tSOURCEWEB:%s" % (spell.lstline, spell.sourceweb)
 
-        return correction
-
-    def get_canonical_name(self, spell):
-        canon = spell.name.strip()
-        canon = re.sub(' \((Communal|Greater|Lesser|Mass)\)', r', \1', canon)
-
-        return canon
+        return {
+            "match": candidate,
+            "certainty": certainty,
+            "method": method,
+            "lst": lst,
+        }
 
     def test(self, collection):
         result = []

@@ -42,7 +42,7 @@ for source in sorted(by_source.iterkeys()):
 
         # Test the SOURCEWEB
         if qs.testlink(spell) is False:  # correct link
-            print " 1. %s has a valid source URL" % spell.name
+            print " 1. [%s](%s) has a valid source URL" % (spell.name, spell.sourceweb)
             continue
 
         # correct the spell
@@ -53,17 +53,18 @@ for source in sorted(by_source.iterkeys()):
         if not result:
             print " 1. _%s has no valid source URL and cannot be auto-corrected_" % spell.name
             continue
-        elif result["method"] == "match":
+        elif result["method"] == "exact":
             output = " 1. [%(spell)s](%(link)s) can be auto-corrected"
         else:
-            output = " 1. [%(spell)s](%(link)s) can be auto-corrected to '%(match)s' using '%(method)s' (%(prob)d%%)"
+            output = " 1. [%(spell)s](%(link)s) can be auto-corrected by " \
+                     "fuzzy-matching '%(match)s' (%(certainty)d/100)"
 
         print output % {
             "spell": spell.name,
             "link": spell.sourceweb,
             "match": result["match"],
             "method": result["method"],
-            "prob": result["certainty"]
+            "certainty": result["certainty"]
         }
 
 print

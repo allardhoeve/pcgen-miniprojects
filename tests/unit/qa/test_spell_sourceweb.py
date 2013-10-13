@@ -23,30 +23,15 @@ class TestSpellSourceWeb(TestCase):
             "Endure Elements, Communal": "http://pcgen.nl/endure.html"
         }
 
-    def test_get_canonical_name_returns_pathfinder_name(self):
-        spell = SpellObject("Endure Elements (Communal)")
-        canon = self.sourceweb.get_canonical_name(spell)
-        self.assertEqual(canon, "Endure Elements, Communal")
-
-        spell = SpellObject("Endure Elements (Greater)")
-        canon = self.sourceweb.get_canonical_name(spell)
-        self.assertEqual(canon, "Endure Elements, Greater")
-
-        spell = SpellObject("Endure Elements (Lesser)")
-        canon = self.sourceweb.get_canonical_name(spell)
-        self.assertEqual(canon, "Endure Elements, Lesser")
-
-        spell = SpellObject("Endure Elements (Mass)")
-        canon = self.sourceweb.get_canonical_name(spell)
-        self.assertEqual(canon, "Endure Elements, Mass")
-
     def test_correct_adds_sourceweb_entry(self):
         spell = self.spells[0]
         result = self.sourceweb.correct(spell, self.srdspells)
 
         self.assertTrue(result)
-        self.assertEqual(result["method"], "match")
+        self.assertEqual(result["method"], "exact")
         self.assertEqual(result["lst"], "add")
+        self.assertEqual(result["match"], "Acid Splash")
+        self.assertEqual(result["certainty"], 100)
         self.assertEqual(spell.sourceweb, "http://pcgen.nl/acidsplash.html")
         self.assertEqual(spell.lstline, "Acid Splash\t\tSOURCEWEB:http://pcgen.nl/acidsplash.html")
 
@@ -55,7 +40,7 @@ class TestSpellSourceWeb(TestCase):
         result = self.sourceweb.correct(spell, self.srdspells)
 
         self.assertTrue(result)
-        self.assertEqual(result["method"], "match")
+        self.assertEqual(result["method"], "exact")
         self.assertEqual(result["lst"], "correct")
         self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
         self.assertEqual(spell.lstline, "Acid Dart\t\tSOURCEWEB:http://pcgen.nl/aciddart.html\t\tDESC:Henk")
@@ -84,18 +69,6 @@ class TestSpellSourceWeb(TestCase):
 
         self.assertFalse(result)
         self.assertEqual(spell.sourceweb, None)
-
-    def test_correct_matches_communal_spell_to_link_without_fuzz(self):
-        with mock.patch('pcgen.fuzzy.match_spell') as mock_match:
-            mock_match.return_value = ("Endure Elements, Communal", 100)
-
-            spell = SpellObject("Endure Elements (Communal)")
-            result = self.sourceweb.correct(spell, self.srdspells)
-
-            self.assertTrue(result)
-            self.assertEqual(result["match"], "Endure Elements, Communal")
-
-            self.assertFalse(mock_match.called, "Fuzzer should not have been used")
 
     def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
         result = self.sourceweb.test(self.spells)
