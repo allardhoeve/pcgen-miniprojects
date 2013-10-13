@@ -26,15 +26,37 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
        - choices: the group to match the name to
 
     returns:
-     - tuple of (matchedname, certainty)
+     - tuple of (name, certainty, method)
+       - name: the name of the SRD spell matched or None
+       - certainty: how certain is the match on a scale of 0 - 100
+       - method: method used to match:
+         - exact -> spell matched names exactly
+         - fuzzy -> spell was matched by fuzzer with certainty > 80%
+         - miss -> spell was matched by fuzzer, but too uncertain
+         - reject -> spells are known not to be in the PRD
     """
 
-    # Strip (Jadda Only) from query name
-    query = re.sub("\([^)]+ only\)", "", query, flags=re.I)
+    if query.startswith("Masterpiece ("):
+        return None, 0, "reject"
 
-    return extractOne(
+    # Strip (Jadda Only) from query name
+    query = re.sub("\([^)]+ only\)", "", query, flags=re.I).strip()
+
+    # Replace (Communal), (Lesser), (Greater) and (Mass) by their canonical versions
+    query = re.sub(" \((Communal|Mass|Lesser|Greater)\)", r", \1", query, re.I).strip()
+
+    # Try an exact match
+    if query in choices:
+        return query, 100, "exact"
+
+    (candidate, probability) = extractOne(
         query,
         choices,
         processor=processor,
         scorer=scorer,
         score_cutoff=score_cutoff)
+
+    if (probability < 80):
+        return None, 0, "miss"
+
+    return candidate, probability, "fuzzy"
