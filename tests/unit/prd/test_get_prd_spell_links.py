@@ -35,6 +35,6 @@ class TestPRD(TestCase):
         self.assertIn("adjuring step", spells)
         self.assertIn("adJuring stEp", spells)
 
-    @skip("Not yet implemented")
     def test_get_prd_spells_skips_letter_indices(self):
-        pass
+        spells = get_prd_spell_links()
+        self.assertNotIn("A Spells", spells)

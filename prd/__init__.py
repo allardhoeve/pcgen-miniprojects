@@ -1,3 +1,4 @@
+import re
 from lxml import etree
 import requests
 from prd.dict import CaseInsensitiveDict
@@ -15,6 +16,11 @@ def get_prd_spell_links(html=None):
 
     for link in links:
         name = link.text.strip()
+
+        # skip all index links
+        if re.match(r"^[A-Z] Spells$", name):
+            continue
+
         url = "http://paizo.com" + link.attrib['href']
         ret[name] = url
 
