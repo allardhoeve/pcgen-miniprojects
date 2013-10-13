@@ -1,4 +1,6 @@
 pcgen/settings_local.py
+CLEANUP.md
+STATUS.md
 
 .Python
 bin
