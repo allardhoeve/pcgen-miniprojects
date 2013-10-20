@@ -100,7 +100,8 @@ SKILL:pfcr_skills_conditional.lst
 SKILL:pfcr_skills.lst
 SPELL:pfcr_spells_domain.lst
 SPELL:pfcr_spells.lst
-SPELL:pfcr_spells_mods.lst
+# Test PRE lines
+SPELL:pfcr_spells_mods.lst|PRERULE:1,HEROPOINTS
 
 TEMPLATE:pfcr_templates.lst
 TEMPLATE:pfcr_templates_conditional.lst

@@ -23,6 +23,11 @@ class Campaign(object):
                 type = elements[0]
                 data = elements[1].rstrip()
 
+                # PRE attributes on the .lst file
+                if data.find("|") >= 0:
+                    elements = data.split("|", 1)
+                    data = elements[0]
+
                 if type == "SPELL":
                     spell_files.append((pcc.parent.child(data), source))
 
