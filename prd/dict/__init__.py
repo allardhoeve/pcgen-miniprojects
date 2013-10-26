@@ -1,7 +1,7 @@
 import collections
 
 
-class CaseInsensitiveDict(collections.MutableMapping):
+class CaseInsensitiveDict(collections.MutableMapping):  # pragma: no cover
     """
     A case-insensitive ``dict``-like object.
 
