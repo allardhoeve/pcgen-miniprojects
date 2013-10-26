@@ -63,9 +63,16 @@ def read_lst_file(filename):
     return entries, sourcedef
 
 
+re_lst_global = re.compile(r'^[A-Z]+:[\w ]+(?:\t|$)')
+
+
+def describes_lst_global(line):
+    return re_lst_global.search(line)
+
+
 def describes_valid_lst_object(line):
     return (not line.startswith("#") and
-            not line.startswith("SOURCELONG") and
+            not describes_lst_global(line) and
             not re.search(r'^\s', line) and
             not re.search(r'^[^\t]*\.MOD', line) and
             not re.search(r'^[^\t]*\.COPY', line) and
