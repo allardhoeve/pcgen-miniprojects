@@ -4,6 +4,8 @@ import re
 
 class LstObject(object):
 
+    class_keywords = []
+
     general_keywords = [
         "desc",
         "key",
@@ -47,25 +49,24 @@ class LstObject(object):
 
     def parseKeyword(self, keyword):
         (key, value) = keyword.split(':', 1)
-        return (key.lower(), value)
+        return key.lower(), value
 
-    def processKeyValue(self, tuple):
-        (keyword, value) = tuple
+    def processKeyValue(self, tup):
+        (keyword, value) = tup
 
         if keyword == "desc":
-            self.processDescKeyValue(tuple)
+            self.processDescKeyValue(tup)
         elif keyword in self.keywords:
             setattr(self, keyword, value)
         else:
             raise AttributeError("SpellLst object has no attribute '%s'" % keyword)
 
-    def processDescKeyValue(self, tuple):
-        (keyword, value) = tuple
+    def processDescKeyValue(self, tup):
+        (keyword, value) = tup
         tokens = value.split("|")
         self.desc = tokens[0]
 
-    def processListKeyValue(self, tuple, sep="."):
-        (keyword, value) = tuple
+    def processListKeyValue(self, tup, sep="."):
+        (keyword, value) = tup
 
         setattr(self, keyword, value.split(sep))
-
