@@ -70,6 +70,10 @@ def describes_lst_global(line):
     return re_lst_global.search(line)
 
 
+def remove_sourceweb_from_lst_global(line):
+    return re.sub(r'SOURCEWEB:[^\t]+\t*', '', line).rstrip()
+
+
 def describes_valid_lst_object(line):
     return (not line.startswith("#") and
             not describes_lst_global(line) and

@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
 # Flush stdout
+import re
 import sys
 import os
 sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import PathfinderCampaign
-from pcgen.parser import describes_valid_lst_object, SpellObject
+from pcgen.parser import describes_valid_lst_object, SpellObject, describes_lst_global, remove_sourceweb_from_lst_global
 from pcgen.qa import QASpellSourceWeb
 from prd import get_prd_spell_links
 
@@ -49,9 +50,13 @@ for (lstfile, sourcedef) in lstfiles:
     # write new data
     with open(lstfile, 'w') as writelstfh:
         for line in lines:
-            if not describes_valid_lst_object(line):
-                writelstfh.write(line + "\n")
-            else:
+
+            if describes_lst_global(line):
+                # remove SOURCEWEB from globals
+                new_line = remove_sourceweb_from_lst_global(line)
+                writelstfh.write(new_line + "\n")
+
+            elif describes_valid_lst_object(line):
                 spell = SpellObject(line, sourcedef)
 
                 if qa.testlink(spell):  # test to see if correction is needed
@@ -65,3 +70,6 @@ for (lstfile, sourcedef) in lstfiles:
                         print "   - cannot find a match in PRD index"
 
                 writelstfh.write(spell.lstline + "\n")
+
+            else:
+                writelstfh.write(line + "\n")
