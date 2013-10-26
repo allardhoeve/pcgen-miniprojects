@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<ul>
+{% for spell in spells %}
+    {% if spell.sourceweb %}
+    <li><a href="{{ spell.sourceweb }}">{{ spell.name }}</a></li>
+    {% else %}
+    <li>{{ spell.name }}</li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+</body>
+</html>
