@@ -1,8 +1,8 @@
 import re
-from fuzzywuzzy.fuzz import WRatio
 from fuzzywuzzy.process import extractOne
 
 
+# arguments mirror fuzzywuzzy.extractOne
 def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
     """
     Case-optimize the fuzzy-matcher.
