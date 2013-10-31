@@ -3,7 +3,7 @@ from fuzzywuzzy.process import extractOne
 
 
 # arguments mirror fuzzywuzzy.extractOne
-def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
+def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0, suggestions=None):
     """
     Case-optimize the fuzzy-matcher.
 
@@ -27,6 +27,9 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
      - notable arguments:
        - query: the name of the spell to find
        - choices: the group to match the name to
+       - suggestions: a dict-like that contains any overrides you wish to make
+         - key is the spell you are looking for, value is the match
+         - e.g. suggestions["Aid (Extended)"] = "Aid"
 
     Returns:
      - tuple of (name, certainty, method)
@@ -38,6 +41,9 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0):
          - miss -> spell was matched by fuzzer, but too uncertain
          - reject -> spells are known not to be in the PRD
     """
+
+    if suggestions and query in suggestions:
+        return suggestions[query], 100, "suggestion"
 
     if query.startswith("Masterpiece ("):
         return None, 0, "reject"

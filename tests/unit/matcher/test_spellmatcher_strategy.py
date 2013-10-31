@@ -17,14 +17,19 @@ class TestSpellFuzzerMatcher(TestCase):
             'Spell, Greater': 8
         })
 
+        self.suggestions = CaseInsensitiveDict({})
+
     def assertFuzzerMatchesExactly(self, spell, expected):
         self.assertFuzzerMatches(spell, expected, expectmethod="exact")
+
+    def assertFuzzerMatchesSuggestion(self, spell, expected):
+        self.assertFuzzerMatches(spell, expected, expectmethod="suggestion")
 
     def assertFuzzerMatchesFuzzily(self, spell, expected):
         self.assertFuzzerMatches(spell, expected, expectmethod="fuzzy")
 
     def assertFuzzerMatches(self, spell, expected, expectmethod=None):
-        (candidate, probability, method) = matcher.match_spell(spell, self.prdspells)
+        (candidate, probability, method) = matcher.match_spell(spell, self.prdspells, suggestions=self.suggestions)
         self.assertEqual(candidate, expected)
 
         if not expectmethod is None:
@@ -61,3 +66,12 @@ class TestSpellFuzzerMatcher(TestCase):
     def test_masterpieces_are_never_matched(self):
         self.prdspells["Mount"] = 1
         self.assertFuzzerMatches("Masterpiece (Depths of the Mountain)", None)
+
+    ###
+    # Test loading suggestions
+    ###
+
+    def test_matcher_uses_suggestion_when_provided(self):
+        self.prdspells["Burning Hands"] = 1  # make sure the suggestion is preferred to the fuzzer
+        self.suggestions["Burning Hands (Acid)"] = "Burning Hands"
+        self.assertFuzzerMatchesSuggestion("Burning Hands (Acid)", "Burning Hands")
