@@ -10,7 +10,7 @@ class QASpellSourceWeb(object):
     def __init__(self):
         self.pattern = re.compile(self.pattern)
 
-    def correct(self, spell, srdspells):
+    def correct(self, spell, srdspells, suggestions=None):
         """
         Autocorrect the sourceweb and lstline of a Spell object if needed
 
@@ -20,7 +20,9 @@ class QASpellSourceWeb(object):
 
         Positional arguments:
           - spell: SpellObject to be corrected
-          - srdspells: an dict of known spells and their URL (prd.get_prd_spell_links)
+          - srdspells: a dict of known spells and their URL (prd.get_prd_spell_links)
+          - suggestions: a dict of known spell matches to bypass fuzzer
+            - e.g. "Aid (evil)" -> "Aid"
 
         Returns:
           - False if spell not updated
@@ -35,9 +37,11 @@ class QASpellSourceWeb(object):
         if self.testlink(spell) is False:  # no errors
             return False
 
+        # Try to find the spell to link to
         candidate, certainty, method = matcher.match_spell(
             spell.name,
             srdspells,
+            suggestions=suggestions
         )
 
         # No match found

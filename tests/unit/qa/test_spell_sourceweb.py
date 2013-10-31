@@ -23,6 +23,15 @@ class TestSpellSourceWeb(TestCase):
             "Endure Elements, Communal": "http://pcgen.nl/endure.html"
         }
 
+        self.suggestions = {}
+
+    def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
+        result = self.sourceweb.test(self.spells)
+
+        self.assertEqual(len(result), 2)
+        self.assertEqual(result[0], (self.spells[0], "Missing SOURCEWEB"))
+        self.assertEqual(result[1], (self.spells[1], "URL is not a valid HTTP link"))
+
     def test_correct_adds_sourceweb_entry(self):
         spell = self.spells[0]
         result = self.sourceweb.correct(spell, self.srdspells)
@@ -70,9 +79,18 @@ class TestSpellSourceWeb(TestCase):
         self.assertFalse(result)
         self.assertEqual(spell.sourceweb, None)
 
-    def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
-        result = self.sourceweb.test(self.spells)
+    ###
+    # Pass suggestions to the correcter
+    ###
 
-        self.assertEqual(len(result), 2)
-        self.assertEqual(result[0], (self.spells[0], "Missing SOURCEWEB"))
-        self.assertEqual(result[1], (self.spells[1], "URL is not a valid HTTP link"))
+    def test_correct_takes_suggestions_and_passes_them_on_to_spell_matcher(self):
+        # the spell Burning Hands (Acid) must be corrected to
+        spell = SpellObject("Burning Hands (Acid)")
+        self.srdspells["Burning Hands"] = "http://pcgen.nl/burning_hands.html"
+        self.suggestions["Burning Hands (Acid)"] = "Burning Hands"
+
+        result = self.sourceweb.correct(spell, self.srdspells, suggestions=self.suggestions)
+
+        self.assertTrue(result)
+        self.assertEqual(result["method"], "suggestion")
+        self.assertEqual(result["match"], "Burning Hands")
