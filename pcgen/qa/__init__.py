@@ -1,6 +1,6 @@
 import re
 from urlparse import urlparse
-from pcgen import fuzzy
+from pcgen import matcher
 
 
 class QASpellSourceWeb(object):
@@ -35,7 +35,7 @@ class QASpellSourceWeb(object):
         if self.testlink(spell) is False:  # no errors
             return False
 
-        candidate, certainty, method = fuzzy.match_spell(
+        candidate, certainty, method = matcher.match_spell(
             spell.name,
             srdspells,
         )

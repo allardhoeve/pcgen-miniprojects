@@ -1,4 +1,4 @@
-from pcgen import fuzzy
+from pcgen import matcher
 from pcgen.testcase import TestCase
 from prd import CaseInsensitiveDict
 
@@ -24,7 +24,7 @@ class TestSpellFuzzerMatcher(TestCase):
         self.assertFuzzerMatches(spell, expected, expectmethod="fuzzy")
 
     def assertFuzzerMatches(self, spell, expected, expectmethod=None):
-        (candidate, probability, method) = fuzzy.match_spell(spell, self.prdspells)
+        (candidate, probability, method) = matcher.match_spell(spell, self.prdspells)
         self.assertEqual(candidate, expected)
 
         if not expectmethod is None:
