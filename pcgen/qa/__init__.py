@@ -21,8 +21,11 @@ class QASpellSourceWeb(object):
         Positional arguments:
           - spell: SpellObject to be corrected
           - srdspells: a dict of known spells and their URL (prd.get_prd_spell_links)
-          - suggestions: a dict of known spell matches to bypass fuzzer
-            - e.g. "Aid (evil)" -> "Aid"
+          - suggestions: a dict with two key-values containing dicts:
+            - suggestions["links"]["Aid"] -> "http://pcgen.nl/aid.html"
+            - suggestions["matcher"]["Aid (evil)"] -> "Aid"
+            - this is optionally used to match spells that are normally missed so
+              that the script can be run many times on the same data without intervention
 
         Returns:
           - False if spell not updated
@@ -37,18 +40,35 @@ class QASpellSourceWeb(object):
         if self.testlink(spell) is False:  # no errors
             return False
 
-        # Try to find the spell to link to
-        candidate, certainty, method = matcher.match_spell(
-            spell.name,
-            srdspells,
-            suggestions=suggestions
-        )
+        query = spell.name
 
-        # No match found
-        if candidate is None:
-            return False
+        # Look in suggestions table to see if a suggestion was provided
+        if suggestions and "links" in suggestions and query in suggestions["links"]:
+            candidate = query
+            certainty = 100
+            method = "suggestion"
+            link = suggestions["links"][query]
 
-        spell.sourceweb = srdspells[candidate]
+        # Otherwise we use the matcher to find the spell
+        else:
+            matcher_suggestions = None
+            if suggestions and "matcher" in suggestions:
+                matcher_suggestions = suggestions["matcher"]
+
+            candidate, certainty, method = matcher.match_spell(
+                query,
+                srdspells,
+                suggestions=matcher_suggestions
+            )
+
+            # No match found
+            if candidate is None:
+                return False
+
+            link = srdspells[candidate]
+
+        # Set the link we found
+        spell.sourceweb = link
 
         # Add or correct SOURCEWEB in lstline
         lst = None

@@ -23,7 +23,10 @@ class TestSpellSourceWeb(TestCase):
             "Endure Elements, Communal": "http://pcgen.nl/endure.html"
         }
 
-        self.suggestions = {}
+        self.suggestions = {
+            "links": {},
+            "matcher": {}
+        }
 
     def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
         result = self.sourceweb.test(self.spells)
@@ -87,10 +90,22 @@ class TestSpellSourceWeb(TestCase):
         # the spell Burning Hands (Acid) must be corrected to
         spell = SpellObject("Burning Hands (Acid)")
         self.srdspells["Burning Hands"] = "http://pcgen.nl/burning_hands.html"
-        self.suggestions["Burning Hands (Acid)"] = "Burning Hands"
+        self.suggestions["matcher"]["Burning Hands (Acid)"] = "Burning Hands"
 
         result = self.sourceweb.correct(spell, self.srdspells, suggestions=self.suggestions)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "suggestion")
         self.assertEqual(result["match"], "Burning Hands")
+        self.assertEqual(spell.sourceweb, "http://pcgen.nl/burning_hands.html")
+
+    def test_correct_uses_suggestions_as_override_for_spells(self):
+        spell = SpellObject("Burnsing Handses")
+        self.suggestions["links"]["Burnsing Handses"] = "http://pcgen.nl/burnsing_handses.html"
+
+        result = self.sourceweb.correct(spell, self.srdspells, suggestions=self.suggestions)
+
+        self.assertTrue(result)
+        self.assertEqual(result["method"], "suggestion")
+        self.assertEqual(result["match"], "Burnsing Handses")
+        self.assertEqual(spell.sourceweb, "http://pcgen.nl/burnsing_handses.html")
