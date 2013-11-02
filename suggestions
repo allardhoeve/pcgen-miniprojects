@@ -1,5 +1,27 @@
 {
-    "links": {},
+    "links": {
+        "Bottled Ooze (1)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+        "Bottled Ooze (2)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+        "Bottled Ooze (3)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+        "Bottled Ooze (4)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+        "Bottled Ooze (5)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+        "Bottled Ooze (6)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/alchemist.html#_bottled-ooze",
+	"Masterpiece (At the Heart of It All)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Cat-Step)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Dance of 23 Steps)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Depths of the Mountain)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Dumbshow of Gorroc)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (House of Imaginary Walls)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Legato Piece on the Infernal Bargain)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Lullaby of Ember the Ancient)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Minuet of the Midnight Ivy)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Quickening Pulse)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Requiem of the Fallen Priest-King)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Stone Face)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Toccata and Fugue of the Danse Macabre)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Triple Time)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces",
+	"Masterpiece (Winds of the Five Heavens)": "http://paizo.com/pathfinderRPG/prd/ultimateMagic/spellcastingClassOptions/bard.html#masterpieces"
+    },
     "matcher": {
         "Blindness/Deafness": "Blindness Deafness",
         "Blindness/Deafness (Blindness Only)": "Blindness Deafness",

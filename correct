@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 # Flush stdout
-import re
 import sys
 import os
+import json
 sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import PathfinderCampaign
@@ -30,6 +30,26 @@ lstfiles = campaign.find_spell_listfiles()
 with open("testdata/spells.html") as fh:
     html = fh.read()
     prdspells = get_prd_spell_links(html)
+
+
+###
+# Store fuzzer matches and misses
+###
+
+try:
+    with open("suggestions") as fh:
+        suggestions = json.loads(fh.read())
+except IOError:
+    suggestions = { "matcher": {}, "links": {} }
+except ValueError as e:
+    print
+    print "COULD NOT PARSE SUGGESTIONS FILE!"
+    print
+    print e
+    print
+    sys.exit(1)
+
+misses = []
 
 ###
 # correct each file
@@ -61,15 +81,23 @@ for (lstfile, sourcedef) in lstfiles:
 
                 if qa.testlink(spell):  # test to see if correction is needed
                     print " - Fixing %s" % spell.name
-                    result = qa.correct(spell, prdspells)
+                    result = qa.correct(spell, prdspells, suggestions=suggestions)
 
                     if result:
                         if result["method"] == "fuzzy":
                             print "   - fuzzy match [%s](%s)" % (result["match"], spell.sourceweb)
+                            suggestions["matcher"][spell.name] = result["match"]
                     else:
                         print "   - cannot find a match in PRD index"
+                        misses.append(spell.name)
 
                 writelstfh.write(spell.lstline + "\n")
 
             else:
                 writelstfh.write(line + "\n")
+
+with open("suggestions.new", "w") as fh:
+    fh.write(json.dumps(suggestions, sort_keys=True, indent=4, separators=(',', ': ')))
+
+with open("misses", "w") as fh:
+    fh.write("\n".join(misses))

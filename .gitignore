@@ -3,6 +3,9 @@ pcgen/settings_local.py
 CLEANUP.md
 STATUS.md
 
+misses
+suggestions.new
+
 .Python
 bin
 lib
