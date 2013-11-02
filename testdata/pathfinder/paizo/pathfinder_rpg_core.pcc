@@ -39,4 +39,4 @@ DESC:The Pathfinder Roleplaying Game puts you in the role of a brave adventurer 
 PCC:@/pathfinder/paizo/pathfinder/core_rulebook/core_rulebook.pcc
 PCC:@/pathfinder/paizo/pathfinder/ultimate_magic/ultimate_magic.pcc
 # relative path
-PCC:ultimate_combat/ultimate_combat.pcc
+PCC:pathfinder/ultimate_combat/ultimate_combat.pcc
