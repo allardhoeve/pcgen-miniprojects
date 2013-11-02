@@ -12,7 +12,9 @@ class LstObject(object):
         "outputname",
         'sourceweb',
         'sourcelong',
-        'sourcefile'
+        'sourcefile',
+        'sourceshort',
+        'sourcedate',
     ]
 
     lstline = None

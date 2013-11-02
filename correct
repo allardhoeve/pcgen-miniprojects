@@ -71,12 +71,7 @@ for (lstfile, sourcedef) in lstfiles:
     with open(lstfile, 'w') as writelstfh:
         for line in lines:
 
-            if describes_lst_global(line):
-                # remove SOURCEWEB from globals
-                new_line = remove_sourceweb_from_lst_global(line)
-                writelstfh.write(new_line + "\n")
-
-            elif describes_valid_lst_object(line):
+            if describes_valid_lst_object(line):
                 spell = SpellObject(line, sourcedef)
 
                 if qa.testlink(spell):  # test to see if correction is needed
