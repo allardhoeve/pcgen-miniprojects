@@ -138,10 +138,10 @@ class TestSpellObject(TestCase):
         with self.assertRaises(AttributeError):
             spell.preability
 
-    def test_spell_takes_sourceweb_as_a_tag(self):
-        line = "Acid Dart\t\tSOURCEWEB:http://example.com/example"
+    def test_spell_takes_sourcelink_as_a_tag(self):
+        line = "Acid Dart\t\tSOURCELINK:http://example.com/example"
         spell = SpellObject(line)
-        self.assertEqual(spell.sourceweb, "http://example.com/example")
+        self.assertEqual(spell.sourcelink, "http://example.com/example")
 
     def test_spell_skips_tempbonus_and_other_to_skip_keywords(self):
         line = "Acid Dart\t\tTEMPBONUS:Henk"

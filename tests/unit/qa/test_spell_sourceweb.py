@@ -1,19 +1,19 @@
 import mock
 from pcgen.parser import SpellObject
-from pcgen.qa import QASpellSourceWeb
+from pcgen.qa import QASpellSourceLink
 from pcgen.testcase import TestCase
 
 
-class TestSpellSourceWeb(TestCase):
+class TestSpellSOURCELINK(TestCase):
 
     def setUp(self):
-        self.sourceweb = QASpellSourceWeb()
+        self.sourcelink = QASpellSourceLink()
 
         self.spells = [
             SpellObject("Acid Splash"),
-            SpellObject("Acid Dart\t\tSOURCEWEB:invalidlink\t\tDESC:Henk"),
-            SpellObject("Magic Missile\t\tSOURCEWEB:http://example.com/example"),
-            SpellObject("Fireball\t\tSOURCEWEB:http://example.com/example")]
+            SpellObject("Acid Dart\t\tSOURCELINK:invalidlink\t\tDESC:Henk"),
+            SpellObject("Magic Missile\t\tSOURCELINK:http://example.com/example"),
+            SpellObject("Fireball\t\tSOURCELINK:http://example.com/example")]
 
         self.srdspells = {
             "Acid Splash": "http://pcgen.nl/acidsplash.html",
@@ -28,59 +28,59 @@ class TestSpellSourceWeb(TestCase):
             "matcher": {}
         }
 
-    def test_spellsourceweb_test_returns_tuples_of_wrong_spells(self):
-        result = self.sourceweb.test(self.spells)
+    def test_spellsourcelink_test_returns_tuples_of_wrong_spells(self):
+        result = self.sourcelink.test(self.spells)
 
         self.assertEqual(len(result), 2)
-        self.assertEqual(result[0], (self.spells[0], "Missing SOURCEWEB"))
+        self.assertEqual(result[0], (self.spells[0], "Missing SOURCELINK"))
         self.assertEqual(result[1], (self.spells[1], "URL is not a valid HTTP link"))
 
-    def test_correct_adds_sourceweb_entry(self):
+    def test_correct_adds_sourcelink_entry(self):
         spell = self.spells[0]
-        result = self.sourceweb.correct(spell, self.srdspells)
+        result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "exact")
         self.assertEqual(result["lst"], "add")
         self.assertEqual(result["match"], "Acid Splash")
         self.assertEqual(result["certainty"], 100)
-        self.assertEqual(spell.sourceweb, "http://pcgen.nl/acidsplash.html")
-        self.assertEqual(spell.lstline, "Acid Splash\t\tSOURCEWEB:http://pcgen.nl/acidsplash.html")
+        self.assertEqual(spell.sourcelink, "http://pcgen.nl/acidsplash.html")
+        self.assertEqual(spell.lstline, "Acid Splash\t\tSOURCELINK:http://pcgen.nl/acidsplash.html")
 
-    def test_correct_fixes_invalid_sourceweb(self):
+    def test_correct_fixes_invalid_sourcelink(self):
         spell = self.spells[1]
-        result = self.sourceweb.correct(spell, self.srdspells)
+        result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "exact")
         self.assertEqual(result["lst"], "correct")
-        self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
-        self.assertEqual(spell.lstline, "Acid Dart\t\tSOURCEWEB:http://pcgen.nl/aciddart.html\t\tDESC:Henk")
+        self.assertEqual(spell.sourcelink, "http://pcgen.nl/aciddart.html")
+        self.assertEqual(spell.lstline, "Acid Dart\t\tSOURCELINK:http://pcgen.nl/aciddart.html\t\tDESC:Henk")
 
-    def test_correct_declines_fixing_valid_sourceweb(self):
+    def test_correct_declines_fixing_valid_sourcelink(self):
         spell = self.spells[2]
-        origsourceweb = spell.sourceweb
+        origsourcelink = spell.sourcelink
         origlstline = spell.lstline
-        result = self.sourceweb.correct(spell, self.srdspells)
+        result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertFalse(result)
-        self.assertEqual(spell.sourceweb, origsourceweb)
+        self.assertEqual(spell.sourcelink, origsourcelink)
         self.assertEqual(spell.lstline, origlstline)
 
     def test_correct_fuzzymatches_spells_if_spell_misspelled(self):
         spell = SpellObject("Acid Dard")
-        result = self.sourceweb.correct(spell, self.srdspells)
+        result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "fuzzy")
-        self.assertEqual(spell.sourceweb, "http://pcgen.nl/aciddart.html")
+        self.assertEqual(spell.sourcelink, "http://pcgen.nl/aciddart.html")
 
     def test_correct_only_uses_fuzzymatch_if_probable_match(self):
         spell = SpellObject("Acid Ball")
-        result = self.sourceweb.correct(spell, self.srdspells)
+        result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertFalse(result)
-        self.assertEqual(spell.sourceweb, None)
+        self.assertEqual(spell.sourcelink, None)
 
     ###
     # Pass suggestions to the correcter
@@ -92,20 +92,20 @@ class TestSpellSourceWeb(TestCase):
         self.srdspells["Burning Hands"] = "http://pcgen.nl/burning_hands.html"
         self.suggestions["matcher"]["Burning Hands (Acid)"] = "Burning Hands"
 
-        result = self.sourceweb.correct(spell, self.srdspells, suggestions=self.suggestions)
+        result = self.sourcelink.correct(spell, self.srdspells, suggestions=self.suggestions)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "suggestion")
         self.assertEqual(result["match"], "Burning Hands")
-        self.assertEqual(spell.sourceweb, "http://pcgen.nl/burning_hands.html")
+        self.assertEqual(spell.sourcelink, "http://pcgen.nl/burning_hands.html")
 
     def test_correct_uses_suggestions_as_override_for_spells(self):
         spell = SpellObject("Burnsing Handses")
         self.suggestions["links"]["Burnsing Handses"] = "http://pcgen.nl/burnsing_handses.html"
 
-        result = self.sourceweb.correct(spell, self.srdspells, suggestions=self.suggestions)
+        result = self.sourcelink.correct(spell, self.srdspells, suggestions=self.suggestions)
 
         self.assertTrue(result)
         self.assertEqual(result["method"], "suggestion")
         self.assertEqual(result["match"], "Burnsing Handses")
-        self.assertEqual(spell.sourceweb, "http://pcgen.nl/burnsing_handses.html")
+        self.assertEqual(spell.sourcelink, "http://pcgen.nl/burnsing_handses.html")

@@ -7,11 +7,11 @@ import json
 sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import PathfinderCampaign
-from pcgen.parser import describes_valid_lst_object, SpellObject, describes_lst_global, remove_sourceweb_from_lst_global
-from pcgen.qa import QASpellSourceWeb
+from pcgen.parser import describes_valid_lst_object, SpellObject
+from pcgen.qa import QASpellSourceLink
 from prd import get_prd_spell_links
 
-print "# Pathfinder PRD Sourceweb Cleanup Run"
+print "# Pathfinder PRD SOURCELINK Cleanup Run"
 print
 
 
@@ -19,7 +19,7 @@ print
 # Configure objects
 ###
 
-qa = QASpellSourceWeb()
+qa = QASpellSourceLink()
 campaign = PathfinderCampaign()
 lstfiles = campaign.find_spell_listfiles()
 
@@ -80,7 +80,7 @@ for (lstfile, sourcedef) in lstfiles:
 
                     if result:
                         if result["method"] == "fuzzy":
-                            print "   - fuzzy match [%s](%s)" % (result["match"], spell.sourceweb)
+                            print "   - fuzzy match [%s](%s)" % (result["match"], spell.sourcelink)
                             suggestions["matcher"][spell.name] = result["match"]
                     else:
                         print "   - cannot find a match in PRD index"

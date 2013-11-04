@@ -10,11 +10,13 @@ class LstObject(object):
         "desc",
         "key",
         "outputname",
-        'sourceweb',
-        'sourcelong',
-        'sourcefile',
-        'sourceshort',
         'sourcedate',
+        'sourcefile',
+        'sourceweb',
+        'sourcelink',
+        'sourcelong',
+        'sourceshort',
+
     ]
 
     lstline = None

@@ -7,8 +7,8 @@
 
 <ul>
 {% for spell in spells %}
-    {% if spell.sourceweb %}
-    <li><a href="{{ spell.sourceweb }}">{{ spell.name }}</a></li>
+    {% if spell.sourcelink %}
+    <li><a href="{{ spell.sourcelink }}">{{ spell.name }}</a></li>
     {% else %}
     <li>{{ spell.name }}</li>
     {% endif %}

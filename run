@@ -7,7 +7,7 @@ import os
 sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import find_all_pathfinder_spells
-from pcgen.qa import QASpellSourceWeb
+from pcgen.qa import QASpellSourceLink
 from prd import get_prd_spell_links
 
 spells = find_all_pathfinder_spells()
@@ -21,7 +21,7 @@ print
 print("Found total of %d spells in Pathfinder LST sources" % len(spells))
 print("Found total of %d spells in Pathfinder SRD" % len(prdspells))
 
-qs = QASpellSourceWeb()
+qs = QASpellSourceLink()
 
 # re-order spells by sourcelong
 by_source = {}
@@ -43,7 +43,7 @@ for source in sorted(by_source.iterkeys()):
 
     for spell in sorted(by_source[source], key=attrgetter('name')):
 
-        # Test the SOURCEWEB
+        # Test the SOURCELINK
         if qs.testlink(spell) is False:  # correct link
             continue
 
@@ -65,7 +65,7 @@ for source in sorted(by_source.iterkeys()):
 
         print output % {
             "spell": spell.name,
-            "link": spell.sourceweb,
+            "link": spell.sourcelink,
             "match": result["match"],
             "method": result["method"],
             "certainty": result["certainty"]

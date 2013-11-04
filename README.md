@@ -1,4 +1,4 @@
-# PCGen Pathfinder SOURCEWEB Q&A
+# PCGen Pathfinder SOURCELINK Q&A
 
 1. `mkvirtualenv pcgen`
 1. `pip install -r requirements.txt`

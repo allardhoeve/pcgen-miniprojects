@@ -3,20 +3,20 @@ from urlparse import urlparse
 from pcgen import matcher
 
 
-class QASpellSourceWeb(object):
+class QASpellSourceLink(object):
 
-    pattern = "(?<=SOURCEWEB:)[^\t]+"
+    pattern = "(?<=SOURCELINK:)[^\t]+"
 
     def __init__(self):
         self.pattern = re.compile(self.pattern)
 
     def correct(self, spell, srdspells, suggestions=None):
         """
-        Autocorrect the sourceweb and lstline of a Spell object if needed
+        Autocorrect the sourcelink and lstline of a Spell object if needed
 
-        The spell is fixed in-place. The field spell.sourceweb is updated and
-        spell.lstline is updated. Invalid SOURCEWEB: is fixed if not there.
-        SOURCEWEB:url is appended if missing.
+        The spell is fixed in-place. The field spell.sourcelink is updated and
+        spell.lstline is updated. Invalid SOURCELINK: is fixed if not there.
+        SOURCELINK:url is appended if missing.
 
         Positional arguments:
           - spell: SpellObject to be corrected
@@ -33,10 +33,10 @@ class QASpellSourceWeb(object):
             - method: "match" or "fuzzy"
             - match: matched spell name
             - certainty: integer - how probable is the fuzzy match on scale 0-100
-            - lst: "add" or "correct" to see how the SOURCEWEB string was handled
+            - lst: "add" or "correct" to see how the SOURCELINK string was handled
 
         """
-        # If the sourceweb tests ok, don't touch it
+        # If the sourcelink tests ok, don't touch it
         if self.testlink(spell) is False:  # no errors
             return False
 
@@ -68,16 +68,16 @@ class QASpellSourceWeb(object):
             link = srdspells[candidate]
 
         # Set the link we found
-        spell.sourceweb = link
+        spell.sourcelink = link
 
-        # Add or correct SOURCEWEB in lstline
+        # Add or correct SOURCELINK in lstline
         lst = None
         if self.pattern.search(spell.lstline):
             lst = "correct"
-            spell.lstline = self.pattern.sub(spell.sourceweb, spell.lstline)
+            spell.lstline = self.pattern.sub(spell.sourcelink, spell.lstline)
         else:
             lst = "add"
-            spell.lstline = "%s\t\tSOURCEWEB:%s" % (spell.lstline, spell.sourceweb)
+            spell.lstline = "%s\t\tSOURCELINK:%s" % (spell.lstline, spell.sourcelink)
 
         return {
             "match": candidate,
@@ -99,10 +99,10 @@ class QASpellSourceWeb(object):
 
     def testlink(self, spell):
 
-        if spell.sourceweb is None:
-            return "Missing SOURCEWEB"
+        if spell.sourcelink is None:
+            return "Missing SOURCELINK"
 
-        result = urlparse(spell.sourceweb)
+        result = urlparse(spell.sourcelink)
         if result.scheme and result.netloc and result.path:
             return False
 
