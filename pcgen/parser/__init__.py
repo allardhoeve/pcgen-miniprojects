@@ -63,7 +63,7 @@ def read_lst_file(filename):
     return entries, sourcedef
 
 
-re_lst_global = re.compile(r'^[A-Z]+:[\w ]+(?:\t|$)')
+re_lst_global = re.compile(r"^[A-Z]+:[\w ']+(?:\t|$)")
 
 
 def describes_lst_global(line):
