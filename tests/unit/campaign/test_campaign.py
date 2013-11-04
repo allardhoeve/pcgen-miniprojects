@@ -20,11 +20,11 @@ class TestCampaign(TestCase):
         spellfiles = map(lambda t: t[0], spellfiletuples)
 
         for path in [
-            "core_rulebook/pfcr_spells_domain.lst",
-            "core_rulebook/pfcr_spells.lst",
-            "core_rulebook/pfcr_spells_mods.lst",
-            "ultimate_magic/pfum_spells.lst",
-            "ultimate_magic/pfum_spells_domain.lst",
-            "ultimate_magic/pfum_spells_mod.lst",
+            "pathfinder/core_rulebook/pfcr_spells_domain.lst",
+            "pathfinder/core_rulebook/pfcr_spells.lst",
+            "pathfinder/core_rulebook/pfcr_spells_mods.lst",
+            "pathfinder/ultimate_magic/pfum_spells.lst",
+            "pathfinder/ultimate_magic/pfum_spells_domain.lst",
+            "pathfinder/ultimate_magic/pfum_spells_mod.lst",
             ]:
             self.assertIn(Path(self.campaign.root, path), spellfiles)
