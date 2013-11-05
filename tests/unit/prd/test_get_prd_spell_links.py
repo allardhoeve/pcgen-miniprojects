@@ -7,7 +7,7 @@ from prd import get_prd_spell_links
 class TestPRD(TestCase):
 
     def setUp(self):
-        with open(settings.DATADIR.child("spells.html")) as fh:
+        with open(settings.DATADIR.child("pathfinder").child("spells.html")) as fh:
             self.indexcontent = fh.read()
 
         self.mock_get = self.set_up_patch('requests.get')

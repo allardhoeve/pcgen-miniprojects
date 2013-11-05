@@ -27,7 +27,7 @@ lstfiles = campaign.find_spell_listfiles()
 # Get PRD spells
 ###
 
-with open("testdata/spells.html") as fh:
+with open("testdata/pathfinder/spells.html") as fh:
     html = fh.read()
     prdspells = get_prd_spell_links(html)
 
