@@ -10,10 +10,11 @@ class TestSpellSOURCELINK(TestCase):
         self.sourcelink = QASpellSourceLink()
 
         self.spells = [
-            SpellObject("Acid Splash"),
+            SpellObject("Acid Splash\r"),  # NB: test removal of carriage return
             SpellObject("Acid Dart\t\tSOURCELINK:invalidlink\t\tDESC:Henk"),
             SpellObject("Magic Missile\t\tSOURCELINK:http://example.com/example"),
-            SpellObject("Fireball\t\tSOURCELINK:http://example.com/example")]
+            SpellObject("Fireball\t\tSOURCELINK:http://example.com/example"),
+        ]
 
         self.srdspells = {
             "Acid Splash": "http://pcgen.nl/acidsplash.html",

@@ -77,6 +77,7 @@ class QASpellSourceLink(object):
             spell.lstline = self.pattern.sub(spell.sourcelink, spell.lstline)
         else:
             lst = "add"
+            spell.lstline = spell.lstline.rstrip()  # remove any trailing carriage returns
             spell.lstline = "%s\t\tSOURCELINK:%s" % (spell.lstline, spell.sourcelink)
 
         return {
