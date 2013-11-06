@@ -8,6 +8,7 @@ def get_prd_feat_links(html=None):
     if not html:
         html = fetch_prd_feat_index()
 
+    # Clean (Combat, Teamwork) from the feat name
     def clean_feat_name(name, link):
         name = re.sub(r'\s+\([^)]+\)$', '', name)
         return name, link
