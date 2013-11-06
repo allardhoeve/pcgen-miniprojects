@@ -5,19 +5,14 @@ from pcgen.testcase import TestCase
 
 class TestCampaign(TestCase):
 
+    maxDiff = None
+
     def setUp(self):
         self.campaign = PathfinderCampaign()
 
-    def test_find_spell_files_returns_tuples_of_lst_file_and_sourcedef(self):
-        spellfiletuple = self.campaign.find_spell_listfiles()[0]
-
-        self.assertTrue(spellfiletuple[0].endswith(".lst"))
-        self.assertIn("sourcelong", spellfiletuple[1])
-        self.assertIn("sourcefile", spellfiletuple[1])
-
     def test_find_spell_files_finds_all_campaign_components(self):
-        spellfiletuples = self.campaign.find_spell_listfiles()
-        spellfiles = map(lambda t: t[0], spellfiletuples)
+        filetuples = self.campaign.find_spell_listfiles()
+        files = map(lambda t: t[0], filetuples)
 
         for path in [
             "pathfinder/core_rulebook/pfcr_spells_domain.lst",
@@ -27,4 +22,14 @@ class TestCampaign(TestCase):
             "pathfinder/ultimate_magic/pfum_spells_domain.lst",
             "pathfinder/ultimate_magic/pfum_spells_mod.lst",
             ]:
-            self.assertIn(Path(self.campaign.root, path), spellfiles)
+            self.assertIn(Path(self.campaign.root, path), files)
+
+    def test_find_feat_files_finds_all_campaign_components(self):
+        filetuples = self.campaign.find_feat_listfiles()
+        files = map(lambda t: t[0], filetuples)
+
+        for path in [
+            "pathfinder/core_rulebook/pfcr_feats.lst",
+            "pathfinder/ultimate_magic/pfum_feats.lst",
+            "pathfinder/ultimate_combat/pfuc_feats.lst"]:
+            self.assertIn(Path(self.campaign.root, path), files)
