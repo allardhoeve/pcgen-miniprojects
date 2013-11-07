@@ -1,6 +1,6 @@
 from unipath import Path
 from pcgen import settings
-from pcgen.parser import parse_spells, read_lst_file
+from pcgen.parser import parse_spells, read_lst_file, parse_feats
 
 
 class Campaign(object):
@@ -11,6 +11,15 @@ class Campaign(object):
 
     def find_feat_listfiles(self, pcc=None):
         return self.find_listfiles("FEAT", pcc=pcc)
+
+    def fetch_all_feats(self):
+        listfiles = self.find_feat_listfiles()
+        objects = []
+
+        for (lst, source) in listfiles:
+            objects = objects + parse_feats(lst, source)
+
+        return objects
 
     def find_spell_listfiles(self, pcc=None):
         return self.find_listfiles("SPELL", pcc=pcc)

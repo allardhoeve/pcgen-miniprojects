@@ -4,8 +4,7 @@ from pcgen.parser.lstobject import LstObject
 
 class SpellObject(LstObject):
 
-    class_keywords = ['bonus',
-                      'casttime',
+    class_keywords = ['casttime',
                       'choose',
                       'classes',
                       'comps',
@@ -19,12 +18,10 @@ class SpellObject(LstObject):
                       'refdoc',
                       'saveinfo',
                       'school',
-                      'sourcepage',
                       'spellres',
                       'subschool',
                       'targetarea',
                       'tempdesc',
-                      'type',
                       'variants']
 
     class_keywords_skip = ['tempbonus']

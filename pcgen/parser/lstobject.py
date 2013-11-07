@@ -7,16 +7,19 @@ class LstObject(object):
     class_keywords = []
 
     general_keywords = [
+        "bonus",
         "desc",
+        "define",
         "key",
         "outputname",
         'sourcedate',
         'sourcefile',
-        'sourceweb',
         'sourcelink',
         'sourcelong',
+        'sourcepage',
         'sourceshort',
-
+        'sourceweb',
+        'type',
     ]
 
     lstline = None
@@ -53,6 +56,10 @@ class LstObject(object):
 
     def parseKeyword(self, keyword):
         (key, value) = keyword.split(':', 1)
+
+        if key.startswith('!'):
+            key = key[1:]
+
         return key.lower(), value
 
     def processKeyValue(self, tup):
@@ -63,7 +70,10 @@ class LstObject(object):
         elif keyword in self.keywords:
             setattr(self, keyword, value)
         else:
-            raise AttributeError("SpellLst object has no attribute '%s'" % keyword)
+            keywords = sorted(list(set(self.class_keywords) | set(self.general_keywords)))
+            raise AttributeError("%s object has no attribute '%s':\n%s" % (self.__class__.__name__,
+                                                                           keyword,
+                                                                           keywords))
 
     def processDescKeyValue(self, tup):
         (keyword, value) = tup

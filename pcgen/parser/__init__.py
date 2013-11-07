@@ -1,9 +1,18 @@
 import re
+from pcgen.parser.feat import FeatObject
 
 from pcgen.parser.spell import SpellObject
 
 
+def parse_feats(filename, source=None):
+    return parse_objects(filename, source, FeatObject)
+
+
 def parse_spells(filename, source=None):
+    return parse_objects(filename, source, SpellObject)
+
+
+def parse_objects(filename, source=None, myObject=None):
     """
     Parse spells in a spells filename
 
@@ -18,17 +27,17 @@ def parse_spells(filename, source=None):
     if not lstsource['sourcelong']:
         lstsource['sourcelong'] = source['sourcelong']
 
-    spellobjs = []
+    objs = []
 
     for line in valid_lines:
         try:
-            spell = SpellObject(line, source)
+            obj = myObject(line, source)
         except Exception as e:
             raise RuntimeError("Error parsing line: '%s'\n\nLine is:\n\n%s" % (e, line))
 
-        spellobjs.append(spell)
+        objs.append(obj)
 
-    return spellobjs
+    return objs
 
 
 def read_lst_file(filename):
