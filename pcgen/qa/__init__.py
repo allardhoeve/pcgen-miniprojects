@@ -3,44 +3,46 @@ from urlparse import urlparse
 from pcgen import matcher
 
 
-class QASpellSourceLink(object):
+class QASourceLink(object):
 
     pattern = "(?<=SOURCELINK:)[^\t]+"
 
     def __init__(self):
         self.pattern = re.compile(self.pattern)
 
-    def correct(self, spell, srdspells, suggestions=None):
+    def correct(self, obj, srdobjects, suggestions=None):
         """
-        Autocorrect the sourcelink and lstline of a Spell object if needed
+        Autocorrect the sourcelink and lstline of an object if needed
 
-        The spell is fixed in-place. The field spell.sourcelink is updated and
-        spell.lstline is updated. Invalid SOURCELINK: is fixed if not there.
+        The object is fixed in-place. The field object.sourcelink is updated and
+        object.lstline is updated. Invalid SOURCELINK: is fixed if not there.
         SOURCELINK:url is appended if missing.
 
+        NB: The object to be updated should have object.name filled.
+
         Positional arguments:
-          - spell: SpellObject to be corrected
-          - srdspells: a dict of known spells and their URL (prd.get_prd_spell_links)
+          - object: LstObject to be corrected
+          - srdobjects: a dict of known objects and their URL (prd.get_prd_*_links)
           - suggestions: a dict with two key-values containing dicts:
             - suggestions["links"]["Aid"] -> "http://pcgen.nl/aid.html"
             - suggestions["matcher"]["Aid (evil)"] -> "Aid"
-            - this is optionally used to match spells that are normally missed so
+            - this is optionally used to match objects that are normally missed so
               that the script can be run many times on the same data without intervention
 
         Returns:
-          - False if spell not updated
-          - dict if spell updated (can be tested against boolean operaters as True):
+          - False if object not updated
+          - dict if object updated (can be tested against boolean operators as True):
             - method: "match" or "fuzzy"
-            - match: matched spell name
+            - match: matched object name
             - certainty: integer - how probable is the fuzzy match on scale 0-100
             - lst: "add" or "correct" to see how the SOURCELINK string was handled
 
         """
         # If the sourcelink tests ok, don't touch it
-        if self.testlink(spell) is False:  # no errors
+        if self.testlink(obj) is False:  # no errors
             return False
 
-        query = spell.name
+        query = obj.name
 
         # Look in suggestions table to see if a suggestion was provided
         if suggestions and "links" in suggestions and query in suggestions["links"]:
@@ -57,7 +59,7 @@ class QASpellSourceLink(object):
 
             candidate, certainty, method = matcher.match_spell(
                 query,
-                srdspells,
+                srdobjects,
                 suggestions=matcher_suggestions
             )
 
@@ -65,20 +67,20 @@ class QASpellSourceLink(object):
             if candidate is None:
                 return False
 
-            link = srdspells[candidate]
+            link = srdobjects[candidate]
 
         # Set the link we found
-        spell.sourcelink = link
+        obj.sourcelink = link
 
         # Add or correct SOURCELINK in lstline
         lst = None
-        if self.pattern.search(spell.lstline):
+        if self.pattern.search(obj.lstline):
             lst = "correct"
-            spell.lstline = self.pattern.sub(spell.sourcelink, spell.lstline)
+            obj.lstline = self.pattern.sub(obj.sourcelink, obj.lstline)
         else:
             lst = "add"
-            spell.lstline = spell.lstline.rstrip()  # remove any trailing carriage returns
-            spell.lstline = "%s\t\tSOURCELINK:%s" % (spell.lstline, spell.sourcelink)
+            obj.lstline = obj.lstline.rstrip()  # remove any trailing carriage returns
+            obj.lstline = "%s\t\tSOURCELINK:%s" % (obj.lstline, obj.sourcelink)
 
         return {
             "match": candidate,

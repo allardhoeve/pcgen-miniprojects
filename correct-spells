@@ -8,7 +8,7 @@ sys.stdout = os.fdopen(sys.stdout.fileno(), 'w', 0)
 
 from pcgen import PathfinderCampaign
 from pcgen.parser import describes_valid_lst_object, SpellObject
-from pcgen.qa import QASpellSourceLink
+from pcgen.qa import QASourceLink
 from prd import get_prd_spell_links
 
 print "# Pathfinder PRD SOURCELINK Cleanup Run"
@@ -19,7 +19,7 @@ print
 # Configure objects
 ###
 
-qa = QASpellSourceLink()
+qa = QASourceLink()
 campaign = PathfinderCampaign()
 lstfiles = campaign.find_spell_listfiles()
 

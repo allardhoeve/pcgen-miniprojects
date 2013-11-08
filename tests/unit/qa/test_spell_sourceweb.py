@@ -1,13 +1,13 @@
 import mock
 from pcgen.parser import SpellObject
-from pcgen.qa import QASpellSourceLink
+from pcgen.qa import QASourceLink
 from pcgen.testcase import TestCase
 
 
 class TestSpellSOURCELINK(TestCase):
 
     def setUp(self):
-        self.sourcelink = QASpellSourceLink()
+        self.sourcelink = QASourceLink()
 
         self.spells = [
             SpellObject("Acid Splash\r"),  # NB: test removal of carriage return
