@@ -37,7 +37,7 @@ with open("testdata/pathfinder/feats.html") as fh:
 ###
 
 try:
-    with open("suggestions") as fh:
+    with open("suggestions.feats") as fh:
         suggestions = json.loads(fh.read())
 except IOError:
     suggestions = { "matcher": {}, "links": {} }
@@ -91,7 +91,7 @@ for (lstfile, sourcedef) in lstfiles:
             else:
                 writelstfh.write(line + "\n")
 
-with open("suggestions.new", "w") as fh:
+with open("suggestions.feats.new", "w") as fh:
     fh.write(json.dumps(suggestions, sort_keys=True, indent=4, separators=(',', ': ')))
 
 with open("misses", "w") as fh:
