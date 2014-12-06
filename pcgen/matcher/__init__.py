@@ -71,10 +71,6 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0, sug
         scorer=scorer,
         score_cutoff=score_cutoff)
 
-    import logging
-    logging.debug(query)
-    logging.debug(choices)
-    logging.debug(result)
     (candidate, probability) = result
 
     if (probability < 80):
