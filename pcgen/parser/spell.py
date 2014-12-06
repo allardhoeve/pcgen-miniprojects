@@ -35,8 +35,8 @@ class SpellObject(LstObject):
             self.processListKeyValue(tuple, "|")
         elif keyword in ["comps"]:
             self.processListKeyValue(tuple, ", ")
-        elif keyword in ["classes"]:
-            self.processClassKeyValue(tuple)
+        elif keyword in ["classes", "domains"]:
+            self.processSpellListKeyValue(tuple)
         elif keyword in self.class_keywords_skip:
             return
         elif keyword.startswith("pre"):
@@ -44,7 +44,7 @@ class SpellObject(LstObject):
         else:
             super(SpellObject, self).processKeyValue(tuple)
 
-    def processClassKeyValue(self, tuple):
+    def processSpellListKeyValue(self, tuple):
         (keyword, value) = tuple
 
         classes = {}

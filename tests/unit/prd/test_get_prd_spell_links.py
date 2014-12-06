@@ -7,7 +7,7 @@ from prd import get_prd_spell_links
 class TestPRD(TestCase):
 
     def setUp(self):
-        with open(settings.DATADIR.child("pathfinder").child("spells.html")) as fh:
+        with open(settings.PROJECTROOT.child("spells.html")) as fh:
             self.indexcontent = fh.read()
 
         self.mock_get = self.set_up_patch('requests.get')
@@ -23,7 +23,7 @@ class TestPRD(TestCase):
 
     def test_get_prd_spell_links_return_contains_absorbing_touch(self):
         spells = get_prd_spell_links()
-        self.assertEqual(spells["Fox's Cunning"], "http://paizo.com/pathfinderRPG/prd/spells/foxSCunning.html#_fox-s-cunning")
+        self.assertEqual(spells["Fox's Cunning"], "http://paizo.com/pathfinderRPG/prd/spells/foxSCunning.html#fox-s-cunning")
 
     def test_get_prd_spell_links_finds_adjuring_step(self):
         spells = get_prd_spell_links()

@@ -8,7 +8,7 @@ from pcgen.testcase import TestCase
 class TestFeatObject(TestCase):
 
     #def setUp(self):
-    #    self.test_feats = Path(settings.DATADIR, "pathfinder/paizo/pathfinder/core_rulebook/pfcr_spells.lst")
+    #    self.test_feats = Path(settings.DATADIR, "pathfinder/paizo/roleplaying_game/core_rulebook/cr_spells.lst")
     #    (self.test_lines, self.source) = read_lst_file(self.test_feats)
 
     def test_featobject_parses_acrobatic(self):

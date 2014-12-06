@@ -11,7 +11,10 @@ if [ "$1" = "--jenkins" ]; then
 	nosetests --with-xunit;
 	./pep8.sh
 else
-	watch -n 0,1 -c -- "
+	while [ 1 ]; do 
 		nosetests --processes=2 $*;
-		./pep8.sh"
+		./pep8.sh;
+		sleep 2;
+		clear;
+	done
 fi

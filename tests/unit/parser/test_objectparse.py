@@ -8,7 +8,7 @@ from pcgen import parser, settings
 class TestObjectParse(TestCase):
 
     def setUp(self):
-        self.test_spells = Path(settings.DATADIR, "pathfinder/paizo/pathfinder/core_rulebook/pfcr_spells.lst")
+        self.test_spells = Path(settings.DATADIR, "pathfinder/paizo/roleplaying_game/core_rulebook/cr_spells.lst")
 
     def test_parse_spells_returns_spell_objects(self):
         ret = parser.parse_spells(self.test_spells)

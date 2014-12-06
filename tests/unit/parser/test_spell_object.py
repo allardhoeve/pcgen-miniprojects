@@ -9,7 +9,7 @@ from pcgen.testcase import TestCase
 class TestSpellObject(TestCase):
 
     def setUp(self):
-        self.test_spells = Path(settings.DATADIR, "pathfinder/paizo/pathfinder/core_rulebook/pfcr_spells.lst")
+        self.test_spells = Path(settings.DATADIR, "pathfinder/paizo/roleplaying_game/core_rulebook/cr_spells.lst")
         (self.test_lines, self.source) = read_lst_file(self.test_spells)
 
     def _get_line_and_check(self, ln, name):
@@ -105,13 +105,13 @@ class TestSpellObject(TestCase):
     def test_process_class_key_parses_simple_class(self):
         classes = "Bard=3"
         spell = SpellObject()
-        spell.processClassKeyValue(("classes", classes))
+        spell.processSpellListKeyValue(("classes", classes))
         self.assertEqual(spell.classes, {'Bard': 3})
 
     def test_process_class_key_parses_multiple_classes(self):
         classes = "Bard=3|Cleric,Wizard=4"
         spell = SpellObject()
-        spell.processClassKeyValue(("classes", classes))
+        spell.processSpellListKeyValue(("classes", classes))
         self.assertEqual(spell.classes,
             {
                 'Bard': 3,
@@ -122,7 +122,7 @@ class TestSpellObject(TestCase):
     def test_process_class_key_parses_complex_class(self):
         classes = "Bard=3[PRESKILL:1,Perform (String Instruments)=7,Perform (Wind Instruments)=7]|Cleric,Wizard=4"
         spell = SpellObject()
-        spell.processClassKeyValue(("classes", classes))
+        spell.processSpellListKeyValue(("classes", classes))
 
         self.assertEqual(spell.classes,
             {
