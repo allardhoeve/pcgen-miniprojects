@@ -17,6 +17,12 @@ class TestSpellObject(TestCase):
         self.assertTrue(testline.startswith("%s\t" % name), "Line %d is not %s: %s" % (ln + 1, name, self.test_lines[ln]))
         return testline
 
+    def _print_class_keywords(self, object):
+        import sys
+        print >>sys.stderr, "\n\n%s\n" % object.name.upper()
+        for keyword in object.keywords:
+            print >>sys.stderr, "'%s' -> '%s'" % (keyword, getattr(object, keyword))
+
     def test_parse_keyword_returns_correct_tuple(self):
         tuple = SpellObject().parseKeyword("SCHOOL:Evocation")
         self.assertEquals(tuple, ("school", "Evocation"))
@@ -105,13 +111,13 @@ class TestSpellObject(TestCase):
     def test_process_class_key_parses_simple_class(self):
         classes = "Bard=3"
         spell = SpellObject()
-        spell.processSpellListKeyValue(("classes", classes))
+        spell.processSpelllistKeyValue(("classes", classes))
         self.assertEqual(spell.classes, {'Bard': 3})
 
     def test_process_class_key_parses_multiple_classes(self):
         classes = "Bard=3|Cleric,Wizard=4"
         spell = SpellObject()
-        spell.processSpellListKeyValue(("classes", classes))
+        spell.processSpelllistKeyValue(("classes", classes))
         self.assertEqual(spell.classes,
             {
                 'Bard': 3,
@@ -122,7 +128,7 @@ class TestSpellObject(TestCase):
     def test_process_class_key_parses_complex_class(self):
         classes = "Bard=3[PRESKILL:1,Perform (String Instruments)=7,Perform (Wind Instruments)=7]|Cleric,Wizard=4"
         spell = SpellObject()
-        spell.processSpellListKeyValue(("classes", classes))
+        spell.processSpelllistKeyValue(("classes", classes))
 
         self.assertEqual(spell.classes,
             {
@@ -152,8 +158,8 @@ class TestSpellObject(TestCase):
         spell = SpellObject(line)
         self.assertEqual(spell.lstline, line)
 
-    def print_class_keywords(self, object):
-        import sys
-        print >>sys.stderr, "\n\n%s\n" % object.name.upper()
-        for keyword in object.keywords:
-            print >>sys.stderr, "'%s' -> '%s'" % (keyword, getattr(object, keyword))
+    def test_spell_has_parsed_domains_attribute(self):
+        line = "Wind Wall\t\tTYPE:Arcane.Divine\t\tCLASSES:Ranger=2|Cleric,Druid,Sorcerer,Wizard=3\t\tDOMAINS:Air=2"
+        spell = SpellObject(line)
+        self.assertEqual(spell.classes, {"Ranger": 2, "Cleric": 3, "Druid": 3, "Sorcerer": 3, "Wizard": 3})
+        self.assertEqual(spell.domains, {"Air": 2})

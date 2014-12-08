@@ -36,7 +36,7 @@ class SpellObject(LstObject):
         elif keyword in ["comps"]:
             self.processListKeyValue(tuple, ", ")
         elif keyword in ["classes", "domains"]:
-            self.processSpellListKeyValue(tuple)
+            self.processSpelllistKeyValue(tuple)
         elif keyword in self.class_keywords_skip:
             return
         elif keyword.startswith("pre"):
@@ -44,10 +44,9 @@ class SpellObject(LstObject):
         else:
             super(SpellObject, self).processKeyValue(tuple)
 
-    def processSpellListKeyValue(self, tuple):
+    def processSpelllistKeyValue(self, tuple):
         (keyword, value) = tuple
-
-        classes = {}
+        spelllist = getattr(self, keyword) or {}
         groups = value.split("|")
 
         for group in groups:
@@ -57,9 +56,9 @@ class SpellObject(LstObject):
             level = leveltokens[0]
 
             for name in names.split(","):
-                classes[name] = int(level)
+                spelllist.update({name: int(level)})
 
-        self.classes = classes
+        setattr(self, keyword, spelllist)
 
     def __repr__(self):
         return "<Spell [%s]>" % self.name
