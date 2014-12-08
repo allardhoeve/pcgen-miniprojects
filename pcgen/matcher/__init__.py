@@ -54,15 +54,15 @@ def match_spell(query, choices, processor=None, scorer=None, score_cutoff=0, sug
     # Replace (Communal), (Lesser), (Greater) and (Mass) by their canonical versions
     query = re.sub(" \((Communal|Mass|Lesser|Greater)\)", r", \1", query, re.I).strip()
 
+    # Try an exact match
+    if query in choices:
+        return query, 100, "exact"
+
     # transform into flat list of keys if it is a dict
     try:
         choices = choices.keys()
     except AttributeError:
         pass
-
-    # Try an exact match
-    if query in choices:
-        return query, 100, "exact"
 
     result = extractOne(
         query,
