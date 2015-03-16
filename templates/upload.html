@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="application/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="application/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+<body>
+
+<label>Upload your PCGen XML export file here: <input type="file" id="pcc_upload" onchange="handleFiles(this.files)"></label>
+
+
+<script>
+function parseExport(xmldata) {
+    console.log("Parsing XML file, " + xmldata.length + " characters long");
+    var parsed = false;
+
+    try {
+        xmldoc = jQuery.parseXML(xmldata);
+        tree = $(xmldoc);
+        parsed = true
+    }
+    catch(e) {
+        console.log("Invalid XML!")
+    }
+
+    if(parsed) {
+        console.log(tree);
+    }
+
+    function classList(tree) {
+        return jQuery.map(tree.find("classes class"), function (klass, index) {
+            name = $(klass).find("name").text();
+            level = $(klass).find("level").text();
+            return(name + " " + level);
+        });
+    }
+
+    var character = {
+        name: tree.find('basics > name').text(),
+        class: classList(tree).join("/")
+    };
+
+    $("body").append("<h2>" + character.name + "</h2><p>" + character.class + "</p>");
+}
+
+
+function handleFiles(files) {
+    console.log("Starting to receive and read file " + files[0]);
+    var reader = new FileReader();
+    reader.onload = function (e) { console.log("File received and read"); parseExport(e.target.result); };
+    reader.readAsText(files[0]);
+}
+
+</script>
+
+</body>
+</html>
