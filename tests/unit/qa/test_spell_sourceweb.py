@@ -1,4 +1,3 @@
-import mock
 from pcgen.parser import SpellObject
 from pcgen.qa import QASourceLink
 from pcgen.testcase import TestCase

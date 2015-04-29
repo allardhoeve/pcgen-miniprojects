@@ -1,6 +1,6 @@
 from unipath import Path
 from pcgen import settings
-from pcgen.parser import parse_spells, read_lst_file, parse_feats
+from pcgen.parser import read_lst_file, parse_feats
 
 
 class Campaign(object):

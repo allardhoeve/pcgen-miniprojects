@@ -6,8 +6,7 @@ numprocs=-1
 RUN_ONCE=""
 jenkins=""
 
-#FLAKE8_CMD="flake8 --ignore=E501 ."
-FLAKE8_CMD="pep8 --ignore=E501 ."
+FLAKE8_CMD="flake8 --ignore=E501 ."
 
 export LC_NUMERIC="en_US.UTF-8"
 export PYTHONPATH=.

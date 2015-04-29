@@ -50,7 +50,7 @@ class TestSpellObject(TestCase):
                                          mock.call(("spellres", "No"))])
 
     def test_no_line_in_testdata_gives_an_error_parsing(self):
-        objects = map(SpellObject, self.test_lines)
+        map(SpellObject, self.test_lines)
 
     def test_alarm_object_has_correct_type_list(self):
         testline = self._get_line_and_check(5, "Alarm")

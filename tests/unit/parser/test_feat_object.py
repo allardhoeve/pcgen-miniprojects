@@ -1,6 +1,3 @@
-from unipath import Path
-from pcgen import settings
-from pcgen.parser import read_lst_file
 from pcgen.parser.feat import FeatObject
 from pcgen.testcase import TestCase
 

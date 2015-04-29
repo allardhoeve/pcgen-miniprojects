@@ -1,4 +1,3 @@
-from unittest import skip
 from pcgen import settings
 from pcgen.testcase import TestCase
 from prd import get_prd_spell_links

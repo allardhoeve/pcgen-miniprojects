@@ -5,7 +5,7 @@ PROJECTROOT = Path(__file__).parent.parent
 DATADIR = os.environ.get("PCGEN_DATADIR", None)
 
 try:
-    from .settings_local import *
+    from .settings_local import *  # noqa
 except ImportError:  # pragma: no cover
     pass
 
