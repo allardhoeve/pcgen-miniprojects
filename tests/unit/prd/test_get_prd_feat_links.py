@@ -1,4 +1,3 @@
-from unittest import skip
 from pcgen import settings
 from pcgen.testcase import TestCase
 from prd import get_prd_feat_links
@@ -7,7 +6,7 @@ from prd import get_prd_feat_links
 class TestPRD(TestCase):
 
     def setUp(self):
-        with open(settings.PROJECTROOT.child("feats.html")) as fh:
+        with open(settings.PROJECTROOT.child("fixture").child("feats.html")) as fh:
             self.indexcontent = fh.read()
 
         self.mock_get = self.set_up_patch('requests.get')
@@ -21,7 +20,7 @@ class TestPRD(TestCase):
         spells = get_prd_feat_links()
         self.assertEqual(spells["Iron Will"], "http://paizo.com/pathfinderRPG/prd/feats.html#iron-will")
 
-    def test_get_prd_spell_links_finds_adjuring_step(self):
+    def test_get_prd_spell_links_finds_twin_thunders(self):
         spells = get_prd_feat_links()
         self.assertIn("Twin Thunders", spells)
         self.assertEqual(spells["Twin Thunders"], "http://paizo.com/pathfinderRPG/prd/ultimateCombat/ultimateCombatFeats.html#twin-thunders")

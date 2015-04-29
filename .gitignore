@@ -1,5 +1,10 @@
 pcgen/settings_local.py
 
+# left-over files
+*.pcg
+*.xml
+*.lst
+
 CLEANUP.md
 STATUS.md
 
