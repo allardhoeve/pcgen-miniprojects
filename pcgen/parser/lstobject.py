@@ -30,7 +30,7 @@ class LstObject(object):
         self._initialize_keywords()
         self._initialize_attributes()
 
-        if not line is None:
+        if line is not None:
             self.parseLine(line)
             self.lstline = line
 

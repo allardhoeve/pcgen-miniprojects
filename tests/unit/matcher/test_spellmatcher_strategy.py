@@ -32,7 +32,7 @@ class TestSpellFuzzerMatcher(TestCase):
         (candidate, probability, method) = matcher.match_spell(spell, self.prdspells, suggestions=self.suggestions)
         self.assertEqual(candidate, expected)
 
-        if not expectmethod is None:
+        if expectmethod is not None:
             self.assertEqual(method, expectmethod)
 
     ###

@@ -118,24 +118,22 @@ class TestSpellObject(TestCase):
         classes = "Bard=3|Cleric,Wizard=4"
         spell = SpellObject()
         spell.processSpelllistKeyValue(("classes", classes))
-        self.assertEqual(spell.classes,
-            {
-                'Bard': 3,
-                'Wizard': 4,
-                'Cleric': 4
-            })
+        self.assertEqual(spell.classes, {
+            'Bard': 3,
+            'Wizard': 4,
+            'Cleric': 4
+        })
 
     def test_process_class_key_parses_complex_class(self):
         classes = "Bard=3[PRESKILL:1,Perform (String Instruments)=7,Perform (Wind Instruments)=7]|Cleric,Wizard=4"
         spell = SpellObject()
         spell.processSpelllistKeyValue(("classes", classes))
 
-        self.assertEqual(spell.classes,
-            {
-                'Bard': 3,
-                'Wizard': 4,
-                'Cleric': 4
-            })
+        self.assertEqual(spell.classes, {
+            'Bard': 3,
+            'Wizard': 4,
+            'Cleric': 4
+        })
 
     def test_spell_skips_preability_and_other_pretags(self):
         line = "Bottled Ooze\t\tPREABILITY:1,CATEGORY=Special Ability,Discovery ~ Bottled Ooze"

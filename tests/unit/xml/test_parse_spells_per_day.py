@@ -24,5 +24,3 @@ class TestParseSpellsPerDay(TestCase):
         self.assertEqual(ret["cleric"][7], (0, 0))
         self.assertEqual(ret["cleric"][8], (0, 0))
         self.assertEqual(ret["cleric"][9], (0, 0))
-
-

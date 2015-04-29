@@ -1,4 +1,4 @@
-from pcgen import find_all_pathfinder_spells, PathfinderCampaign
+from pcgen import PathfinderCampaign
 from pcgen.testcase import TestCase
 
 

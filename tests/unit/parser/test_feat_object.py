@@ -7,10 +7,6 @@ from pcgen.testcase import TestCase
 
 class TestFeatObject(TestCase):
 
-    #def setUp(self):
-    #    self.test_feats = Path(settings.DATADIR, "pathfinder/paizo/roleplaying_game/core_rulebook/cr_spells.lst")
-    #    (self.test_lines, self.source) = read_lst_file(self.test_feats)
-
     def test_featobject_parses_acrobatic(self):
         definition = "\t".join([
             'Acrobatic',
@@ -20,6 +16,6 @@ class TestFeatObject(TestCase):
             'BONUS:SKILL|Fly|if(skillinfo("RANK","Fly")>=10,4,2)',
             'SOURCEPAGE:p.113',
             'BENEFIT:You get a +2 bonus on all Acrobatics and Fly skill checks.'
-            ])
+        ])
 
-        feat = FeatObject(definition)
+        FeatObject(definition)
