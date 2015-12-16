@@ -6,6 +6,8 @@ numprocs=-1
 RUN_ONCE=""
 jenkins=""
 
+export DJANGO_SETTINGS_MODULE="pcgenminiprojects.settings"
+
 FLAKE8_CMD="flake8 --ignore=E501 ."
 
 export LC_NUMERIC="en_US.UTF-8"

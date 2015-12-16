@@ -1,5 +1,5 @@
-from pcgen.parser.feat import FeatObject
-from pcgen.testcase import TestCase
+from pcgen.parser import FeatFactory
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestFeatObject(TestCase):
@@ -15,4 +15,4 @@ class TestFeatObject(TestCase):
             'BENEFIT:You get a +2 bonus on all Acrobatics and Fly skill checks.'
         ])
 
-        FeatObject(definition)
+        FeatFactory(definition)

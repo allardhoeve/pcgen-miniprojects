@@ -1,6 +1,7 @@
 from defusedxml import lxml
-from pcgen import settings
-from pcgen.testcase import TestCase
+from django.conf import settings
+
+from pcgenminiprojects.testcase import TestCase
 from pcgen.xml.parser import parse_spells_per_day
 
 

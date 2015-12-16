@@ -1,7 +1,9 @@
 import re
+
 import mock
+
 from pcgen.parser import read_lst_file
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestReadLstFile(TestCase):

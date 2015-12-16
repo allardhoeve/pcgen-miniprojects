@@ -1,5 +1,6 @@
+from __future__ import absolute_import
+from django.conf import settings
 from unipath import Path
-from pcgen import settings
 from pcgen.parser import read_lst_file, parse_feats
 
 

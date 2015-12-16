@@ -1,4 +1,4 @@
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 from pcgen.parser import describes_lst_global as lstglobal
 from pcgen.parser import remove_sourcelink_from_lst_global as rmglobal
 

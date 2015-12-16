@@ -1,8 +1,8 @@
 
-from pcgen.parser.lstobject import LstObject
+from pcgen.parser.lstobjectfactory import LstObjectFactory
 
 
-class SpellObject(LstObject):
+class SpellFactory(LstObjectFactory):
 
     class_keywords = ['casttime',
                       'choose',
@@ -42,7 +42,7 @@ class SpellObject(LstObject):
         elif keyword.startswith("pre"):
             return
         else:
-            super(SpellObject, self).processKeyValue(tuple)
+            super(SpellFactory, self).processKeyValue(tuple)
 
     def processSpelllistKeyValue(self, tuple):
         (keyword, value) = tuple

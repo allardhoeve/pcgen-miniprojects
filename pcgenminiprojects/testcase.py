@@ -1,8 +1,8 @@
-import unittest
+from django.test import TransactionTestCase
 import mock
 
 
-class TestCase(unittest.TestCase):
+class TestCase(TransactionTestCase):
     """
     Test case for basic testing
 

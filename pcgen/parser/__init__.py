@@ -1,15 +1,14 @@
 import re
-from pcgen.parser.feat import FeatObject
-
-from pcgen.parser.spell import SpellObject
+from pcgen.parser.feat import FeatFactory
+from pcgen.parser.spell import SpellFactory
 
 
 def parse_feats(filename, source=None):
-    return parse_objects(filename, source, FeatObject)
+    return parse_objects(filename, source, FeatFactory)
 
 
 def parse_spells(filename, source=None):
-    return parse_objects(filename, source, SpellObject)
+    return parse_objects(filename, source, SpellFactory)
 
 
 def parse_objects(filename, source=None, myObject=None):

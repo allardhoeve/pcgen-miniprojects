@@ -1,6 +1,6 @@
-from pcgen.parser import SpellObject
+from pcgen.parser import SpellFactory
 from pcgen.qa import QASourceLink
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestSpellSOURCELINK(TestCase):
@@ -9,10 +9,10 @@ class TestSpellSOURCELINK(TestCase):
         self.sourcelink = QASourceLink()
 
         self.spells = [
-            SpellObject("Acid Splash\r"),  # NB: test removal of carriage return
-            SpellObject("Acid Dart\t\tSOURCELINK:invalidlink\t\tDESC:Henk"),
-            SpellObject("Magic Missile\t\tSOURCELINK:http://example.com/example"),
-            SpellObject("Fireball\t\tSOURCELINK:http://example.com/example"),
+            SpellFactory("Acid Splash\r"),  # NB: test removal of carriage return
+            SpellFactory("Acid Dart\t\tSOURCELINK:invalidlink\t\tDESC:Henk"),
+            SpellFactory("Magic Missile\t\tSOURCELINK:http://example.com/example"),
+            SpellFactory("Fireball\t\tSOURCELINK:http://example.com/example"),
         ]
 
         self.srdspells = {
@@ -68,7 +68,7 @@ class TestSpellSOURCELINK(TestCase):
         self.assertEqual(spell.lstline, origlstline)
 
     def test_correct_fuzzymatches_spells_if_spell_misspelled(self):
-        spell = SpellObject("Acid Dard")
+        spell = SpellFactory("Acid Dard")
         result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertTrue(result)
@@ -76,7 +76,7 @@ class TestSpellSOURCELINK(TestCase):
         self.assertEqual(spell.sourcelink, "http://pcgen.nl/aciddart.html")
 
     def test_correct_only_uses_fuzzymatch_if_probable_match(self):
-        spell = SpellObject("Acid Ball")
+        spell = SpellFactory("Acid Ball")
         result = self.sourcelink.correct(spell, self.srdspells)
 
         self.assertFalse(result)
@@ -88,7 +88,7 @@ class TestSpellSOURCELINK(TestCase):
 
     def test_correct_takes_suggestions_and_passes_them_on_to_spell_matcher(self):
         # the spell Burning Hands (Acid) must be corrected to
-        spell = SpellObject("Burning Hands (Acid)")
+        spell = SpellFactory("Burning Hands (Acid)")
         self.srdspells["Burning Hands"] = "http://pcgen.nl/burning_hands.html"
         self.suggestions["matcher"]["Burning Hands (Acid)"] = "Burning Hands"
 
@@ -100,7 +100,7 @@ class TestSpellSOURCELINK(TestCase):
         self.assertEqual(spell.sourcelink, "http://pcgen.nl/burning_hands.html")
 
     def test_correct_uses_suggestions_as_override_for_spells(self):
-        spell = SpellObject("Burnsing Handses")
+        spell = SpellFactory("Burnsing Handses")
         self.suggestions["links"]["Burnsing Handses"] = "http://pcgen.nl/burnsing_handses.html"
 
         result = self.sourcelink.correct(spell, self.srdspells, suggestions=self.suggestions)

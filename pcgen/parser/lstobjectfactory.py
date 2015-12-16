@@ -2,7 +2,7 @@
 import re
 
 
-class LstObject(object):
+class LstObjectFactory(object):
 
     class_keywords = []
 

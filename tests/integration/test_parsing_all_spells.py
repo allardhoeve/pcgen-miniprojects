@@ -1,5 +1,5 @@
 from pcgen import find_all_pathfinder_spells
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestParseAllSpells(TestCase):

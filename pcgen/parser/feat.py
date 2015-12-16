@@ -1,7 +1,7 @@
-from pcgen.parser.lstobject import LstObject
+from pcgen.parser.lstobjectfactory import LstObjectFactory
 
 
-class FeatObject(LstObject):
+class FeatFactory(LstObjectFactory):
     class_keywords = [
         'ability',
         'add',

@@ -1,8 +1,9 @@
 from unittest import TestCase
+from django.conf import settings
 from unipath import Path
 
-from pcgen.parser import SpellObject
-from pcgen import parser, settings
+from pcgen.parser import SpellFactory
+from pcgen import parser
 
 
 class TestObjectParse(TestCase):
@@ -20,7 +21,7 @@ class TestObjectParse(TestCase):
     def test_parse_spells_returns_list_of_spell_objects(self):
         ret = parser.parse_spells(self.test_spells)
         self.assertTrue(len(ret) > 0)
-        self.assertIsInstance(ret[0], SpellObject)
+        self.assertIsInstance(ret[0], SpellFactory)
 
     def test_parse_spells_returns_list(self):
         ret = parser.parse_spells(self.test_spells)

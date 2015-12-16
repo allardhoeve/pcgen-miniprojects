@@ -1,5 +1,5 @@
 from pcgen import PathfinderCampaign
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestParseAllFeats(TestCase):

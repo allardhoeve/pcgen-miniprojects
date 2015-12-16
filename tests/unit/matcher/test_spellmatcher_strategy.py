@@ -1,5 +1,5 @@
 from pcgen import matcher
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 from prd import CaseInsensitiveDict
 
 

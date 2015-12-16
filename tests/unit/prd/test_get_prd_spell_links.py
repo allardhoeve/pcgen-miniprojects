@@ -1,5 +1,5 @@
-from pcgen import settings
-from pcgen.testcase import TestCase
+from django.conf import settings
+from pcgenminiprojects.testcase import TestCase
 from prd import get_prd_spell_links
 
 

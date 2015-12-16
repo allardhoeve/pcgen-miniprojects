@@ -1,6 +1,7 @@
 from unipath import Path
+
 from pcgen.campaign import PathfinderCampaign
-from pcgen.testcase import TestCase
+from pcgenminiprojects.testcase import TestCase
 
 
 class TestCampaign(TestCase):
