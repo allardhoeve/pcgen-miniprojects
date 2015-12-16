@@ -2,10 +2,8 @@
 import re
 
 
-class LstObjectFactory(object):
-
+class LstObjectParser(object):
     class_keywords = []
-
     general_keywords = [
         "bonus",
         "desc",
@@ -22,10 +20,6 @@ class LstObjectFactory(object):
         'type',
     ]
 
-    lstline = None
-
-    keywords = []
-
     def __init__(self, line=None, source=None):
         self._initialize_keywords()
         self._initialize_attributes()
@@ -40,7 +34,7 @@ class LstObjectFactory(object):
 
     def _initialize_keywords(self):
         self.keywords = self.general_keywords + self.class_keywords
-        self.keywords = list(set(self.keywords))
+        self.keywords = set(self.keywords)
 
     def _initialize_attributes(self):
         for keyword in self.keywords:

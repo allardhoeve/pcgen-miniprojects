@@ -11,7 +11,9 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from collections import defaultdict
 import os
+import sys
 from unipath import Path
 
 PROJECTROOT = BASE_DIR = Path(__file__).parent.parent
@@ -96,3 +98,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+
+if "test" in sys.argv:
+    MIGRATION_MODULES = defaultdict(lambda: None)

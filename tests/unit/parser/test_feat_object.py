@@ -1,4 +1,4 @@
-from pcgen.parser import FeatFactory
+from pcgen.parser import FeatParser
 from pcgenminiprojects.testcase import TestCase
 
 
@@ -15,4 +15,6 @@ class TestFeatObject(TestCase):
             'BENEFIT:You get a +2 bonus on all Acrobatics and Fly skill checks.'
         ])
 
-        FeatFactory(definition)
+        feat = FeatParser(definition)
+        self.assertEqual(feat.name, "Acrobatic")
+        self.assertEqual(feat.type, "General")
